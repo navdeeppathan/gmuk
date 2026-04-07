@@ -4,32 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- ✅ BASIC SEO -->
-<title>Samvisa</title>
+<title>Gujrat Muslim Association UK</title>
 
-<meta name="title" content="Samvisa">
-<meta name="description" content="Samvisa">
-<meta name="keywords" content="Samvisa">
-<meta name="author" content="Samvisa">
+<meta name="title" content="Gujrat Muslim Association UK">
+<meta name="description" content="Gujrat Muslim Association UK">
+<meta name="keywords" content="Gujrat Muslim Association UK">
+<meta name="author" content="Gujrat Muslim Association UK">
 
 <!-- ✅ MOBILE -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- ✅ OPEN GRAPH (Facebook / LinkedIn / WhatsApp) -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://samvisauk.com/">
-<meta property="og:title" content="Samvisa">
+<meta property="og:url" content="http://gmuk.thenexteck.com/">
+<meta property="og:title" content="Gujrat Muslim Association UK">
 <meta property="og:description" content="Results-driven marketing and branding agency helping businesses grow.">
 <meta property="og:image" content="{{asset('logotr.png')}}">
-<meta property="og:site_name" content="Samvisa">
+<meta property="og:site_name" content="Gujrat Muslim Association UK">
 
 <!-- ✅ TWITTER -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Samvisa">
+<meta name="twitter:title" content="Gujrat Muslim Association UK">
 <meta name="twitter:description" content="Marketing and Branding Agency in India">
 <meta name="twitter:image" content="{{asset('logotr.png')}}">
 
 <!-- ✅ CANONICAL -->
-<link rel="canonical" href="https://samvisauk.com/">
+<link rel="canonical" href="http://gmuk.thenexteck.com/">
 
   <!-- Favicons -->
   {{-- <link href="assets/img/favicon.png" rel="icon"> --}}
@@ -40,7 +40,7 @@
 <link rel="apple-touch-icon" href="{{asset('logotr.png')}}">
 
 <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
-<meta property="og:title" content="Samvisa">
+<meta property="og:title" content="Gujrat Muslim Association UK">
 <meta property="og:description" content="Branding Agency & Digital Solutions">
 <meta property="og:image" content="{{asset('logotr.png')}}">
 <meta property="og:image:width" content="1200">
@@ -50,15 +50,15 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Samvisa">
+<meta name="twitter:title" content="Gujrat Muslim Association UK">
 <meta name="twitter:description" content="Travel, Branding & Digital Solutions">
 <meta name="twitter:image" content="{{asset('logotr.png')}}">
 
 
-<meta name="description" content="Samvisa">
+<meta name="description" content="Gujrat Muslim Association UK">
 
-<meta property="og:site_name" content="Samvisa">
-<meta property="og:title" content="Samvisa">
+<meta property="og:site_name" content="Gujrat Muslim Association UK">
+<meta property="og:title" content="Gujrat Muslim Association UK">
 <meta property="og:description" content="Marketing and Branding Services">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
