@@ -166,6 +166,7 @@
             transform: translateX(0);
         }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body class="antialiased text-gray-800">
 
@@ -187,13 +188,23 @@
 
    @include('layouts.partials.footer')
 
+   <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/447XXXXXXXXX" target="_blank"
+    class="fixed bottom-24 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full shadow-lg hover:scale-110 transition-transform">
+
+        <!-- Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20.52 3.48A11.91 11.91 0 0012.01 0C5.38 0 .02 5.36.02 11.99c0 2.11.55 4.17 1.6 5.99L0 24l6.19-1.62a11.94 11.94 0 005.82 1.49h.01c6.63 0 12-5.36 12-11.99 0-3.2-1.25-6.21-3.5-8.4zM12.01 21.1c-1.8 0-3.56-.48-5.1-1.38l-.36-.21-3.67.96.98-3.58-.24-.37a9.05 9.05 0 01-1.4-4.83c0-5 4.06-9.07 9.08-9.07 2.42 0 4.69.94 6.4 2.64a9.02 9.02 0 012.65 6.43c0 5-4.06 9.06-9.07 9.06zm4.97-6.78c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.31.2-.58.07-.27-.14-1.15-.42-2.19-1.34-.81-.72-1.35-1.6-1.51-1.87-.16-.27-.02-.42.12-.56.13-.13.27-.31.41-.46.14-.16.18-.27.27-.45.09-.18.04-.34-.02-.48-.07-.14-.61-1.47-.83-2.02-.22-.53-.44-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.3 0 1.35.98 2.66 1.11 2.84.14.18 1.92 2.93 4.65 4.11.65.28 1.15.45 1.55.57.65.21 1.24.18 1.7.11.52-.08 1.6-.65 1.83-1.27.23-.61.23-1.14.16-1.27-.07-.13-.25-.2-.52-.34z"/>
+        </svg>
+    </a>
+
     <!-- Back to Top Button -->
     <button id="back-to-top" class="fixed bottom-8 right-8 bg-[#D4AF37] text-[#1B4D3E] w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 pointer-events-none transition-all hover:scale-110 z-40">
         <i data-lucide="arrow-up" class="w-5 h-5"></i>
     </button>
 
     <script>
-        const isDashboard = {{ request()->is('dashboard*') ? 'true' : 'false' }};
+        const isDashboard = {{ request()->is('dashboard*') ? 'true' : 'false' }} || {{ request()->is('gallery-page*') ? 'true' : 'false' }} || {{ request()->is('gallery-detail*') ? 'true' : 'false' }} || {{ request()->is('about-page*') ? 'true' : 'false' }};
     </script>
 
     <script>

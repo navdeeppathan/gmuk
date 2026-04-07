@@ -2,7 +2,7 @@
 
 @section('content')
 
-<!-- Hero Section -->
+    <!-- Hero Section -->
     <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0F2E26]">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 z-0">
@@ -522,30 +522,141 @@
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div class="relative group overflow-hidden rounded-2xl fade-up aspect-square">
-                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400&q=80" alt="Students" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    {{-- <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400&q=80" alt="Students" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
+                    <img src="{{ $scholarImage ? asset($scholarImage->image) : '' }}" alt="Students" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    
                     <div class="absolute inset-0 bg-[#0F2E26]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                         <p class="text-white font-serif text-lg">Scholarship Ceremony</p>
                     </div>
                 </div>
                 <div class="relative group overflow-hidden rounded-2xl fade-up aspect-square" style="transition-delay: 50ms;">
-                    <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&q=80" alt="Community" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    {{-- <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&q=80" alt="Community" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
+                    <img src="{{ $communityImage ? asset($communityImage->image) : '' }}" alt="Community" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    
                     <div class="absolute inset-0 bg-[#0F2E26]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                         <p class="text-white font-serif text-lg">Community Support</p>
                     </div>
                 </div>
                 <div class="relative group overflow-hidden rounded-2xl fade-up aspect-square" style="transition-delay: 100ms;">
-                    <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=400&q=80" alt="Education" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    {{-- <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=400&q=80" alt="Education" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
+                    <img src="{{ $educationImage ? asset($educationImage->image) : '' }}" alt="Education" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    
                     <div class="absolute inset-0 bg-[#0F2E26]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                         <p class="text-white font-serif text-lg">Education Program</p>
                     </div>
                 </div>
                 <div class="relative group overflow-hidden rounded-2xl fade-up aspect-square" style="transition-delay: 150ms;">
-                    <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=400&q=80" alt="Distribution" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    {{-- <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=400&q=80" alt="Distribution" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
+                    <img src="{{ $foodImage ? asset($foodImage->image) : '' }}" alt="Distribution" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    
                     <div class="absolute inset-0 bg-[#0F2E26]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                         <p class="text-white font-serif text-lg">Food Distribution</p>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-24 bg-[#0F2E26] relative overflow-hidden">
+        
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 hero-pattern opacity-20"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+            <!-- Heading -->
+            <div class="text-center mb-16 fade-up">
+                <p class="text-[#D4AF37] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">
+                    Testimonials
+                </p>
+                <h2 class="font-serif text-4xl md:text-6xl text-white font-bold mb-6">
+                    Voices of Impact
+                </h2>
+                <p class="text-gray-300 max-w-2xl mx-auto text-lg">
+                    Real stories from students and families whose lives have been transformed through your generosity.
+                </p>
+            </div>
+
+            <!-- Testimonial Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Card 1 -->
+                <div class="fade-up bg-white/5 backdrop-blur-lg rounded-3xl p-8 border border-[#D4AF37]/20 hover:border-[#D4AF37] transition-all group">
+                    
+                    <!-- Quote Icon -->
+                    <div class="w-12 h-12 bg-[#D4AF37] rounded-full flex items-center justify-center mb-6">
+                        <i data-lucide="quote" class="w-5 h-5 text-[#1B4D3E]"></i>
+                    </div>
+
+                    <p class="text-gray-300 text-sm leading-relaxed mb-6">
+                        The scholarship program gave me the opportunity to complete my medical degree. Today, I serve my community as a doctor.
+                    </p>
+
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-[#D4AF37] flex items-center justify-center">
+                            <span class="text-[#1B4D3E] font-bold">R</span>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-semibold">Rahman</h4>
+                            <p class="text-[#D4AF37] text-xs">Medical Graduate</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="fade-up bg-white/5 backdrop-blur-lg rounded-3xl p-8 border border-[#D4AF37]/20 hover:border-[#D4AF37] transition-all group" style="transition-delay: 100ms;">
+                    
+                    <div class="w-12 h-12 bg-[#D4AF37] rounded-full flex items-center justify-center mb-6">
+                        <i data-lucide="quote" class="w-5 h-5 text-[#1B4D3E]"></i>
+                    </div>
+
+                    <p class="text-gray-300 text-sm leading-relaxed mb-6">
+                        Thanks to the support, I was able to continue my engineering studies without financial stress. Forever grateful.
+                    </p>
+
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-[#D4AF37] flex items-center justify-center">
+                            <span class="text-[#1B4D3E] font-bold">A</span>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-semibold">Ahmed</h4>
+                            <p class="text-[#D4AF37] text-xs">Engineer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="fade-up bg-white/5 backdrop-blur-lg rounded-3xl p-8 border border-[#D4AF37]/20 hover:border-[#D4AF37] transition-all group" style="transition-delay: 200ms;">
+                    
+                    <div class="w-12 h-12 bg-[#D4AF37] rounded-full flex items-center justify-center mb-6">
+                        <i data-lucide="quote" class="w-5 h-5 text-[#1B4D3E]"></i>
+                    </div>
+
+                    <p class="text-gray-300 text-sm leading-relaxed mb-6">
+                        This organization didn’t just support my education — it changed my entire future and my family’s life.
+                    </p>
+
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-[#D4AF37] flex items-center justify-center">
+                            <span class="text-[#1B4D3E] font-bold">S</span>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-semibold">Sana</h4>
+                            <p class="text-[#D4AF37] text-xs">Teacher</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CTA -->
+            <div class="text-center mt-16 fade-up">
+                <a href="#donate" class="btn-premium bg-[#D4AF37] text-[#1B4D3E] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#D4AF37]/20 transition-all transform hover:-translate-y-1">
+                    Be Part of These Stories
+                </a>
+            </div>
+
         </div>
     </section>
 
@@ -592,44 +703,59 @@
                         </div>
 
                         <div class="flex gap-4 pt-4">
+    
+                            <!-- Facebook -->
                             <a href="#" class="w-10 h-10 bg-[#1B4D3E] rounded-full flex items-center justify-center text-white hover:bg-[#D4AF37] hover:text-[#1B4D3E] transition-colors">
-                                <i data-lucide="facebook" class="w-5 h-5"></i>
+                                <i class="fab fa-facebook-f"></i>
                             </a>
+
+                            <!-- Twitter -->
                             <a href="#" class="w-10 h-10 bg-[#1B4D3E] rounded-full flex items-center justify-center text-white hover:bg-[#D4AF37] hover:text-[#1B4D3E] transition-colors">
-                                <i data-lucide="twitter" class="w-5 h-5"></i>
+                                 <i class="fab fa-tiktok"></i>
                             </a>
+
+                            <!-- Instagram -->
                             <a href="#" class="w-10 h-10 bg-[#1B4D3E] rounded-full flex items-center justify-center text-white hover:bg-[#D4AF37] hover:text-[#1B4D3E] transition-colors">
-                                <i data-lucide="instagram" class="w-5 h-5"></i>
+                                <i class="fab fa-instagram"></i>
                             </a>
+
+                            <!-- WhatsApp -->
                             <a href="#" class="w-10 h-10 bg-[#25D366] rounded-full flex items-center justify-center text-white hover:scale-110 transition-transform">
-                                <i data-lucide="message-circle" class="w-5 h-5"></i>
+                                <i class="fab fa-whatsapp"></i>
                             </a>
+
                         </div>
                     </div>
                 </div>
 
                 <div class="fade-up bg-[#FDF8F3] rounded-3xl p-8 shadow-xl">
-                    <form class="space-y-6" onsubmit="event.preventDefault(); alert('Thank you for your message. We will get back to you soon.');">
+                    {{-- <form class="space-y-6" onsubmit="event.preventDefault(); alert('Thank you for your message. We will get back to you soon.');"> --}}
+                        <form action="{{ route('contact.store') }}" method="POST" class="space-y-6">
+                            @csrf
                         <div>
                             <label class="block text-[#0F2E26] font-semibold mb-2">Full Name</label>
-                            <input type="text" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#D4AF37] focus:outline-none transition-colors" placeholder="Your name">
+                            <input type="text" name="full_name" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#D4AF37] focus:outline-none transition-colors" placeholder="Your name">
                         </div>
                         <div>
                             <label class="block text-[#0F2E26] font-semibold mb-2">Email Address</label>
-                            <input type="email" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#D4AF37] focus:outline-none transition-colors" placeholder="your@email.com">
+                            <input type="email" name="email" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#D4AF37] focus:outline-none transition-colors" placeholder="your@email.com">
                         </div>
                         <div>
-                            <label class="block text-[#0F2E26] font-semibold mb-2">Subject</label>
-                            <select class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#D4AF37] focus:outline-none transition-colors">
-                                <option>General Inquiry</option>
-                                <option>Donation Query</option>
-                                <option>Volunteer</option>
-                                <option>Partnership</option>
+                           <label class="block text-[#0F2E26] font-semibold mb-2">Subject</label>
+                            <select 
+                                name="subject"
+                                class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#D4AF37] focus:outline-none transition-colors"
+                                required
+                            >
+                                <option value="General Inquiry">General Inquiry</option>
+                                <option value="Donation Query">Donation Query</option>
+                                <option value="Volunteer">Volunteer</option>
+                                <option value="Partnership">Partnership</option>
                             </select>
                         </div>
                         <div>
                             <label class="block text-[#0F2E26] font-semibold mb-2">Message</label>
-                            <textarea rows="4" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#D4AF37] focus:outline-none transition-colors" placeholder="Your message..."></textarea>
+                            <textarea name="message" rows="4" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#D4AF37] focus:outline-none transition-colors" placeholder="Your message..."></textarea>
                         </div>
                         <button type="submit" class="w-full btn-premium bg-[#1B4D3E] text-white py-4 rounded-full font-semibold hover:bg-[#0F2E26] transition-colors">
                             Send Message

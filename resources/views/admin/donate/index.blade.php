@@ -24,7 +24,7 @@
                             {{-- <th>Payment Method</th> --}}
                             {{-- <th>Transaction ID</th> --}}
                             <th>Date</th>
-                            <th>Excel</th>
+                            {{-- <th>Excel</th> --}}
                         </tr>
                     </thead>
 
@@ -72,7 +72,7 @@
                                 <td>
                                     {{ $donation->created_at->format('d M Y, h:i A') }}
                                 </td>
-                                <td>
+                                {{-- <td>
                                     <!-- Upload Button -->
                                     <form action="{{ route('admin.donations.upload.excel', $donation->id) }}" 
                                         method="POST" enctype="multipart/form-data" style="display:inline;">
@@ -92,7 +92,7 @@
                                             View
                                         </a>
                                     @endif
-                                </td>
+                                </td> --}}
                             </tr>
                         @empty
                             <tr>

@@ -20,6 +20,8 @@
                     <a href="/#about" class="nav-link text-white hover:text-[#D4AF37] transition-colors text-sm font-medium">About</a>
                     <a href="/#collaboration" class="nav-link text-white hover:text-[#D4AF37] transition-colors text-sm font-medium">Collaboration</a>
                     <a href="/#projects" class="nav-link text-white hover:text-[#D4AF37] transition-colors text-sm font-medium">Projects</a>
+                    <a href="{{ route('gallery.index') }}" class="nav-link text-white hover:text-[#D4AF37] transition-colors text-sm font-medium">Gallery</a>
+                    
                     @auth
                     <div class="relative">
                         <!-- Profile Button -->

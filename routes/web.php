@@ -4,6 +4,7 @@ use App\Http\Controllers\Admin\BulkEmailController;
 use App\Http\Controllers\Admin\EmailTemplateController;
 use App\Http\Controllers\Admin\SmtpAccountController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GalleryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,11 +18,43 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $scholarImage = \App\Models\Gallery::where('category', 'scholarship')
+                        ->where('status', 'active')
+                        ->latest()
+                        ->first();
+
+    $communityImage = \App\Models\Gallery::where('category', 'community')
+                        ->where('status', 'active')
+                        ->latest()
+                        ->first();
+
+    $educationImage = \App\Models\Gallery::where('category', 'education')
+                        ->where('status', 'active')
+                        ->latest()
+                        ->first();
+
+    $foodImage = \App\Models\Gallery::where('category', 'food')
+                        ->where('status', 'active')
+                        ->latest()
+                        ->first();
+
+    return view('welcome', compact('scholarImage', 'communityImage', 'educationImage', 'foodImage'));
 });
+
+
+Route::get('/gallery-page', [GalleryController::class, 'gallery'])->name('gallery.index');
+Route::get('/gallery-detail/{id}', [GalleryController::class, 'galleryDetail'])->name('gallery.detail');
+
+use App\Http\Controllers\ContactMessageController;
+
+// Frontend form submit
+Route::post('/contact/store', [ContactMessageController::class, 'store'])->name('contact.store');
+
+
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
+
 
 // Auth Pages
 Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
@@ -112,5 +145,18 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(fun
         Route::post('/donations/{id}/upload-excel', 
             [DonationController::class, 'uploadExcel']
         )->name('donations.upload.excel');
+
+
+        
+
+       
+            Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery.index');
+            Route::post('/gallery/store', [GalleryController::class, 'store'])->name('gallery.store');
+            Route::post('/gallery/update/{id}', [GalleryController::class, 'update'])->name('gallery.update');
+            Route::get('/gallery/delete/{id}', [GalleryController::class, 'destroy'])->name('gallery.delete');
+
+            Route::get('/contact', [ContactMessageController::class, 'index'])->name('contact.index');
+            Route::get('/contact/delete/{id}', [ContactMessageController::class, 'destroy'])->name('contact.delete');
+        
 
 });            

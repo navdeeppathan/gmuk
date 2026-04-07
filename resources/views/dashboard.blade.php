@@ -29,7 +29,7 @@
                         <th>Amount</th>
                         <th>Status</th>
                         <th>Date</th>
-                        <th>Excel</th>
+                        {{-- <th>Excel</th> --}}
                     </tr>
                 </thead>
                 <tbody>
@@ -39,7 +39,7 @@
                             <td>£{{ $donation->amount }}</td>
                             <td>{{ $donation->status }}</td>
                             <td>{{ $donation->created_at->format('d M Y') }}</td>
-                            <td>
+                            {{-- <td>
                                 @if($donation->excel_file)
                                     <a href="{{ asset($donation->excel_file) }}" 
                                     target="_blank" 
@@ -49,7 +49,7 @@
                                 @else
                                     <span class="text-gray-500">No Excel file</span>
                                 @endif
-                            </td>
+                            </td> --}}
                         </tr>
                     @empty
                         <tr>
