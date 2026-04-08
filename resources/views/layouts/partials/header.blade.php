@@ -1,5 +1,8 @@
  <!-- Navigation -->
-    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 {{ request()->is('dashboard*') ? 'bg-[#1B4D3E]' : 'bg-transparent' }}">
+ @php
+    $isGallary = request()->is('gallery-page*') || request()->is('gallery-detail*');
+@endphp
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 {{ $isGallary ? 'bg-[#1B4D3E]' : 'bg-transparent' }}">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <!-- Logo -->
@@ -22,7 +25,7 @@
                     <a href="/#projects" class="nav-link text-white hover:text-[#D4AF37] transition-colors text-sm font-medium">Projects</a>
                     <a href="{{ route('gallery.index') }}" class="nav-link text-white hover:text-[#D4AF37] transition-colors text-sm font-medium">Gallery</a>
                     
-                    @auth
+                    {{-- @auth
                     <div class="relative">
                         <!-- Profile Button -->
                         <button id="profileBtn" class="flex items-center gap-2 text-white bg-[#D4AF37] px-4 py-2 rounded-full font-semibold text-sm hover:bg-[#F4E8C1] transition">
@@ -51,7 +54,7 @@
                     <a href="/login" class="nav-link text-white hover:text-[#D4AF37] transition-colors text-sm font-medium">
                         Login
                     </a>
-                    @endauth
+                    @endauth --}}
                     <a href="/#donate" class="btn-premium bg-[#D4AF37] text-[#1B4D3E] px-6 py-2.5 rounded-full font-semibold text-sm hover:bg-[#F4E8C1] transition-colors">
                         Donate Now
                     </a>

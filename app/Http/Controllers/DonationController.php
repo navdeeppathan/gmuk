@@ -15,7 +15,7 @@ class DonationController extends Controller
     }
     public function adminindex()
     {
-        $all = Donation::with('user')->latest()->get();
+        $all = Donation::latest()->get();
         return view('admin.donate.index', compact('all'));
     }
 
@@ -25,11 +25,15 @@ class DonationController extends Controller
         $request->validate([
             'type' => 'required|in:zakat,sadaqah,monthly',
             'amount' => 'required|numeric|min:1',
-            'message' => 'nullable|string'
+            'message' => 'nullable|string',
+            'name' => 'required|string',
+            'email' => 'required|email',
         ]);
 
         Donation::create([
-            'user_id' => Auth::id(),
+            // 'user_id' => Auth::id(),
+            'name' => $request->name,
+            'email' => $request->email,
             'type' => $request->type,
             'amount' => $request->amount,
             'message' => $request->message,

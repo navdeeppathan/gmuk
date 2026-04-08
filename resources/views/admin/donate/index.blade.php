@@ -16,7 +16,8 @@
                     <thead class="table-dark">
                         <tr>
                             <th>#</th>
-                            <th>User</th>
+                            <th>Name</th>
+                            <th>Email</th>
                             <th>Type</th>
                             <th>Amount</th>
                             <th>Message</th>
@@ -34,7 +35,11 @@
                                 <td>{{ $key + 1 }}</td>
 
                                 <td>
-                                    {{ $donation->user->name ?? 'Guest' }}
+                                    {{ $donation->name ?? 'Guest' }}
+                                </td>
+
+                                <td>
+                                    {{ $donation->email ?? '-' }}
                                 </td>
 
                                 <td>

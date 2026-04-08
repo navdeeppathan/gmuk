@@ -14,7 +14,9 @@ class Donation extends Model
         'status',
         'payment_method',
         'transaction_id',
-        'excel_file'
+        'excel_file',
+        'name',
+        'email'
     ];
 
     public function user()

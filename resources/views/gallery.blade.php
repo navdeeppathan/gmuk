@@ -25,20 +25,28 @@
 
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 @foreach($scholarships as $item)
-                    <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                    {{-- <div class="group relative overflow-hidden rounded-2xl shadow-lg"> --}}
                         {{-- <img src="{{ asset($item->image) }}" 
                              class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500"> --}}
-                        <a href="{{ route('gallery.detail', $item->id) }}">
+                        {{-- <a href="{{ route('gallery.detail', $item->id) }}">
                             <img src="{{ asset($item->image) }} " alt="Scholarship" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                        </a>
-                        <div class="absolute inset-0 bg-[#0F2E26]/70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                        </a> --}}
+                        @foreach($item->images ?? [] as $img)
+                            <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                                <a href="{{ route('gallery.detail', $item->id) }}">
+                                    <img src="{{ asset($img->image) }}"
+                                        class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                                </a>
+                            </div>
+                        @endforeach
+                        {{-- <div class="absolute inset-0 bg-[#0F2E26]/70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                             <p class="text-white font-serif text-lg">Scholarship</p>
-                        </div>
+                        </div> --}}
                         <!-- FIX HERE -->
                         {{-- <div class="absolute inset-0 bg-[#0F2E26]/70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center pointer-events-none">
                             <p class="text-white font-serif text-lg">Scholarship</p>
                         </div> --}}
-                    </div>
+                    {{-- </div> --}}
                 @endforeach
             </div>
         </div>
@@ -52,14 +60,23 @@
 
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 @foreach($communities as $item)
-                    <div class="group relative overflow-hidden rounded-2xl shadow-lg">
-                        <img src="{{ asset($item->image) }}" 
-                             class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-
-                        <div class="absolute inset-0 bg-[#0F2E26]/70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    {{-- <div class="group relative overflow-hidden rounded-2xl shadow-lg"> --}}
+                        {{-- <a href="{{ route('gallery.detail', $item->id) }}">
+                            <img src="{{ asset($item->image) }}" 
+                                class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                        </a> --}}
+                        @foreach($item->images ?? [] as $img)
+                            <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                                <a href="{{ route('gallery.detail', $item->id) }}">
+                                    <img src="{{ asset($img->image) }}"
+                                        class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                                </a>
+                            </div>
+                        @endforeach
+                        {{-- <div class="absolute inset-0 bg-[#0F2E26]/70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                             <p class="text-white font-serif text-lg">Community</p>
-                        </div>
-                    </div>
+                        </div> --}}
+                    {{-- </div> --}}
                 @endforeach
             </div>
         </div>
@@ -73,14 +90,25 @@
 
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 @foreach($educations as $item)
-                    <div class="group relative overflow-hidden rounded-2xl shadow-lg">
-                        <img src="{{ asset($item->image) }}" 
-                             class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    {{-- <div class="group relative overflow-hidden rounded-2xl shadow-lg"> --}}
+                        {{-- <a href="{{ route('gallery.detail', $item->id) }}">
+                            <img src="{{ asset($item->image) }}" 
+                                class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                        </a> --}}
 
-                        <div class="absolute inset-0 bg-[#0F2E26]/70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                        @foreach($item->images ?? [] as $img)
+                            <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                                <a href="{{ route('gallery.detail', $item->id) }}">
+                                    <img src="{{ asset($img->image) }}"
+                                        class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                                </a>
+                            </div>
+                        @endforeach
+
+                        {{-- <div class="absolute inset-0 bg-[#0F2E26]/70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                             <p class="text-white font-serif text-lg">Education</p>
-                        </div>
-                    </div>
+                        </div> --}}
+                    {{-- </div> --}}
                 @endforeach
             </div>
         </div>
@@ -94,14 +122,22 @@
 
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 @foreach($foods as $item)
-                    <div class="group relative overflow-hidden rounded-2xl shadow-lg">
-                        <img src="{{ asset($item->image) }}" 
+                    {{-- <div class="group relative overflow-hidden rounded-2xl shadow-lg"> --}}
+                        {{-- <img src="{{ asset($item->image) }}" 
                              class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
 
                         <div class="absolute inset-0 bg-[#0F2E26]/70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                             <p class="text-white font-serif text-lg">Food Distribution</p>
-                        </div>
-                    </div>
+                        </div> --}}
+                        @foreach($item->images ?? [] as $img)
+                            <div class="flex relative overflow-hidden rounded-2xl shadow-lg">
+                                <a href="{{ route('gallery.detail', $item->id) }}">
+                                    <img src="{{ asset($img->image) }}"
+                                        class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                                </a>
+                            </div>
+                        @endforeach
+                    {{-- </div> --}}
                 @endforeach
             </div>
         </div>

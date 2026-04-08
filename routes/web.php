@@ -18,27 +18,37 @@ use App\Http\Controllers\GalleryController;
 */
 
 Route::get('/', function () {
-    $scholarImage = \App\Models\Gallery::where('category', 'scholarship')
-                        ->where('status', 'active')
-                        ->latest()
-                        ->first();
 
-    $communityImage = \App\Models\Gallery::where('category', 'community')
-                        ->where('status', 'active')
-                        ->latest()
-                        ->first();
+    $scholarImage = \App\Models\Gallery::with('images')
+        ->where('category', 'scholarship')
+        ->where('status', 'active')
+        ->latest()
+        ->first();
 
-    $educationImage = \App\Models\Gallery::where('category', 'education')
-                        ->where('status', 'active')
-                        ->latest()
-                        ->first();
+    $communityImage = \App\Models\Gallery::with('images')
+        ->where('category', 'community')
+        ->where('status', 'active')
+        ->latest()
+        ->first();
 
-    $foodImage = \App\Models\Gallery::where('category', 'food')
-                        ->where('status', 'active')
-                        ->latest()
-                        ->first();
+    $educationImage = \App\Models\Gallery::with('images')
+        ->where('category', 'education')
+        ->where('status', 'active')
+        ->latest()
+        ->first();
 
-    return view('welcome', compact('scholarImage', 'communityImage', 'educationImage', 'foodImage'));
+    $foodImage = \App\Models\Gallery::with('images')
+        ->where('category', 'food')
+        ->where('status', 'active')
+        ->latest()
+        ->first();
+
+    return view('welcome', compact(
+        'scholarImage',
+        'communityImage',
+        'educationImage',
+        'foodImage'
+    ));
 });
 
 
@@ -75,10 +85,10 @@ use App\Http\Controllers\DonationController;
 use Illuminate\Support\Facades\Mail;
 
 // Donate Page
-Route::get('/donate', [DonationController::class, 'index'])->middleware('auth');
+Route::get('/donate', [DonationController::class, 'index']);
 
 // Submit Donation
-Route::post('/donate', [DonationController::class, 'store'])->middleware('auth');
+Route::post('/donate', [DonationController::class, 'store']);
 
 Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index'])
     ->middleware('auth');

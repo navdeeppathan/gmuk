@@ -25,7 +25,7 @@
                     </div>
 
                     <div class="col-md-3">
-                        <input type="file" name="image" class="form-control" required>
+                        <input type="file" name="images[]" class="form-control" multiple required>
                     </div>
 
                     <div class="col-md-3">
@@ -68,7 +68,9 @@
                     <tr>
                         <td>{{ $loop->iteration }}</td>
                         <td>
-                            <img src="{{ asset($item->image) }}" width="60">
+                            @foreach($item->images as $img)
+                                <img src="{{ asset($img->image) }}" width="50" class="me-1 mb-1">
+                            @endforeach
                         </td>
                         <td>{{ $item->title }}</td>
                         <td>{{ ucfirst($item->category) }}</td>
@@ -100,7 +102,7 @@
 
                                         <input type="text" name="title" value="{{ $item->title }}" class="form-control mb-2">
 
-                                        <input type="file" name="image" class="form-control mb-2">
+                                        <input type="file" name="images[]" class="form-control" multiple required>
 
                                         <select name="category" class="form-control mb-2">
                                             <option value="scholarship" {{ $item->category=='scholarship'?'selected':'' }}>Scholarship</option>

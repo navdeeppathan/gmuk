@@ -413,7 +413,7 @@
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 i gap-8 max-w-6xl mx-auto">
                 <!-- Zakat -->
                 <div class="fade-up bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-[#D4AF37]/30 hover:border-[#D4AF37] transition-colors group">
                     <div class="w-16 h-16 bg-[#D4AF37] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
@@ -427,19 +427,19 @@
                     {{-- <button onclick="handleProtectedAction()" type="button" class="w-full btn-premium bg-[#D4AF37] text-[#1B4D3E] py-3 rounded-full font-semibold hover:bg-[#F4E8C1] transition-colors">
                         Give Your Zakat
                     </button> --}}
-                    @auth
+                    {{-- @auth --}}
                         <a href="/donate" class="w-full inline-block text-center btn-premium bg-[#D4AF37] text-[#1B4D3E] py-3 rounded-full font-semibold hover:bg-[#F4E8C1] transition-colors">
                             Give Your Zakat
                         </a>
-                    @else
+                    {{-- @else
                         <a href="/login" class="w-full inline-block text-center btn-premium bg-[#D4AF37] text-[#1B4D3E] py-3 rounded-full font-semibold hover:bg-[#F4E8C1] transition-colors">
                             Give Your Zakat
                         </a>
-                    @endauth
+                    @endauth --}}
                 </div>
 
                 <!-- Monthly -->
-                <div class="fade-up bg-[#D4AF37] rounded-3xl p-8 transform md:-translate-y-4 shadow-2xl shadow-[#D4AF37]/20" style="transition-delay: 100ms;">
+                {{-- <div class="fade-up bg-[#D4AF37] rounded-3xl p-8 transform md:-translate-y-4 shadow-2xl shadow-[#D4AF37]/20" style="transition-delay: 100ms;">
                     <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-[#0F2E26] text-[#D4AF37] px-4 py-1 rounded-full text-xs font-bold tracking-wider">
                         MOST IMPACTFUL
                     </div>
@@ -451,9 +451,7 @@
                         "The most beloved deeds to Allah are those that are consistent, even if they are small." — Sahih Muslim
                     </p>
                     <p class="text-[#0F2E26] text-sm mb-6 font-medium">Sustainable support that allows us to plan long-term educational initiatives.</p>
-                    {{-- <button onclick="handleProtectedAction()" type="button" class="w-full btn-premium bg-[#0F2E26] text-white py-3 rounded-full font-semibold hover:bg-[#1B4D3E] transition-colors">
-                        Start Monthly Giving
-                    </button> --}}
+                    
                     @auth
                         <a href="/donate" class="w-full inline-block text-center btn-premium bg-[#0F2E26] text-white py-3 rounded-full font-semibold hover:bg-[#1B4D3E] transition-colors">
                             Start Monthly Giving
@@ -463,7 +461,7 @@
                             Start Monthly Giving
                         </a>
                     @endauth
-                </div>
+                </div> --}}
 
                 <!-- Sadaqah -->
                 <div class="fade-up bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-[#D4AF37]/30 hover:border-[#D4AF37] transition-colors group" style="transition-delay: 200ms;">
@@ -478,15 +476,15 @@
                     {{-- <button onclick="handleProtectedAction()" type="button" class="w-full btn-premium bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] py-3 rounded-full font-semibold hover:bg-[#D4AF37] hover:text-[#1B4D3E] transition-colors">
                         Give Sadaqah
                     </button> --}}
-                    @auth
+                    {{-- @auth --}}
                         <a href="/donate" class="w-full inline-block text-center btn-premium bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] py-3 rounded-full font-semibold hover:bg-[#D4AF37] hover:text-[#1B4D3E] transition-colors">
                             Give Sadaqah
                         </a>
-                    @else
+                    {{-- @else
                         <a href="/login" class="w-full inline-block text-center btn-premium bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] py-3 rounded-full font-semibold hover:bg-[#D4AF37] hover:text-[#1B4D3E] transition-colors">
                             Give Sadaqah
                         </a>
-                    @endauth
+                    @endauth --}}
                 </div>
             </div>
 
@@ -521,38 +519,50 @@
             </div>
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <a href="{{ route('gallery.index') }}">
                 <div class="relative group overflow-hidden rounded-2xl fade-up aspect-square">
                     {{-- <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400&q=80" alt="Students" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
-                    <img src="{{ $scholarImage ? asset($scholarImage->image) : '' }}" alt="Students" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                    
+                    {{-- <img src="{{ $scholarImage ? asset($scholarImage->image) : '' }}" alt="Students" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
+                    @php $img = $scholarImage?->images->first(); @endphp
+                    <img src="{{ $img ? asset($img->image) : '' }}" alt="Students"  class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-[#0F2E26]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                         <p class="text-white font-serif text-lg">Scholarship Ceremony</p>
                     </div>
                 </div>
+                </a>
+                <a href="{{ route('gallery.index') }}">
                 <div class="relative group overflow-hidden rounded-2xl fade-up aspect-square" style="transition-delay: 50ms;">
                     {{-- <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&q=80" alt="Community" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
-                    <img src="{{ $communityImage ? asset($communityImage->image) : '' }}" alt="Community" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                    
+                    {{-- <img src="{{ $communityImage ? asset($communityImage->image) : '' }}" alt="Community" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
+                    @php $img = $communityImage?->images->first(); @endphp
+                    <img src="{{ $img ? asset($img->image) : '' }}" alt="Community"  class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-[#0F2E26]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                         <p class="text-white font-serif text-lg">Community Support</p>
                     </div>
                 </div>
+                </a>
+                <a href="{{ route('gallery.index') }}">
                 <div class="relative group overflow-hidden rounded-2xl fade-up aspect-square" style="transition-delay: 100ms;">
                     {{-- <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=400&q=80" alt="Education" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
-                    <img src="{{ $educationImage ? asset($educationImage->image) : '' }}" alt="Education" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                    
+                    {{-- <img src="{{ $educationImage ? asset($educationImage->image) : '' }}" alt="Education" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
+                    @php $img = $educationImage?->images->first(); @endphp
+                    <img src="{{ $img ? asset($img->image) : '' }}" alt="Education"  class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-[#0F2E26]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                         <p class="text-white font-serif text-lg">Education Program</p>
                     </div>
                 </div>
-                <div class="relative group overflow-hidden rounded-2xl fade-up aspect-square" style="transition-delay: 150ms;">
+                 </a>
+                <a href="{{ route('gallery.index') }}">
+                <div  class="relative group overflow-hidden rounded-2xl fade-up aspect-square" style="transition-delay: 150ms;">
                     {{-- <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=400&q=80" alt="Distribution" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
-                    <img src="{{ $foodImage ? asset($foodImage->image) : '' }}" alt="Distribution" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                    
+                    {{-- <img src="{{ $foodImage ? asset($foodImage->image) : '' }}" alt="Distribution" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
+                    @php $img = $foodImage?->images->first(); @endphp
+                    <img src="{{ $img ? asset($img->image) : '' }}" alt="Distribution"  class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute inset-0 bg-[#0F2E26]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                         <p class="text-white font-serif text-lg">Food Distribution</p>
                     </div>
                 </div>
+                 </a>
             </div>
         </div>
     </section>

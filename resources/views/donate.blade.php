@@ -28,15 +28,34 @@
             <form action="/donate" method="POST" class="space-y-6">
                 @csrf
 
-                <!-- Donation Type -->
-                <div>
-                    <label class="text-white block mb-2">Donation Type</label>
-                    <select name="type" class="w-full px-4 py-3 rounded-xl bg-white/10 text-white border border-white/20 focus:border-[#D4AF37] focus:outline-none">
-                        <option value="zakat" class="bg-gray-800 text-white">Zakat</option>
-                        <option value="sadaqah" class="bg-gray-800 text-white">Sadaqah</option>
-                        <option value="monthly" class="bg-gray-800 text-white">Monthly</option>
-                    </select>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <!-- Name -->
+                    <div>
+                        <label class="text-white block mb-2">Full Name</label>
+                        <input type="text" name="name" required
+                            class="w-full px-4 py-3 rounded-xl bg-white/10 text-white border border-white/20 focus:border-[#D4AF37] focus:outline-none"
+                            placeholder="Your name">
+                    </div>
+
+                    <!-- Email -->
+                    <div>
+                        <label class="text-white block mb-2">Email Address</label>
+                        <input type="email" name="email" required
+                            class="w-full px-4 py-3 rounded-xl bg-white/10 text-white border border-white/20 focus:border-[#D4AF37] focus:outline-none"
+                            placeholder="your@email.com">
+                    </div>
+                    <!-- Donation Type -->
+                    <div>
+                        <label class="text-white block mb-2">Donation Type</label>
+                        <select name="type" class="w-full px-4 py-3 rounded-xl bg-white/10 text-white border border-white/20 focus:border-[#D4AF37] focus:outline-none">
+                            <option value="zakat" class="bg-gray-800 text-white">Zakat</option>
+                            <option value="sadaqah" class="bg-gray-800 text-white">Sadaqah</option>
+                            {{-- <option value="monthly" class="bg-gray-800 text-white">Monthly</option> --}}
+                        </select>
+                    </div>
                 </div>
+
+                
 
                 <!-- Amount -->
                 <div>

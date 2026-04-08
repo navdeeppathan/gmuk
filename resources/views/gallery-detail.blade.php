@@ -14,10 +14,27 @@
         </div>
 
         <!-- Main Image -->
-        <div class="rounded-3xl overflow-hidden shadow-2xl mb-10">
+        {{-- <div class="rounded-3xl overflow-hidden shadow-2xl mb-10">
             <img src="{{ asset($gallery->image) }}" 
                  class="w-full h-[500px] object-cover">
+        </div> --}}
+
+        <div class="mb-16">
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+                @forelse($gallery->images ?? [] as $img)
+                    <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                        <img src="{{ asset($img->image) }}"
+                            class="w-full h-56 object-cover transform group-hover:scale-110 transition duration-500">
+                    </div>
+                @empty
+                    <p class="text-center col-span-full">No images found</p>
+                @endforelse
+
+            </div>
         </div>
+
 
         <!-- Content -->
         <div class="text-center mb-16">

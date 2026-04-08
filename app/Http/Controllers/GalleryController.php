@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Gallery;
+use App\Models\GalleryImage;
+use Illuminate\Support\Facades\File;
+
 
 class GalleryController extends Controller
 {
@@ -11,22 +14,26 @@ class GalleryController extends Controller
 
     public function gallery()
     {
-        $scholarships = Gallery::where('category', 'scholarship')
+        $scholarships = Gallery::with('images')
+            ->where('category', 'scholarship')
             ->where('status', 'active')
             ->latest()
             ->get();
 
-        $communities = Gallery::where('category', 'community')
+        $communities = Gallery::with('images')
+            ->where('category', 'community')
             ->where('status', 'active')
             ->latest()
             ->get();
 
-        $educations = Gallery::where('category', 'education')
+        $educations = Gallery::with('images')
+            ->where('category', 'education')
             ->where('status', 'active')
             ->latest()
             ->get();
 
-        $foods = Gallery::where('category', 'food')
+        $foods = Gallery::with('images')
+            ->where('category', 'food')
             ->where('status', 'active')
             ->latest()
             ->get();
@@ -45,7 +52,7 @@ class GalleryController extends Controller
         $gallery = Gallery::findOrFail($id);
 
         // Related images (same category)
-        $related = Gallery::where('category', $gallery->category)
+        $related = Gallery::with('images')->where('category', $gallery->category)
             ->where('id', '!=', $gallery->id)
             ->where('status', 'active')
             ->latest()
@@ -58,30 +65,64 @@ class GalleryController extends Controller
     // ✅ List
     public function index()
     {
-        $galleries = Gallery::latest()->get();
+        $galleries = Gallery::with('images')->latest()->get();
         return view('admin.gallery.index', compact('galleries'));
     }
 
     // ✅ Store
+    // public function store(Request $request)
+    // {
+    //     $request->validate([
+    //         'title' => 'required',
+    //         'image' => 'required|image',
+    //         'category' => 'required'
+    //     ]);
+
+    //     $imageName = time().'.'.$request->image->extension();
+    //     $request->image->move(public_path('gallery'), $imageName);
+
+    //     Gallery::create([
+    //         'title' => $request->title,
+    //         'image' => 'gallery/'.$imageName,
+    //         'category' => $request->category,
+    //         'description' => $request->description,
+    //     ]);
+
+    //     return redirect()->back()->with('success', 'Gallery added successfully');
+    // }
+
     public function store(Request $request)
     {
         $request->validate([
             'title' => 'required',
-            'image' => 'required|image',
+            'images' => 'required',
+            'images.*' => 'image',
             'category' => 'required'
         ]);
 
-        $imageName = time().'.'.$request->image->extension();
-        $request->image->move(public_path('gallery'), $imageName);
-
-        Gallery::create([
+        // ✅ Create Gallery First
+        $gallery = Gallery::create([
             'title' => $request->title,
-            'image' => 'gallery/'.$imageName,
             'category' => $request->category,
             'description' => $request->description,
         ]);
 
-        return redirect()->back()->with('success', 'Gallery added successfully');
+        // ✅ Upload Multiple Images
+        if ($request->hasFile('images')) {
+            foreach ($request->file('images') as $image) {
+
+                $imageName = time().'_'.uniqid().'.'.$image->extension();
+                $image->move(public_path('gallery'), $imageName);
+
+                // Save in gallery_images table
+                GalleryImage::create([
+                    'image' => 'gallery/'.$imageName,
+                    'gallary_id' => $gallery->id
+                ]);
+            }
+        }
+
+        return redirect()->back()->with('success', 'Gallery with multiple images added');
     }
 
     // ✅ Update
@@ -89,13 +130,13 @@ class GalleryController extends Controller
     {
         $gallery = Gallery::findOrFail($id);
 
-        if ($request->hasFile('image')) {
-            $imageName = time().'.'.$request->image->extension();
-            $request->image->move(public_path('gallery'), $imageName);
+        $request->validate([
+            'title' => 'required',
+            'category' => 'required',
+            'images.*' => 'image'
+        ]);
 
-            $gallery->image = 'gallery/'.$imageName;
-        }
-
+        // ✅ Update gallery data
         $gallery->update([
             'title' => $request->title,
             'category' => $request->category,
@@ -103,7 +144,30 @@ class GalleryController extends Controller
             'status' => $request->status
         ]);
 
-        return redirect()->back()->with('success', 'Gallery updated');
+        // ✅ Upload NEW multiple images (append)
+        if ($request->hasFile('images')) {
+
+            // ❌ delete old images
+            foreach ($gallery->images as $img) {
+                if (File::exists(public_path($img->image))) {
+                    File::delete(public_path($img->image));
+                }
+                $img->delete();
+            }
+
+            // ✅ upload new ones
+            foreach ($request->file('images') as $image) {
+                $imageName = time().'_'.uniqid().'.'.$image->extension();
+                $image->move(public_path('gallery'), $imageName);
+
+                GalleryImage::create([
+                    'image' => 'gallery/'.$imageName,
+                    'gallary_id' => $gallery->id
+                ]);
+            }
+        }
+
+        return redirect()->back()->with('success', 'Gallery updated successfully');
     }
 
     // ✅ Delete

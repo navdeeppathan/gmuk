@@ -31,5 +31,9 @@ class Gallery extends Model
         'category' => 'other',
     ];
 
+    public function images()
+    {
+        return $this->hasMany(GalleryImage::class, 'gallary_id');
+    }
    
 }
