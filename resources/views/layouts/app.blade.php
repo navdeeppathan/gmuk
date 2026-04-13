@@ -200,7 +200,7 @@
 
     <!-- Back to Top Button -->
     <button id="back-to-top" class="fixed bottom-8 right-8 bg-[#D4AF37] text-[#1B4D3E] w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 pointer-events-none transition-all hover:scale-110 z-40">
-        <i data-lucide="arrow-up" class="w-5 h-5"></i>
+        <i data-lucide="home" class="w-5 h-5"></i>
     </button>
 
     <script>

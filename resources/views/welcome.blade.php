@@ -2,8 +2,181 @@
 
 @section('content')
 
+<style>
+    /*--------------------------------------------------------------
+    # Hero Section
+    --------------------------------------------------------------*/
+    /*--------------------------------------------------------------
+    # HERO SECTION (Dynamic Banner)
+    --------------------------------------------------------------*/
+    /* ===============================
+    HERO SECTION
+    ================================ */
+    /* =========================
+    HERO BASE
+    ========================= */
+    .hero {
+        background: var(--deep-green);
+        padding: 100px 120px;
+        overflow: hidden;
+    }
+
+    .hero-container {
+        display: grid;
+        grid-template-columns: 1.1fr 1fr;
+        align-items: center;
+        gap: 80px;
+    }
+
+    /* =========================
+    LEFT CONTENT
+    ========================= */
+    .hero-left h1 {
+        color: #fff;
+        font-size: 42px;
+        line-height: 1.1;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .hero-left h1:hover {
+        color: var(--accent-color);
+    }
+
+    .hero-left h1 span {
+        font-style: italic;
+    }
+
+    .hero-left p {
+        color: var(--cream);
+       
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    .hero-left p:hover {
+        color: var(--accent-color);
+    }
+
+    .btn {
+        background: var(--accent-color);
+        padding: 14px 28px;
+        border-radius: 999px;
+        color: var(--surface-color);
+        font-weight: 600;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    .btn:hover {
+        background: color-mix(in srgb, var(--accent-color), transparent 20%);
+        color: var(--surface-color);
+    }
+
+    /* =========================
+    RIGHT SLIDERS (DESKTOP)
+    ========================= */
+    .hero-right {
+        display: flex;
+        gap: 18px;
+        height: 520px;
+    }
+
+    .slider {
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        animation: slideDown 18s ease-in-out infinite alternate;
+    }
+
+    .slider.reverse {
+        animation-direction: alternate-reverse;
+    }
+
+    .slider img {
+        width: 100%;
+        height: auto;
+        border-radius: 18px;
+        object-fit: cover;
+    }
+
+    /* =========================
+    DESKTOP ANIMATION
+    ========================= */
+    @keyframes slideDown {
+        from {
+            transform: translateY(0);
+        }
+        to {
+            transform: translateY(-50%);
+        }
+    }
+
+    /* =========================
+    TABLET & MOBILE
+    ========================= */
+    @media (max-width: 1024px) {
+        .hero {
+            padding: 80px 24px;
+        }
+
+        .hero-container {
+            grid-template-columns: 1fr;
+            gap: 48px;
+        }
+
+        /* SLIDERS MOVE BELOW TEXT */
+        .hero-right {
+            flex-direction: column;
+            height: auto;
+            gap: 16px;
+            overflow: hidden;
+            align-items: center;
+        }
+
+        /* EACH SLIDER ROW */
+        .slider {
+            width: max-content;
+            flex-direction: row;
+            animation: slideHorizontal 18s linear infinite;
+        }
+
+        .slider.reverse {
+            animation-direction: reverse;
+        }
+
+        .slider img {
+            width: 160px;
+            height: 220px;
+            flex-shrink: 0;
+        }
+    }
+
+    /* =========================
+    MOBILE SMOOTHER SPEED
+    ========================= */
+    @media (max-width: 768px) {
+        .slider {
+            animation-duration: 22s;
+        }
+    }
+
+    /* =========================
+    MOBILE ANIMATION
+    ========================= */
+    @keyframes slideHorizontal {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-50%);
+        }
+    }
+</style>
+
     <!-- Hero Section -->
-    <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0F2E26]">
+    {{-- <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0F2E26]">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 z-0">
             <div class="absolute inset-0 bg-gradient-to-b from-[#0F2E26]/90 via-[#1B4D3E]/80 to-[#0F2E26]/95 z-10"></div>
@@ -59,7 +232,101 @@
         <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
             <i data-lucide="chevron-down" class="w-6 h-6 text-[#D4AF37]"></i>
         </div>
+    </section> --}}
+    <section id="hero" class="hero">
+      <div class="hero-container">
+
+        <!-- LEFT CONTENT -->
+        <div class="hero-left">
+          <div class="fade-up">
+                <p class="text-[#D4AF37] text-sm tracking-[0.3em] uppercase mb-4 font-medium">Since 1968</p>
+                <h1 class="font-serif text-5xl md:text-7xl lg:text-8xl text-white font-bold leading-tight mb-6">
+                    Empowering Communities<br>
+                    <span class="text-gold-gradient italic">Through Education</span>
+                </h1>
+                <p class="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light leading-relaxed">
+                    Transforming 500+ Zakat Acceptors into Zakat Givers every year. Building global trust and credibility through transparent charity and educational excellence.
+                </p>
+            </div>
+          <!-- Stats -->
+            <div class="fade-up grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12 mt-16">
+                <div class="glass rounded-2xl p-6 border border-[#D4AF37]/20">
+                    <div class="text-4xl font-bold text-[#D4AF37] counter-value" data-target="500">0</div>
+                    <p class="text-white/80 text-sm mt-2">Students Supported Yearly</p>
+                </div>
+                <div class="glass rounded-2xl p-6 border border-[#D4AF37]/20">
+                    <div class="text-4xl font-bold text-[#D4AF37] counter-value" data-target="1968">0</div>
+                    <p class="text-white/80 text-sm mt-2">Serving Since</p>
+                </div>
+                <div class="glass rounded-2xl p-6 border border-[#D4AF37]/20">
+                    <div class="text-4xl font-bold text-[#D4AF37]">∞</div>
+                    <p class="text-white/80 text-sm mt-2">Lives Transformed</p>
+                </div>
+            </div>
+            <!-- CTA Buttons -->
+            <div class="fade-up flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="#donate" class="btn-premium bg-[#D4AF37] text-[#1B4D3E] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#D4AF37]/20 transition-all transform hover:-translate-y-1">
+                    Give Zakat
+                </a>
+                <a href="#impact" class="btn-premium border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-[#1B4D3E] transition-all">
+                    Support a Student
+                </a>
+            </div>
+        </div>
+
+        <!-- RIGHT SLIDERS -->
+        <div class="hero-right">
+          <div class="slider reverse">
+            @foreach(range(1,6) as $i)
+              <img src="/demo{{ $i }}.avif" />
+            @endforeach
+          </div>
+
+          <div class="slider">
+            @foreach(range(7,12) as $i)
+              <img src="/demo{{ $i }}.avif" />
+            @endforeach
+          </div>
+
+          <div class="slider reverse">
+            @foreach(range(13,18) as $i)
+              <img src="/demo{{ $i }}.avif" />
+            @endforeach
+          </div>
+        </div>
+
+      </div>
     </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        new Swiper(".hero-swiper", {
+            loop: true,
+            speed: 2000,
+            autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+            },
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+            effect: "creative",
+            creativeEffect: {
+            prev: {
+                shadow: true,
+                translate: ["-120%", 0, -500],
+                rotate: [0, 0, -20],
+            },
+            next: {
+                shadow: true,
+                translate: ["120%", 0, -500],
+                rotate: [0, 0, 20],
+            },
+            },
+        });
+        });
+    </script>
 
     <!-- Impact Section -->
     <section id="impact" class="py-24 bg-[#FDF8F3] relative overflow-hidden">
