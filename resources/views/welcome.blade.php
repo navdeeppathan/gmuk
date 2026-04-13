@@ -176,10 +176,10 @@
 </style>
 
     <!-- Hero Section -->
-    {{-- <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0F2E26]">
+    {{-- <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#008e4d]">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 z-0">
-            <div class="absolute inset-0 bg-gradient-to-b from-[#0F2E26]/90 via-[#1B4D3E]/80 to-[#0F2E26]/95 z-10"></div>
+            <div class="absolute inset-0 bg-gradient-to-b from-[#008e4d]/90 via-[#008e4d]/80 to-[#008e4d]/95 z-10"></div>
             <div class="absolute inset-0 hero-pattern z-10 opacity-30"></div>
             <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1920&q=80" alt="Education" class="w-full h-full object-cover opacity-40 parallax-img" id="hero-bg">
         </div>
@@ -219,10 +219,10 @@
 
             <!-- CTA Buttons -->
             <div class="fade-up flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <a href="#donate" class="btn-premium bg-[#D4AF37] text-[#1B4D3E] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#D4AF37]/20 transition-all transform hover:-translate-y-1">
+                <a href="#donate" class="btn-premium bg-[#D4AF37] text-[#008e4d] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#D4AF37]/20 transition-all transform hover:-translate-y-1">
                     Give Zakat
                 </a>
-                <a href="#impact" class="btn-premium border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-[#1B4D3E] transition-all">
+                <a href="#impact" class="btn-premium border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-[#008e4d] transition-all">
                     Support a Student
                 </a>
             </div>
@@ -265,10 +265,10 @@
             </div>
             <!-- CTA Buttons -->
             <div class="fade-up flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <a href="#donate" class="btn-premium bg-[#D4AF37] text-[#1B4D3E] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#D4AF37]/20 transition-all transform hover:-translate-y-1">
+                <a href="#donate" class="btn-premium bg-[#D4AF37] text-[#008e4d] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#D4AF37]/20 transition-all transform hover:-translate-y-1">
                     Give Zakat
                 </a>
-                <a href="#impact" class="btn-premium border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-[#1B4D3E] transition-all">
+                <a href="#impact" class="btn-premium border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-[#008e4d] transition-all">
                     Support a Student
                 </a>
             </div>
@@ -334,8 +334,8 @@
         
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16 fade-up">
-                <p class="text-[#1B4D3E] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Our Impact</p>
-                <h2 class="font-serif text-4xl md:text-6xl text-[#0F2E26] font-bold mb-6">Transforming Lives</h2>
+                <p class="text-[#008e4d] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Our Impact</p>
+                <h2 class="font-serif text-4xl md:text-6xl text-[#008e4d] font-bold mb-6">Transforming Lives</h2>
                 <p class="text-gray-600 max-w-2xl mx-auto text-lg">
                     For over five decades, we have been the bridge between generous donors and deserving students, creating a cycle of empowerment that spans generations.
                 </p>
@@ -344,52 +344,52 @@
             <!-- Impact Cards -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div class="impact-card bg-white rounded-2xl overflow-hidden shadow-lg fade-up">
-                    <div class="h-48 bg-gradient-to-br from-[#1B4D3E] to-[#0F2E26] flex items-center justify-center">
+                    <div class="h-48 bg-gradient-to-br from-[#008e4d] to-[#008e4d] flex items-center justify-center">
                         <i data-lucide="graduation-cap" class="w-16 h-16 text-[#D4AF37]"></i>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-serif text-2xl font-bold text-[#0F2E26] mb-3">Education</h3>
+                        <h3 class="font-serif text-2xl font-bold text-[#008e4d] mb-3">Education</h3>
                         <p class="text-gray-600 text-sm leading-relaxed">Annual scholarships to over 500 students, enabling them to pursue engineering, medicine, and teaching careers.</p>
                     </div>
                 </div>
 
                 <div class="impact-card bg-white rounded-2xl overflow-hidden shadow-lg fade-up" style="transition-delay: 100ms;">
-                    <div class="h-48 bg-gradient-to-br from-[#1B4D3E] to-[#0F2E26] flex items-center justify-center">
+                    <div class="h-48 bg-gradient-to-br from-[#008e4d] to-[#008e4d] flex items-center justify-center">
                         <i data-lucide="heart-handshake" class="w-16 h-16 text-[#D4AF37]"></i>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-serif text-2xl font-bold text-[#0F2E26] mb-3">Welfare</h3>
+                        <h3 class="font-serif text-2xl font-bold text-[#008e4d] mb-3">Welfare</h3>
                         <p class="text-gray-600 text-sm leading-relaxed">Supporting underprivileged families with food distribution during crises and community welfare initiatives.</p>
                     </div>
                 </div>
 
                 <div class="impact-card bg-white rounded-2xl overflow-hidden shadow-lg fade-up" style="transition-delay: 200ms;">
-                    <div class="h-48 bg-gradient-to-br from-[#1B4D3E] to-[#0F2E26] flex items-center justify-center">
+                    <div class="h-48 bg-gradient-to-br from-[#008e4d] to-[#008e4d] flex items-center justify-center">
                         <i data-lucide="users" class="w-16 h-16 text-[#D4AF37]"></i>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-serif text-2xl font-bold text-[#0F2E26] mb-3">Community</h3>
+                        <h3 class="font-serif text-2xl font-bold text-[#008e4d] mb-3">Community</h3>
                         <p class="text-gray-600 text-sm leading-relaxed">Building stronger communities through structured Zakat and Sadaqah systems that ensure transparency.</p>
                     </div>
                 </div>
 
                 <div class="impact-card bg-white rounded-2xl overflow-hidden shadow-lg fade-up" style="transition-delay: 300ms;">
-                    <div class="h-48 bg-gradient-to-br from-[#1B4D3E] to-[#0F2E26] flex items-center justify-center">
+                    <div class="h-48 bg-gradient-to-br from-[#008e4d] to-[#008e4d] flex items-center justify-center">
                         <i data-lucide="trending-up" class="w-16 h-16 text-[#D4AF37]"></i>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-serif text-2xl font-bold text-[#0F2E26] mb-3">Growth</h3>
+                        <h3 class="font-serif text-2xl font-bold text-[#008e4d] mb-3">Growth</h3>
                         <p class="text-gray-600 text-sm leading-relaxed">Transforming Zakat acceptors into givers, creating a sustainable cycle of giving and empowerment.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Testimonial Preview -->
-            <div class="mt-20 bg-[#1B4D3E] rounded-3xl p-8 md:p-12 fade-up relative overflow-hidden">
+            <div class="mt-20 bg-[#008e4d] rounded-3xl p-8 md:p-12 fade-up relative overflow-hidden">
                 <div class="absolute top-0 right-0 w-64 h-64 bg-[#D4AF37]/10 rounded-full -mr-32 -mt-32"></div>
                 <div class="relative z-10 flex flex-col md:flex-row items-center gap-8">
                     <div class="w-24 h-24 rounded-full bg-[#D4AF37] flex items-center justify-center flex-shrink-0">
-                        <span class="text-3xl font-serif text-[#1B4D3E] font-bold">A</span>
+                        <span class="text-3xl font-serif text-[#008e4d] font-bold">A</span>
                     </div>
                     <div class="text-center md:text-left">
                         <p class="text-white text-xl md:text-2xl font-serif italic leading-relaxed mb-4">
@@ -407,8 +407,8 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 <div class="fade-up">
-                    <p class="text-[#1B4D3E] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">About Us</p>
-                    <h2 class="font-serif text-4xl md:text-5xl text-[#0F2E26] font-bold mb-6 leading-tight">
+                    <p class="text-[#008e4d] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">About Us</p>
+                    <h2 class="font-serif text-4xl md:text-5xl text-[#008e4d] font-bold mb-6 leading-tight">
                         A Legacy of<br>
                         <span class="text-gold-gradient">Service Since 1968</span>
                     </h2>
@@ -424,20 +424,20 @@
 
                     <div class="mt-8 grid grid-cols-2 gap-6">
                         <div class="border-l-4 border-[#D4AF37] pl-4">
-                            <h4 class="font-bold text-[#0F2E26] text-lg">Mission</h4>
+                            <h4 class="font-bold text-[#008e4d] text-lg">Mission</h4>
                             <p class="text-sm text-gray-600 mt-1">Empower through education</p>
                         </div>
                         <div class="border-l-4 border-[#D4AF37] pl-4">
-                            <h4 class="font-bold text-[#0F2E26] text-lg">Vision</h4>
+                            <h4 class="font-bold text-[#008e4d] text-lg">Vision</h4>
                             <p class="text-sm text-gray-600 mt-1">No student left behind</p>
                         </div>
                     </div>
 
                     <div class="mt-10 flex gap-4">
-                        <a href="#contact" class="btn-premium bg-[#1B4D3E] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#0F2E26] transition-colors">
+                        <a href="#contact" class="btn-premium bg-[#008e4d] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#008e4d] transition-colors">
                             Contact Us
                         </a>
-                        <a href="#projects" class="btn-premium border-2 border-[#1B4D3E] text-[#1B4D3E] px-8 py-3 rounded-full font-semibold hover:bg-[#1B4D3E] hover:text-white transition-colors">
+                        <a href="#projects" class="btn-premium border-2 border-[#008e4d] text-[#008e4d] px-8 py-3 rounded-full font-semibold hover:bg-[#008e4d] hover:text-white transition-colors">
                             Our Work
                         </a>
                     </div>
@@ -446,7 +446,7 @@
                 <div class="relative fade-up">
                     <div class="relative rounded-2xl overflow-hidden shadow-2xl">
                         <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80" alt="Students studying" class="w-full h-[600px] object-cover">
-                        <div class="absolute inset-0 bg-gradient-to-t from-[#0F2E26]/80 to-transparent"></div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#008e4d]/80 to-transparent"></div>
                         <div class="absolute bottom-0 left-0 right-0 p-8">
                             <p class="text-white font-serif text-2xl italic">"Education is the most powerful weapon which you can use to change the world."</p>
                             <p class="text-[#D4AF37] mt-2">— Nelson Mandela</p>
@@ -454,37 +454,37 @@
                     </div>
                     <!-- Floating Badge -->
                     <div class="absolute -bottom-6 -left-6 bg-[#D4AF37] rounded-2xl p-6 shadow-xl">
-                        <div class="text-[#1B4D3E] font-bold text-3xl">56+</div>
-                        <div class="text-[#1B4D3E]/80 text-sm">Years of Service</div>
+                        <div class="text-[#008e4d] font-bold text-3xl">56+</div>
+                        <div class="text-[#008e4d]/80 text-sm">Years of Service</div>
                     </div>
                 </div>
             </div>
 
             <!-- Leadership Team -->
             <div class="mt-24">
-                <h3 class="font-serif text-3xl text-center text-[#0F2E26] font-bold mb-12 fade-up">Leadership Team</h3>
+                <h3 class="font-serif text-3xl text-center text-[#008e4d] font-bold mb-12 fade-up">Leadership Team</h3>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="text-center fade-up group cursor-pointer">
-                        <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-[#1B4D3E] to-[#0F2E26] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-[#008e4d] to-[#008e4d] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                             <i data-lucide="user" class="w-12 h-12 text-[#D4AF37]"></i>
                         </div>
-                        <h4 class="font-bold text-[#0F2E26] text-lg">Trustee Name</h4>
+                        <h4 class="font-bold text-[#008e4d] text-lg">Trustee Name</h4>
                         <p class="text-[#D4AF37] text-sm">Chairman</p>
                         <p class="text-gray-500 text-sm mt-2">Leading educational initiatives and community outreach programs.</p>
                     </div>
                     <div class="text-center fade-up group cursor-pointer" style="transition-delay: 100ms;">
-                        <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-[#1B4D3E] to-[#0F2E26] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-[#008e4d] to-[#008e4d] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                             <i data-lucide="user" class="w-12 h-12 text-[#D4AF37]"></i>
                         </div>
-                        <h4 class="font-bold text-[#0F2E26] text-lg">Trustee Name</h4>
+                        <h4 class="font-bold text-[#008e4d] text-lg">Trustee Name</h4>
                         <p class="text-[#D4AF37] text-sm">Secretary</p>
                         <p class="text-gray-500 text-sm mt-2">Managing operations and donor relations with transparency.</p>
                     </div>
                     <div class="text-center fade-up group cursor-pointer" style="transition-delay: 200ms;">
-                        <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-[#1B4D3E] to-[#0F2E26] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-[#008e4d] to-[#008e4d] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                             <i data-lucide="user" class="w-12 h-12 text-[#D4AF37]"></i>
                         </div>
-                        <h4 class="font-bold text-[#0F2E26] text-lg">Trustee Name</h4>
+                        <h4 class="font-bold text-[#008e4d] text-lg">Trustee Name</h4>
                         <p class="text-[#D4AF37] text-sm">Treasurer</p>
                         <p class="text-gray-500 text-sm mt-2">Ensuring financial accountability and Zakat distribution.</p>
                     </div>
@@ -497,8 +497,8 @@
     <section id="collaboration" class="py-24 bg-[#FDF8F3] relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-up">
-                <p class="text-[#1B4D3E] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Partnership</p>
-                <h2 class="font-serif text-4xl md:text-5xl text-[#0F2E26] font-bold mb-6">Anjumane Talimul Muslimeen</h2>
+                <p class="text-[#008e4d] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Partnership</p>
+                <h2 class="font-serif text-4xl md:text-5xl text-[#008e4d] font-bold mb-6">Anjumane Talimul Muslimeen</h2>
                 <p class="text-gray-600 max-w-3xl mx-auto text-lg">
                     Our strategic partnership ensures transparent scholarship distribution and academic monitoring, creating a robust system for identifying and supporting deserving students.
                 </p>
@@ -508,40 +508,40 @@
                 <div class="fade-up space-y-8">
                     <div class="flex gap-4">
                         <div class="w-12 h-12 rounded-full bg-[#D4AF37] flex items-center justify-center flex-shrink-0">
-                            <span class="text-[#1B4D3E] font-bold">1</span>
+                            <span class="text-[#008e4d] font-bold">1</span>
                         </div>
                         <div>
-                            <h4 class="font-bold text-[#0F2E26] text-lg mb-2">Student Identification</h4>
+                            <h4 class="font-bold text-[#008e4d] text-lg mb-2">Student Identification</h4>
                             <p class="text-gray-600">Systematic identification of deserving students through local community networks and school partnerships.</p>
                         </div>
                     </div>
 
                     <div class="flex gap-4">
                         <div class="w-12 h-12 rounded-full bg-[#D4AF37] flex items-center justify-center flex-shrink-0">
-                            <span class="text-[#1B4D3E] font-bold">2</span>
+                            <span class="text-[#008e4d] font-bold">2</span>
                         </div>
                         <div>
-                            <h4 class="font-bold text-[#0F2E26] text-lg mb-2">Scholarship Approval</h4>
+                            <h4 class="font-bold text-[#008e4d] text-lg mb-2">Scholarship Approval</h4>
                             <p class="text-gray-600">Rigorous verification process ensuring funds reach genuinely deserving candidates.</p>
                         </div>
                     </div>
 
                     <div class="flex gap-4">
                         <div class="w-12 h-12 rounded-full bg-[#D4AF37] flex items-center justify-center flex-shrink-0">
-                            <span class="text-[#1B4D3E] font-bold">3</span>
+                            <span class="text-[#008e4d] font-bold">3</span>
                         </div>
                         <div>
-                            <h4 class="font-bold text-[#0F2E26] text-lg mb-2">Academic Monitoring</h4>
+                            <h4 class="font-bold text-[#008e4d] text-lg mb-2">Academic Monitoring</h4>
                             <p class="text-gray-600">Continuous tracking of student progress to ensure educational goals are met.</p>
                         </div>
                     </div>
 
                     <div class="flex gap-4">
                         <div class="w-12 h-12 rounded-full bg-[#D4AF37] flex items-center justify-center flex-shrink-0">
-                            <span class="text-[#1B4D3E] font-bold">4</span>
+                            <span class="text-[#008e4d] font-bold">4</span>
                         </div>
                         <div>
-                            <h4 class="font-bold text-[#0F2E26] text-lg mb-2">Success Tracking</h4>
+                            <h4 class="font-bold text-[#008e4d] text-lg mb-2">Success Tracking</h4>
                             <p class="text-gray-600">Long-term follow-up to measure impact and success stories of graduated students.</p>
                         </div>
                     </div>
@@ -549,14 +549,14 @@
 
                 <div class="fade-up relative">
                     <div class="bg-white rounded-3xl p-8 shadow-2xl border border-[#D4AF37]/20">
-                        <div class="aspect-video bg-gradient-to-br from-[#1B4D3E] to-[#0F2E26] rounded-2xl flex items-center justify-center mb-6 relative overflow-hidden group cursor-pointer">
+                        <div class="aspect-video bg-gradient-to-br from-[#008e4d] to-[#008e4d] rounded-2xl flex items-center justify-center mb-6 relative overflow-hidden group cursor-pointer">
                             <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors"></div>
                             <div class="w-16 h-16 bg-[#D4AF37] rounded-full flex items-center justify-center relative z-10 group-hover:scale-110 transition-transform">
-                                <i data-lucide="play" class="w-6 h-6 text-[#1B4D3E] ml-1"></i>
+                                <i data-lucide="play" class="w-6 h-6 text-[#008e4d] ml-1"></i>
                             </div>
                             <p class="absolute bottom-4 left-4 text-white text-sm">Watch Partnership Video</p>
                         </div>
-                        <h3 class="font-serif text-2xl font-bold text-[#0F2E26] mb-3">Collaboration Impact</h3>
+                        <h3 class="font-serif text-2xl font-bold text-[#008e4d] mb-3">Collaboration Impact</h3>
                         <ul class="space-y-3 text-gray-600">
                             <li class="flex items-center gap-2">
                                 <i data-lucide="check-circle" class="w-5 h-5 text-[#D4AF37]"></i>
@@ -581,8 +581,8 @@
     <section id="projects" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-up">
-                <p class="text-[#1B4D3E] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Current Initiatives</p>
-                <h2 class="font-serif text-4xl md:text-5xl text-[#0F2E26] font-bold mb-6">Ongoing Projects</h2>
+                <p class="text-[#008e4d] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Current Initiatives</p>
+                <h2 class="font-serif text-4xl md:text-5xl text-[#008e4d] font-bold mb-6">Ongoing Projects</h2>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -590,7 +590,7 @@
                 <div class="group fade-up">
                     <div class="relative overflow-hidden rounded-2xl mb-4">
                         <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80" alt="Scholarship" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-[#0F2E26] to-transparent opacity-60"></div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#008e4d] to-transparent opacity-60"></div>
                         <div class="absolute bottom-4 left-4 right-4">
                             <div class="flex justify-between items-end">
                                 <div>
@@ -603,7 +603,7 @@
                     <div class="space-y-3">
                         <div class="flex justify-between text-sm">
                             <span class="text-gray-600">Target: 1000 students</span>
-                            <span class="text-[#1B4D3E] font-semibold">65% Complete</span>
+                            <span class="text-[#008e4d] font-semibold">65% Complete</span>
                         </div>
                         <div class="w-full bg-gray-200 rounded-full h-2">
                             <div class="bg-[#D4AF37] h-2 rounded-full" style="width: 65%"></div>
@@ -616,7 +616,7 @@
                 <div class="group fade-up" style="transition-delay: 100ms;">
                     <div class="relative overflow-hidden rounded-2xl mb-4">
                         <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=600&q=80" alt="School" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-[#0F2E26] to-transparent opacity-60"></div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#008e4d] to-transparent opacity-60"></div>
                         <div class="absolute bottom-4 left-4 right-4">
                             <div class="flex justify-between items-end">
                                 <div>
@@ -629,7 +629,7 @@
                     <div class="space-y-3">
                         <div class="flex justify-between text-sm">
                             <span class="text-gray-600">10 new schools</span>
-                            <span class="text-[#1B4D3E] font-semibold">40% Complete</span>
+                            <span class="text-[#008e4d] font-semibold">40% Complete</span>
                         </div>
                         <div class="w-full bg-gray-200 rounded-full h-2">
                             <div class="bg-[#D4AF37] h-2 rounded-full" style="width: 40%"></div>
@@ -642,7 +642,7 @@
                 <div class="group fade-up" style="transition-delay: 200ms;">
                     <div class="relative overflow-hidden rounded-2xl mb-4">
                         <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=600&q=80" alt="Food" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-[#0F2E26] to-transparent opacity-60"></div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#008e4d] to-transparent opacity-60"></div>
                         <div class="absolute bottom-4 left-4 right-4">
                             <div class="flex justify-between items-end">
                                 <div>
@@ -655,7 +655,7 @@
                     <div class="space-y-3">
                         <div class="flex justify-between text-sm">
                             <span class="text-gray-600">Monthly program</span>
-                            <span class="text-[#1B4D3E] font-semibold">Active</span>
+                            <span class="text-[#008e4d] font-semibold">Active</span>
                         </div>
                         <div class="w-full bg-gray-200 rounded-full h-2">
                             <div class="bg-[#D4AF37] h-2 rounded-full" style="width: 90%"></div>
@@ -668,7 +668,7 @@
     </section>
 
     <!-- Donation Section -->
-    <section id="donate" class="py-24 bg-[#0F2E26] relative overflow-hidden">
+    <section id="donate" class="py-24 bg-[#008e4d] relative overflow-hidden">
         <div class="absolute inset-0 hero-pattern opacity-20"></div>
         
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -684,22 +684,22 @@
                 <!-- Zakat -->
                 <div class="fade-up bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-[#D4AF37]/30 hover:border-[#D4AF37] transition-colors group">
                     <div class="w-16 h-16 bg-[#D4AF37] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                        <i data-lucide="hand-coins" class="w-8 h-8 text-[#1B4D3E]"></i>
+                        <i data-lucide="hand-coins" class="w-8 h-8 text-[#008e4d]"></i>
                     </div>
                     <h3 class="font-serif text-2xl font-bold text-white mb-3">Give Zakat</h3>
                     <p class="text-gray-300 text-sm mb-6 leading-relaxed">
                         "Islam is built upon five pillars...including giving Zakat." — Sahih al-Bukhari
                     </p>
                     <p class="text-[#D4AF37] text-sm mb-6">Structured Zakat management ensuring 100% compliance with Islamic principles.</p>
-                    {{-- <button onclick="handleProtectedAction()" type="button" class="w-full btn-premium bg-[#D4AF37] text-[#1B4D3E] py-3 rounded-full font-semibold hover:bg-[#F4E8C1] transition-colors">
+                    {{-- <button onclick="handleProtectedAction()" type="button" class="w-full btn-premium bg-[#D4AF37] text-[#008e4d] py-3 rounded-full font-semibold hover:bg-[#F4E8C1] transition-colors">
                         Give Your Zakat
                     </button> --}}
                     {{-- @auth --}}
-                        <a href="/donate" class="w-full inline-block text-center btn-premium bg-[#D4AF37] text-[#1B4D3E] py-3 rounded-full font-semibold hover:bg-[#F4E8C1] transition-colors">
+                        <a href="/donate" class="w-full inline-block text-center btn-premium bg-[#D4AF37] text-[#008e4d] py-3 rounded-full font-semibold hover:bg-[#F4E8C1] transition-colors">
                             Give Your Zakat
                         </a>
                     {{-- @else
-                        <a href="/login" class="w-full inline-block text-center btn-premium bg-[#D4AF37] text-[#1B4D3E] py-3 rounded-full font-semibold hover:bg-[#F4E8C1] transition-colors">
+                        <a href="/login" class="w-full inline-block text-center btn-premium bg-[#D4AF37] text-[#008e4d] py-3 rounded-full font-semibold hover:bg-[#F4E8C1] transition-colors">
                             Give Your Zakat
                         </a>
                     @endauth --}}
@@ -707,24 +707,24 @@
 
                 <!-- Monthly -->
                 {{-- <div class="fade-up bg-[#D4AF37] rounded-3xl p-8 transform md:-translate-y-4 shadow-2xl shadow-[#D4AF37]/20" style="transition-delay: 100ms;">
-                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-[#0F2E26] text-[#D4AF37] px-4 py-1 rounded-full text-xs font-bold tracking-wider">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-[#008e4d] text-[#D4AF37] px-4 py-1 rounded-full text-xs font-bold tracking-wider">
                         MOST IMPACTFUL
                     </div>
-                    <div class="w-16 h-16 bg-[#0F2E26] rounded-2xl flex items-center justify-center mb-6">
+                    <div class="w-16 h-16 bg-[#008e4d] rounded-2xl flex items-center justify-center mb-6">
                         <i data-lucide="calendar-heart" class="w-8 h-8 text-[#D4AF37]"></i>
                     </div>
-                    <h3 class="font-serif text-2xl font-bold text-[#0F2E26] mb-3">Monthly Contribution</h3>
-                    <p class="text-[#0F2E26]/80 text-sm mb-6 leading-relaxed">
+                    <h3 class="font-serif text-2xl font-bold text-[#008e4d] mb-3">Monthly Contribution</h3>
+                    <p class="text-[#008e4d]/80 text-sm mb-6 leading-relaxed">
                         "The most beloved deeds to Allah are those that are consistent, even if they are small." — Sahih Muslim
                     </p>
-                    <p class="text-[#0F2E26] text-sm mb-6 font-medium">Sustainable support that allows us to plan long-term educational initiatives.</p>
+                    <p class="text-[#008e4d] text-sm mb-6 font-medium">Sustainable support that allows us to plan long-term educational initiatives.</p>
                     
                     @auth
-                        <a href="/donate" class="w-full inline-block text-center btn-premium bg-[#0F2E26] text-white py-3 rounded-full font-semibold hover:bg-[#1B4D3E] transition-colors">
+                        <a href="/donate" class="w-full inline-block text-center btn-premium bg-[#008e4d] text-white py-3 rounded-full font-semibold hover:bg-[#008e4d] transition-colors">
                             Start Monthly Giving
                         </a>
                     @else
-                        <a href="/login" class="w-full inline-block text-center btn-premium bg-[#0F2E26] text-white py-3 rounded-full font-semibold hover:bg-[#1B4D3E] transition-colors">
+                        <a href="/login" class="w-full inline-block text-center btn-premium bg-[#008e4d] text-white py-3 rounded-full font-semibold hover:bg-[#008e4d] transition-colors">
                             Start Monthly Giving
                         </a>
                     @endauth
@@ -733,22 +733,22 @@
                 <!-- Sadaqah -->
                 <div class="fade-up bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-[#D4AF37]/30 hover:border-[#D4AF37] transition-colors group" style="transition-delay: 200ms;">
                     <div class="w-16 h-16 bg-[#D4AF37] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                        <i data-lucide="heart" class="w-8 h-8 text-[#1B4D3E]"></i>
+                        <i data-lucide="heart" class="w-8 h-8 text-[#008e4d]"></i>
                     </div>
                     <h3 class="font-serif text-2xl font-bold text-white mb-3">Give Sadaqah</h3>
                     <p class="text-gray-300 text-sm mb-6 leading-relaxed">
                         "Charity does not decrease wealth." — Sahih Muslim
                     </p>
                     <p class="text-[#D4AF37] text-sm mb-6">Voluntary charity that brings barakah to your wealth and helps those in need.</p>
-                    {{-- <button onclick="handleProtectedAction()" type="button" class="w-full btn-premium bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] py-3 rounded-full font-semibold hover:bg-[#D4AF37] hover:text-[#1B4D3E] transition-colors">
+                    {{-- <button onclick="handleProtectedAction()" type="button" class="w-full btn-premium bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] py-3 rounded-full font-semibold hover:bg-[#D4AF37] hover:text-[#008e4d] transition-colors">
                         Give Sadaqah
                     </button> --}}
                     {{-- @auth --}}
-                        <a href="/donate" class="w-full inline-block text-center btn-premium bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] py-3 rounded-full font-semibold hover:bg-[#D4AF37] hover:text-[#1B4D3E] transition-colors">
+                        <a href="/donate" class="w-full inline-block text-center btn-premium bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] py-3 rounded-full font-semibold hover:bg-[#D4AF37] hover:text-[#008e4d] transition-colors">
                             Give Sadaqah
                         </a>
                     {{-- @else
-                        <a href="/login" class="w-full inline-block text-center btn-premium bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] py-3 rounded-full font-semibold hover:bg-[#D4AF37] hover:text-[#1B4D3E] transition-colors">
+                        <a href="/login" class="w-full inline-block text-center btn-premium bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] py-3 rounded-full font-semibold hover:bg-[#D4AF37] hover:text-[#008e4d] transition-colors">
                             Give Sadaqah
                         </a>
                     @endauth --}}
@@ -781,8 +781,8 @@
     <section class="py-24 bg-[#FDF8F3]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-up">
-                <p class="text-[#1B4D3E] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Gallery</p>
-                <h2 class="font-serif text-4xl md:text-5xl text-[#0F2E26] font-bold mb-6">Moments of Impact</h2>
+                <p class="text-[#008e4d] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Gallery</p>
+                <h2 class="font-serif text-4xl md:text-5xl text-[#008e4d] font-bold mb-6">Moments of Impact</h2>
             </div>
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -792,7 +792,7 @@
                     {{-- <img src="{{ $scholarImage ? asset($scholarImage->image) : '' }}" alt="Students" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
                     @php $img = $scholarImage?->images->first(); @endphp
                     <img src="{{ $img ? asset($img->image) : '' }}" alt="Students"  class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-[#0F2E26]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <div class="absolute inset-0 bg-[#008e4d]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                         <p class="text-white font-serif text-lg">Scholarship Ceremony</p>
                     </div>
                 </div>
@@ -803,7 +803,7 @@
                     {{-- <img src="{{ $communityImage ? asset($communityImage->image) : '' }}" alt="Community" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
                     @php $img = $communityImage?->images->first(); @endphp
                     <img src="{{ $img ? asset($img->image) : '' }}" alt="Community"  class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-[#0F2E26]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <div class="absolute inset-0 bg-[#008e4d]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                         <p class="text-white font-serif text-lg">Community Support</p>
                     </div>
                 </div>
@@ -814,7 +814,7 @@
                     {{-- <img src="{{ $educationImage ? asset($educationImage->image) : '' }}" alt="Education" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
                     @php $img = $educationImage?->images->first(); @endphp
                     <img src="{{ $img ? asset($img->image) : '' }}" alt="Education"  class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-[#0F2E26]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <div class="absolute inset-0 bg-[#008e4d]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                         <p class="text-white font-serif text-lg">Education Program</p>
                     </div>
                 </div>
@@ -825,7 +825,7 @@
                     {{-- <img src="{{ $foodImage ? asset($foodImage->image) : '' }}" alt="Distribution" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"> --}}
                     @php $img = $foodImage?->images->first(); @endphp
                     <img src="{{ $img ? asset($img->image) : '' }}" alt="Distribution"  class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-[#0F2E26]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <div class="absolute inset-0 bg-[#008e4d]/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                         <p class="text-white font-serif text-lg">Food Distribution</p>
                     </div>
                 </div>
@@ -835,7 +835,7 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section class="py-24 bg-[#0F2E26] relative overflow-hidden">
+    <section class="py-24 bg-[#008e4d] relative overflow-hidden">
         
         <!-- Background Pattern -->
         <div class="absolute inset-0 hero-pattern opacity-20"></div>
@@ -863,7 +863,7 @@
                     
                     <!-- Quote Icon -->
                     <div class="w-12 h-12 bg-[#D4AF37] rounded-full flex items-center justify-center mb-6">
-                        <i data-lucide="quote" class="w-5 h-5 text-[#1B4D3E]"></i>
+                        <i data-lucide="quote" class="w-5 h-5 text-[#008e4d]"></i>
                     </div>
 
                     <p class="text-gray-300 text-sm leading-relaxed mb-6">
@@ -872,7 +872,7 @@
 
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 rounded-full bg-[#D4AF37] flex items-center justify-center">
-                            <span class="text-[#1B4D3E] font-bold">R</span>
+                            <span class="text-[#008e4d] font-bold">R</span>
                         </div>
                         <div>
                             <h4 class="text-white font-semibold">Rahman</h4>
@@ -885,7 +885,7 @@
                 <div class="fade-up bg-white/5 backdrop-blur-lg rounded-3xl p-8 border border-[#D4AF37]/20 hover:border-[#D4AF37] transition-all group" style="transition-delay: 100ms;">
                     
                     <div class="w-12 h-12 bg-[#D4AF37] rounded-full flex items-center justify-center mb-6">
-                        <i data-lucide="quote" class="w-5 h-5 text-[#1B4D3E]"></i>
+                        <i data-lucide="quote" class="w-5 h-5 text-[#008e4d]"></i>
                     </div>
 
                     <p class="text-gray-300 text-sm leading-relaxed mb-6">
@@ -894,7 +894,7 @@
 
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 rounded-full bg-[#D4AF37] flex items-center justify-center">
-                            <span class="text-[#1B4D3E] font-bold">A</span>
+                            <span class="text-[#008e4d] font-bold">A</span>
                         </div>
                         <div>
                             <h4 class="text-white font-semibold">Ahmed</h4>
@@ -907,7 +907,7 @@
                 <div class="fade-up bg-white/5 backdrop-blur-lg rounded-3xl p-8 border border-[#D4AF37]/20 hover:border-[#D4AF37] transition-all group" style="transition-delay: 200ms;">
                     
                     <div class="w-12 h-12 bg-[#D4AF37] rounded-full flex items-center justify-center mb-6">
-                        <i data-lucide="quote" class="w-5 h-5 text-[#1B4D3E]"></i>
+                        <i data-lucide="quote" class="w-5 h-5 text-[#008e4d]"></i>
                     </div>
 
                     <p class="text-gray-300 text-sm leading-relaxed mb-6">
@@ -916,7 +916,7 @@
 
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 rounded-full bg-[#D4AF37] flex items-center justify-center">
-                            <span class="text-[#1B4D3E] font-bold">S</span>
+                            <span class="text-[#008e4d] font-bold">S</span>
                         </div>
                         <div>
                             <h4 class="text-white font-semibold">Sana</h4>
@@ -929,7 +929,7 @@
 
             <!-- CTA -->
             <div class="text-center mt-16 fade-up">
-                <a href="#donate" class="btn-premium bg-[#D4AF37] text-[#1B4D3E] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#D4AF37]/20 transition-all transform hover:-translate-y-1">
+                <a href="#donate" class="btn-premium bg-[#D4AF37] text-[#008e4d] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-[#D4AF37]/20 transition-all transform hover:-translate-y-1">
                     Be Part of These Stories
                 </a>
             </div>
@@ -942,8 +942,8 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
                 <div class="fade-up">
-                    <p class="text-[#1B4D3E] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Get in Touch</p>
-                    <h2 class="font-serif text-4xl md:text-5xl text-[#0F2E26] font-bold mb-6">Contact Us</h2>
+                    <p class="text-[#008e4d] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Get in Touch</p>
+                    <h2 class="font-serif text-4xl md:text-5xl text-[#008e4d] font-bold mb-6">Contact Us</h2>
                     <p class="text-gray-600 mb-8 leading-relaxed">
                         Have questions about our programs, donations, or want to get involved? Reach out to us through any of the channels below.
                     </p>
@@ -951,30 +951,30 @@
                     <div class="space-y-6">
                         <div class="flex items-start gap-4">
                             <div class="w-12 h-12 bg-[#FDF8F3] rounded-full flex items-center justify-center flex-shrink-0">
-                                <i data-lucide="mail" class="w-5 h-5 text-[#1B4D3E]"></i>
+                                <i data-lucide="mail" class="w-5 h-5 text-[#008e4d]"></i>
                             </div>
                             <div>
-                                <h4 class="font-bold text-[#0F2E26]">Email</h4>
+                                <h4 class="font-bold text-[#008e4d]">Email</h4>
                                 <p class="text-gray-600">info@gujratmuslimassociation.org.uk</p>
                             </div>
                         </div>
 
                         <div class="flex items-start gap-4">
                             <div class="w-12 h-12 bg-[#FDF8F3] rounded-full flex items-center justify-center flex-shrink-0">
-                                <i data-lucide="phone" class="w-5 h-5 text-[#1B4D3E]"></i>
+                                <i data-lucide="phone" class="w-5 h-5 text-[#008e4d]"></i>
                             </div>
                             <div>
-                                <h4 class="font-bold text-[#0F2E26]">Phone</h4>
+                                <h4 class="font-bold text-[#008e4d]">Phone</h4>
                                 <p class="text-gray-600">+44 (0) XXX XXX XXXX</p>
                             </div>
                         </div>
 
                         <div class="flex items-start gap-4">
                             <div class="w-12 h-12 bg-[#FDF8F3] rounded-full flex items-center justify-center flex-shrink-0">
-                                <i data-lucide="map-pin" class="w-5 h-5 text-[#1B4D3E]"></i>
+                                <i data-lucide="map-pin" class="w-5 h-5 text-[#008e4d]"></i>
                             </div>
                             <div>
-                                <h4 class="font-bold text-[#0F2E26]">Address</h4>
+                                <h4 class="font-bold text-[#008e4d]">Address</h4>
                                 <p class="text-gray-600">Gujrat Muslim Association UK<br>United Kingdom</p>
                             </div>
                         </div>
@@ -982,17 +982,17 @@
                         <div class="flex gap-4 pt-4">
     
                             <!-- Facebook -->
-                            <a href="#" class="w-10 h-10 bg-[#1B4D3E] rounded-full flex items-center justify-center text-white hover:bg-[#D4AF37] hover:text-[#1B4D3E] transition-colors">
+                            <a href="#" class="w-10 h-10 bg-[#008e4d] rounded-full flex items-center justify-center text-white hover:bg-[#D4AF37] hover:text-[#008e4d] transition-colors">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
 
                             <!-- Twitter -->
-                            <a href="#" class="w-10 h-10 bg-[#1B4D3E] rounded-full flex items-center justify-center text-white hover:bg-[#D4AF37] hover:text-[#1B4D3E] transition-colors">
+                            <a href="#" class="w-10 h-10 bg-[#008e4d] rounded-full flex items-center justify-center text-white hover:bg-[#D4AF37] hover:text-[#008e4d] transition-colors">
                                  <i class="fab fa-tiktok"></i>
                             </a>
 
                             <!-- Instagram -->
-                            <a href="#" class="w-10 h-10 bg-[#1B4D3E] rounded-full flex items-center justify-center text-white hover:bg-[#D4AF37] hover:text-[#1B4D3E] transition-colors">
+                            <a href="#" class="w-10 h-10 bg-[#008e4d] rounded-full flex items-center justify-center text-white hover:bg-[#D4AF37] hover:text-[#008e4d] transition-colors">
                                 <i class="fab fa-instagram"></i>
                             </a>
 
@@ -1010,15 +1010,15 @@
                         <form action="{{ route('contact.store') }}" method="POST" class="space-y-6">
                             @csrf
                         <div>
-                            <label class="block text-[#0F2E26] font-semibold mb-2">Full Name</label>
+                            <label class="block text-[#008e4d] font-semibold mb-2">Full Name</label>
                             <input type="text" name="full_name" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#D4AF37] focus:outline-none transition-colors" placeholder="Your name">
                         </div>
                         <div>
-                            <label class="block text-[#0F2E26] font-semibold mb-2">Email Address</label>
+                            <label class="block text-[#008e4d] font-semibold mb-2">Email Address</label>
                             <input type="email" name="email" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#D4AF37] focus:outline-none transition-colors" placeholder="your@email.com">
                         </div>
                         <div>
-                           <label class="block text-[#0F2E26] font-semibold mb-2">Subject</label>
+                           <label class="block text-[#008e4d] font-semibold mb-2">Subject</label>
                             <select 
                                 name="subject"
                                 class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#D4AF37] focus:outline-none transition-colors"
@@ -1031,10 +1031,10 @@
                             </select>
                         </div>
                         <div>
-                            <label class="block text-[#0F2E26] font-semibold mb-2">Message</label>
+                            <label class="block text-[#008e4d] font-semibold mb-2">Message</label>
                             <textarea name="message" rows="4" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#D4AF37] focus:outline-none transition-colors" placeholder="Your message..."></textarea>
                         </div>
-                        <button type="submit" class="w-full btn-premium bg-[#1B4D3E] text-white py-4 rounded-full font-semibold hover:bg-[#0F2E26] transition-colors">
+                        <button type="submit" class="w-full btn-premium bg-[#008e4d] text-white py-4 rounded-full font-semibold hover:bg-[#008e4d] transition-colors">
                             Send Message
                         </button>
                     </form>
@@ -1054,7 +1054,7 @@
         text: '{{ session('success') }}',
         icon: 'success',
         confirmButtonColor: '#D4AF37',
-        background: '#1B4D3E',
+        background: '#008e4d',
         color: '#fff'
     });
 </script>
@@ -1068,7 +1068,7 @@
         text: '{{ $errors->first() }}',
         icon: 'error',
         confirmButtonColor: '#D4AF37',
-        background: '#1B4D3E',
+        background: '#008e4d',
         color: '#fff'
     });
 </script>

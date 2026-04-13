@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="min-h-screen bg-[#0F2E26] py-20 relative overflow-hidden">
+<section class="min-h-screen bg-[#008e4d] py-20 relative overflow-hidden">
 
     <!-- Background -->
     <div class="absolute inset-0 opacity-20">
@@ -67,9 +67,9 @@
 
                 <!-- Quick Amount Buttons -->
                 <div class="flex gap-3 flex-wrap">
-                    <button type="button" onclick="setAmount(25)" class="px-4 py-2 bg-[#D4AF37] text-[#1B4D3E] rounded-full">£25</button>
-                    <button type="button" onclick="setAmount(50)" class="px-4 py-2 bg-[#D4AF37] text-[#1B4D3E] rounded-full">£50</button>
-                    <button type="button" onclick="setAmount(100)" class="px-4 py-2 bg-[#D4AF37] text-[#1B4D3E] rounded-full">£100</button>
+                    <button type="button" onclick="setAmount(25)" class="px-4 py-2 bg-[#D4AF37] text-[#008e4d] rounded-full">£25</button>
+                    <button type="button" onclick="setAmount(50)" class="px-4 py-2 bg-[#D4AF37] text-[#008e4d] rounded-full">£50</button>
+                    <button type="button" onclick="setAmount(100)" class="px-4 py-2 bg-[#D4AF37] text-[#008e4d] rounded-full">£100</button>
                 </div>
 
                 <!-- Message -->
@@ -82,7 +82,7 @@
 
                 <!-- Submit -->
                 <button type="submit"
-                    class="w-full bg-[#D4AF37] text-[#1B4D3E] py-4 rounded-full font-semibold hover:bg-[#F4E8C1] transition-all">
+                    class="w-full bg-[#D4AF37] text-[#008e4d] py-4 rounded-full font-semibold hover:bg-[#F4E8C1] transition-all">
                     Proceed to Donate
                 </button>
                 
@@ -102,7 +102,7 @@
         text: '{{ session('success') }}',
         icon: 'success',
         confirmButtonColor: '#D4AF37',
-        background: '#1B4D3E',
+        background: '#008e4d',
         color: '#fff'
     });
 </script>
@@ -116,7 +116,7 @@
         text: '{{ $errors->first() }}',
         icon: 'error',
         confirmButtonColor: '#D4AF37',
-        background: '#1B4D3E',
+        background: '#008e4d',
         color: '#fff'
     });
 </script>

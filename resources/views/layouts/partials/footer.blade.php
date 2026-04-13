@@ -1,11 +1,11 @@
  <!-- Footer -->
-    <footer class="bg-[#0F2E26] text-white py-16 border-t border-[#D4AF37]/20">
+    <footer class="bg-[#008e4d] text-white py-16 border-t border-[#D4AF37]/20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                 <div class="col-span-1 md:col-span-2">
                     <div class="flex items-center gap-3 mb-6">
                         <div class="w-10 h-10 bg-[#D4AF37] rounded-full flex items-center justify-center">
-                            <span class="text-[#1B4D3E] font-bold font-arabic">G</span>
+                            <span class="text-[#008e4d] font-bold font-arabic">G</span>
                         </div>
                         <div>
                             <h3 class="font-serif text-xl font-bold">Gujrat Muslim Association UK</h3>

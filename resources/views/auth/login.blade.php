@@ -13,7 +13,7 @@
 <style>
     :root {
         --gold: #D4AF37;
-        --green: #1B4D3E;
+        --green: #008e4d;
         --dark: #0F2E26;
         --cream: #FDF8F3;
     }
@@ -54,7 +54,7 @@
     <!-- Logo -->
     <div class="text-center mb-8">
         <div class="w-16 h-16 bg-[#D4AF37] rounded-full flex items-center justify-center mx-auto mb-4">
-            <span class="text-[#1B4D3E] font-bold text-2xl font-serif">G</span>
+            <span class="text-[#008e4d] font-bold text-2xl font-serif">G</span>
         </div>
         <h1 class="text-white font-serif text-3xl font-bold">Welcome Back</h1>
         <p class="text-gray-300 text-sm mt-2">Login to continue your impact</p>
@@ -103,7 +103,7 @@
             <!-- Login Button -->
             <button 
                 type="submit"
-                class="w-full bg-[#D4AF37] text-[#1B4D3E] py-3 rounded-full font-semibold hover:bg-[#F4E8C1] transition-all"
+                class="w-full bg-[#D4AF37] text-[#008e4d] py-3 rounded-full font-semibold hover:bg-[#F4E8C1] transition-all"
             >
                 Login
             </button>

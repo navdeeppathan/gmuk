@@ -2,18 +2,19 @@
  @php
     $isGallary = request()->is('gallery-page*') || request()->is('gallery-detail*');
 @endphp
-    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 {{ $isGallary ? 'bg-[#1B4D3E]' : 'bg-transparent' }}">
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 {{ $isGallary ? 'bg-[#008e4d]' : 'bg-transparent' }}">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center gap-3 cursor-pointer" onclick="window.scrollTo(0,0)">
-                    <div class="w-12 h-12 bg-[#D4AF37] rounded-full flex items-center justify-center">
-                        <span class="text-[#1B4D3E] font-bold text-xl font-arabic">G</span>
+                    {{-- <div class="w-12 h-12 bg-[#D4AF37] rounded-full flex items-center justify-center">
+                        <span class="text-[#008e4d] font-bold text-xl font-arabic">G</span>
                     </div>
                     <div class="hidden sm:block">
                         <h1 class="text-white font-serif text-xl font-bold leading-tight">Gujrat Muslim</h1>
                         <p class="text-[#D4AF37] text-xs tracking-widest uppercase">Association UK</p>
-                    </div>
+                    </div> --}}
+                    <img src="{{asset('gmuklogo.jpeg')}}" alt="" class="w-full h-16 object-contain    " >
                 </div>
 
                 <!-- Desktop Menu -->
@@ -37,15 +38,15 @@
                         </button>
 
                         <!-- Dropdown -->
-                        <div id="profileMenu" class="hidden absolute right-0 mt-3 w-48 bg-[#1B4D3E] rounded-xl shadow-xl border border-[#D4AF37]/20 overflow-hidden">
+                        <div id="profileMenu" class="hidden absolute right-0 mt-3 w-48 bg-[#008e4d] rounded-xl shadow-xl border border-[#D4AF37]/20 overflow-hidden">
 
-                            <a href="/dashboard" class="block px-4 py-3 text-white hover:bg-[#0F2E26] transition">
+                            <a href="/dashboard" class="block px-4 py-3 text-white hover:bg-[#008e4d] transition">
                                 Profile
                             </a>
 
                             <form method="POST" action="/logout">
                                 @csrf
-                                <button type="submit" class="w-full text-left px-4 py-3 text-red-400 hover:bg-[#0F2E26] transition">
+                                <button type="submit" class="w-full text-left px-4 py-3 text-red-400 hover:bg-[#008e4d] transition">
                                     Logout
                                 </button>
                             </form>
@@ -56,7 +57,7 @@
                         Login
                     </a>
                     @endauth --}}
-                    <a href="/#donate" class="btn-premium bg-[#D4AF37] text-[#1B4D3E] px-6 py-2.5 rounded-full font-semibold text-sm hover:bg-[#F4E8C1] transition-colors">
+                    <a href="/#donate" class="btn-premium bg-[#D4AF37] text-[#008e4d] px-6 py-2.5 rounded-full font-semibold text-sm hover:bg-[#F4E8C1] transition-colors">
                         Donate Now
                     </a>
                 </div>
@@ -69,7 +70,7 @@
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="mobile-menu fixed top-0 right-0 w-80 h-full bg-[#1B4D3E] shadow-2xl md:hidden z-50 p-8">
+        <div id="mobile-menu" class="mobile-menu fixed top-0 right-0 w-80 h-full bg-[#008e4d] shadow-2xl md:hidden z-50 p-8">
             <button id="close-menu" class="absolute top-6 right-6 text-white">
                 <i data-lucide="x" class="w-6 h-6"></i>
             </button>
@@ -79,7 +80,7 @@
                 <a href="#about" class="block text-white text-lg font-medium hover:text-[#D4AF37]">About</a>
                 <a href="#collaboration" class="block text-white text-lg font-medium hover:text-[#D4AF37]">Collaboration</a>
                 <a href="#projects" class="block text-white text-lg font-medium hover:text-[#D4AF37]">Projects</a>
-                <a href="#donate" class="block bg-[#D4AF37] text-[#1B4D3E] px-6 py-3 rounded-full font-semibold text-center mt-8">Donate Now</a>
+                <a href="#donate" class="block bg-[#D4AF37] text-[#008e4d] px-6 py-3 rounded-full font-semibold text-center mt-8">Donate Now</a>
             </div>
         </div>
     </nav>

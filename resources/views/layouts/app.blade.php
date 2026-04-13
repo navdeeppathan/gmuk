@@ -14,8 +14,8 @@
     <style>
         :root {
             --primary-gold: #D4AF37;
-            --deep-green: #1B4D3E;
-            --dark-green: #0F2E26;
+            --deep-green: #008e4d;
+            --dark-green: #008e4d;
             --cream: #FDF8F3;
             --light-gold: #F4E8C1;
         }
@@ -62,7 +62,7 @@
         }
         
         .glass-dark {
-            background: rgba(27, 77, 62, 0.9);
+            background: #008e4d;
             backdrop-filter: blur(10px);
         }
         
@@ -199,7 +199,7 @@
     </a>
 
     <!-- Back to Top Button -->
-    <button id="back-to-top" class="fixed bottom-8 right-8 bg-[#D4AF37] text-[#1B4D3E] w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 pointer-events-none transition-all hover:scale-110 z-40">
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-[#D4AF37] text-[#008e4d] w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 pointer-events-none transition-all hover:scale-110 z-40">
         <i data-lucide="home" class="w-5 h-5"></i>
     </button>
 
@@ -249,7 +249,7 @@
             const currentScroll = window.pageYOffset;
 
             if (isDashboard) {
-                navbar.classList.add('bg-[#1B4D3E]', 'shadow-lg');
+                navbar.classList.add('bg-[#008e4d]', 'shadow-lg');
                 navbar.classList.remove('bg-transparent', 'glass-dark');
                 return; // ❗ scroll logic skip
             }
