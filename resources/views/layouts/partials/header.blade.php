@@ -14,7 +14,7 @@
                         <h1 class="text-white font-serif text-xl font-bold leading-tight">Gujrat Muslim</h1>
                         <p class="text-[#D4AF37] text-xs tracking-widest uppercase">Association UK</p>
                     </div> --}}
-                    <img src="{{asset('gmuklogo.jpeg')}}" alt="" class="w-full h-16 object-contain    " >
+                    <img src="{{asset('gmuklogo.jpeg')}}" alt="" class="w-full h-16 object-contain rounded-full border-2 border-[#FFFFFF]" >
                 </div>
 
                 <!-- Desktop Menu -->

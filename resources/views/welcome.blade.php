@@ -277,8 +277,9 @@
         <!-- RIGHT SLIDERS -->
         <div class="hero-right">
           <div class="slider reverse">
-            @foreach(range(1,6) as $i)
+            @foreach(range(21,24) as $i)
               <img src="/demo{{ $i }}.avif" />
+              {{-- <img src="/demo{{ $i }}.jpg" /> --}}
             @endforeach
           </div>
 

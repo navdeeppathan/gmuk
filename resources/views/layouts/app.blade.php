@@ -176,6 +176,8 @@
             <div class="w-16 h-16 border-4 border-[#D4AF37] border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
             <p class="text-white font-serif text-xl">Gujrat Muslim Association UK</p>
             <p class="text-[#D4AF37] text-sm mt-2">Since 1968</p>
+            
+
         </div>
     </div>
 
