@@ -946,7 +946,9 @@
                     <p class="text-[#008e4d] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Get in Touch</p>
                     <h2 class="font-serif text-4xl md:text-5xl text-[#008e4d] font-bold mb-6">Contact Us</h2>
                     <p class="text-gray-600 mb-8 leading-relaxed">
-                        Have questions about our programs, donations, or want to get involved? Reach out to us through any of the channels below.
+                    Have any questions about our Charity, our programmes, donations or simply curious? 
+                    Reach out to us through any of the channels here.
+                    But most importantly, please remember us in your duas!
                     </p>
 
                     <div class="space-y-6">
@@ -956,7 +958,7 @@
                             </div>
                             <div>
                                 <h4 class="font-bold text-[#008e4d]">Email</h4>
-                                <p class="text-gray-600">info@gujratmuslimassociation.org.uk</p>
+                                <p class="text-gray-600">admin@thegmauk.org; secretary@thegmauk.org</p>
                             </div>
                         </div>
 
@@ -966,7 +968,7 @@
                             </div>
                             <div>
                                 <h4 class="font-bold text-[#008e4d]">Phone</h4>
-                                <p class="text-gray-600">+44 (0) XXX XXX XXXX</p>
+                                <p class="text-gray-600">+44 (0) 7464 597722</p>
                             </div>
                         </div>
 
@@ -976,7 +978,7 @@
                             </div>
                             <div>
                                 <h4 class="font-bold text-[#008e4d]">Address</h4>
-                                <p class="text-gray-600">Gujrat Muslim Association UK<br>United Kingdom</p>
+                                <p class="text-gray-600">General Secretary, The Gujarat Muslim Association <br> UK 47 Marlborough Road,Nuneaton. CV11 5PG.UK</p>
                             </div>
                         </div>
 
@@ -998,7 +1000,7 @@
                             </a>
 
                             <!-- WhatsApp -->
-                            <a href="#" class="w-10 h-10 bg-[#25D366] rounded-full flex items-center justify-center text-white hover:scale-110 transition-transform">
+                            <a href="https://wa.me/447464597722" target="_blank" class="w-10 h-10 bg-[#25D366] rounded-full flex items-center justify-center text-white hover:scale-110 transition-transform">
                                 <i class="fab fa-whatsapp"></i>
                             </a>
 
