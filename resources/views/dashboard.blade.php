@@ -8,7 +8,7 @@
     
     <div class="max-w-5xl mx-auto mt-20">
 
-        <h1 class="text-3xl font-serif font-bold text-[#008e4d] mb-6">
+        <h1 class="text-3xl font-serif font-bold text-[#008543] mb-6">
             Welcome, {{ $user->name }}
         </h1>
 
@@ -20,7 +20,7 @@
 
         <!-- Donations -->
         <div class="bg-white rounded-2xl p-6 shadow">
-            <h2 class="text-xl font-bold mb-4 text-[#008e4d]">Your Donations</h2>
+            <h2 class="text-xl font-bold mb-4 text-[#008543]">Your Donations</h2>
 
             <table class="w-full text-left">
                 <thead>
@@ -43,7 +43,7 @@
                                 @if($donation->excel_file)
                                     <a href="{{ asset($donation->excel_file) }}" 
                                     target="_blank" 
-                                    class="bg-[#008e4d] text-white py-2 px-4 rounded">
+                                    class="bg-[#008543] text-white py-2 px-4 rounded">
                                         View
                                     </a>
                                 @else

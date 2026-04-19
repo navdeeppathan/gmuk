@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="min-h-screen bg-[#008e4d] py-20 relative overflow-hidden">
+<section class="min-h-screen bg-[#008543] py-20 relative overflow-hidden">
 
     <!-- Background -->
     <div class="absolute inset-0 opacity-20">
@@ -25,11 +25,10 @@
         <!-- Card -->
         <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-3xl p-8 shadow-2xl">
 
-            <form action="/donate" method="POST" class="space-y-6">
+            <!-- <form action="/donate" method="POST" class="space-y-6">
                 @csrf
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <!-- Name -->
                     <div>
                         <label class="text-white block mb-2">Full Name</label>
                         <input type="text" name="name" required
@@ -37,14 +36,12 @@
                             placeholder="Your name">
                     </div>
 
-                    <!-- Email -->
                     <div>
                         <label class="text-white block mb-2">Email Address</label>
                         <input type="email" name="email" required
                             class="w-full px-4 py-3 rounded-xl bg-white/10 text-white border border-white/20 focus:border-[#D4AF37] focus:outline-none"
                             placeholder="your@email.com">
                     </div>
-                    <!-- Donation Type -->
                     <div>
                         <label class="text-white block mb-2">Donation Type</label>
                         <select name="type" class="w-full px-4 py-3 rounded-xl bg-white/10 text-white border border-white/20 focus:border-[#D4AF37] focus:outline-none">
@@ -54,10 +51,6 @@
                         </select>
                     </div>
                 </div>
-
-                
-
-                <!-- Amount -->
                 <div>
                     <label class="text-white block mb-2">Amount (£)</label>
                     <input type="number" name="amount" required
@@ -65,14 +58,12 @@
                         placeholder="Enter amount">
                 </div>
 
-                <!-- Quick Amount Buttons -->
                 <div class="flex gap-3 flex-wrap">
-                    <button type="button" onclick="setAmount(25)" class="px-4 py-2 bg-[#D4AF37] text-[#008e4d] rounded-full">£25</button>
-                    <button type="button" onclick="setAmount(50)" class="px-4 py-2 bg-[#D4AF37] text-[#008e4d] rounded-full">£50</button>
-                    <button type="button" onclick="setAmount(100)" class="px-4 py-2 bg-[#D4AF37] text-[#008e4d] rounded-full">£100</button>
+                    <button type="button" onclick="setAmount(25)" class="px-4 py-2 bg-[#D4AF37] text-[#008543] rounded-full">£25</button>
+                    <button type="button" onclick="setAmount(50)" class="px-4 py-2 bg-[#D4AF37] text-[#008543] rounded-full">£50</button>
+                    <button type="button" onclick="setAmount(100)" class="px-4 py-2 bg-[#D4AF37] text-[#008543] rounded-full">£100</button>
                 </div>
 
-                <!-- Message -->
                 <div>
                     <label class="text-white block mb-2">Message (Optional)</label>
                     <textarea name="message" rows="3"
@@ -80,13 +71,16 @@
                         placeholder="Any message..."></textarea>
                 </div>
 
-                <!-- Submit -->
                 <button type="submit"
-                    class="w-full bg-[#D4AF37] text-[#008e4d] py-4 rounded-full font-semibold hover:bg-[#F4E8C1] transition-all">
+                    class="w-full bg-[#D4AF37] text-[#008543] py-4 rounded-full font-semibold hover:bg-[#F4E8C1] transition-all">
                     Proceed to Donate
                 </button>
                 
-            </form>
+            </form> -->
+            <h1 class="text-white font-serif text-4xl md:text-5xl font-bold mt-4">Coming soon!</h1>
+             <div class="flex items-center justify-center h-64">
+            
+            </div>
 
         </div>
 
@@ -102,7 +96,7 @@
         text: '{{ session('success') }}',
         icon: 'success',
         confirmButtonColor: '#D4AF37',
-        background: '#008e4d',
+        background: '#008543',
         color: '#fff'
     });
 </script>
@@ -116,7 +110,7 @@
         text: '{{ $errors->first() }}',
         icon: 'error',
         confirmButtonColor: '#D4AF37',
-        background: '#008e4d',
+        background: '#008543',
         color: '#fff'
     });
 </script>

@@ -60,7 +60,7 @@
 
             <!-- Button -->
             <button type="submit"
-                class="w-full bg-[#D4AF37] text-[#008e4d] py-3 rounded-full font-semibold hover:bg-[#F4E8C1] transition">
+                class="w-full bg-[#D4AF37] text-[#008543] py-3 rounded-full font-semibold hover:bg-[#F4E8C1] transition">
                 Login as Admin
             </button>
 

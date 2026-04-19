@@ -13,9 +13,9 @@
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         :root {
-            --primary-gold: #D4AF37;
-            --deep-green: #008e4d;
-            --dark-green: #008e4d;
+            --primary-gold: #ffba00;
+            --deep-green: #008543;
+            --dark-green: #A62828;
             --cream: #FDF8F3;
             --light-gold: #F4E8C1;
         }
@@ -48,7 +48,7 @@
         
         /* Gold Gradient Text */
         .text-gold-gradient {
-            background: linear-gradient(135deg, #D4AF37 0%, #F4E8C1 50%, #D4AF37 100%);
+            background: #ffba00;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -56,13 +56,13 @@
         
         /* Glass Morphism */
         .glass {
-            background: rgba(255, 255, 255, 0.1);
+            background: #A62828;
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
         
         .glass-dark {
-            background: #008e4d;
+            background: #008543;
             backdrop-filter: blur(10px);
         }
         
@@ -201,7 +201,7 @@
     </a>
 
     <!-- Back to Top Button -->
-    <button id="back-to-top" class="fixed bottom-8 right-8 bg-[#D4AF37] text-[#008e4d] w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 pointer-events-none transition-all hover:scale-110 z-40">
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-[#D4AF37] text-[#008543] w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 pointer-events-none transition-all hover:scale-110 z-40">
         <i data-lucide="home" class="w-5 h-5"></i>
     </button>
 
@@ -251,7 +251,7 @@
             const currentScroll = window.pageYOffset;
 
             if (isDashboard) {
-                navbar.classList.add('bg-[#008e4d]', 'shadow-lg');
+                navbar.classList.add('bg-[#008543]', 'shadow-lg');
                 navbar.classList.remove('bg-transparent', 'glass-dark');
                 return; // ❗ scroll logic skip
             }

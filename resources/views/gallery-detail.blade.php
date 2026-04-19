@@ -8,7 +8,7 @@
 
         <!-- Back Button -->
         <div class="mb-10">
-            <a href="{{ route('gallery.index') }}" class="text-[#008e4d] font-semibold hover:text-[#D4AF37] transition">
+            <a href="{{ route('gallery.index') }}" class="text-[#008543] font-semibold hover:text-[#D4AF37] transition">
                 ← Back to Gallery
             </a>
         </div>
@@ -42,7 +42,7 @@
                 {{ ucfirst($gallery->category) }}
             </p>
 
-            <h1 class="font-serif text-4xl md:text-5xl text-[#008e4d] font-bold mb-6">
+            <h1 class="font-serif text-4xl md:text-5xl text-[#008543] font-bold mb-6">
                 {{ $gallery->title }}
             </h1>
 
@@ -56,7 +56,7 @@
 
         <!-- Related Images -->
         <div>
-            <h3 class="font-serif text-3xl text-[#008e4d] font-bold mb-10 text-center">
+            <h3 class="font-serif text-3xl text-[#008543] font-bold mb-10 text-center">
                 More from {{ ucfirst($gallery->category) }}
             </h3>
 
@@ -69,7 +69,7 @@
                         <img src="{{ asset($item->image) }}" 
                              class="w-full h-56 object-cover transform group-hover:scale-110 transition duration-500">
 
-                        <div class="absolute inset-0 bg-[#008e4d]/60 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                        <div class="absolute inset-0 bg-[#008543]/60 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                             <p class="text-white text-sm">View</p>
                         </div>
 
