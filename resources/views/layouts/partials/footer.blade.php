@@ -15,8 +15,8 @@
                         Empowering communities through education since 1968. Registered charity dedicated to transparent Zakat distribution and educational scholarships.
                     </p>
                     <div class="flex gap-4">
-                        <a href="#" class="text-white hover:text-[#D4AF37] transition-colors">Privacy Policy</a>
-                        <a href="#" class="text-white hover:text-[#D4AF37] transition-colors">Terms of Service</a>
+                        <!-- <a href="#" class="text-white hover:text-[#D4AF37] transition-colors">Privacy Policy</a>
+                        <a href="#" class="text-white hover:text-[#D4AF37] transition-colors">Terms of Service</a> -->
                         <a href="#" class="text-white hover:text-[#D4AF37] transition-colors">GDPR</a>
                     </div>
                 </div>
@@ -37,11 +37,12 @@
                     <ul class="space-y-3 text-white">
                         <li class="flex items-center gap-2">
                             <i data-lucide="mail" class="w-4 h-4"></i>
-                            info@gujratmuslimassociation.org.uk
+                            Admin@thegmauk.org , Secretary@thegmauk.org
+
                         </li>
                         <li class="flex items-center gap-2">
                             <i data-lucide="phone" class="w-4 h-4"></i>
-                            +44 (0) XXX XXX XXXX
+                            +44 (0) 7464 597722
                         </li>
                         <li class="flex items-center gap-2">
                             <i data-lucide="map-pin" class="w-4 h-4"></i>
@@ -53,7 +54,7 @@
 
             <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                 <p class="text-white text-sm">© 2026 Gujrat Muslim Association UK. All rights reserved.</p>
-                <p class="text-white text-sm">Registered Charity No: XXXXXX</p>
+                <p class="text-white text-sm">Registered Charity No: 1141663</p>
             </div>
         </div>
     </footer>

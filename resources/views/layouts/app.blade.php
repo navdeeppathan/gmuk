@@ -201,8 +201,10 @@
     </a>
 
     <!-- Back to Top Button -->
-    <button id="back-to-top" class="fixed bottom-8 right-8 bg-[#D4AF37] text-[#008543] w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 pointer-events-none transition-all hover:scale-110 z-40">
-        <i data-lucide="home" class="w-5 h-5"></i>
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-white text-[#008543] w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 pointer-events-none transition-all hover:scale-110 z-40">
+        <!-- <i data-lucide="home" class="w-5 h-5"></i> -->
+         <img src="{{asset('gmuklogo.jpeg')}}" alt="" class="w-full h-16 object-contain rounded-full border-2 border-[#FFFFFF]" >
+         <!-- Replace with your home icon -->
     </button>
 
     <script>

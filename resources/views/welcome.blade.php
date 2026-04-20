@@ -370,7 +370,7 @@
     </script>
 
     <!-- Impact Section -->
-    <section id="impact" class="py-24 bg-[#FDF8F3] relative overflow-hidden">
+    <section id="impact" class="py-24 bg-white relative overflow-hidden">
         <div class="absolute inset-0 islamic-pattern opacity-50"></div>
         
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -504,30 +504,38 @@
             <!-- Leadership Team -->
             <div class="mt-24">
                 <h3 class="font-serif text-3xl text-center text-[#008543] font-bold mb-12 fade-up">Leadership Team</h3>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div class="text-center fade-up group cursor-pointer">
                         <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-[#008543] to-[#008543] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                            <i data-lucide="user" class="w-12 h-12 text-[#ffba00]"></i>
+                            <img src="Marghub.jpeg" alt="Marghub Ahmed Shaikh" class="w-full h-full object-cover rounded-full">
                         </div>
-                        <h4 class="font-bold text-[#008543] text-lg">Trustee Name</h4>
-                        <p class="text-[#ffba00] text-sm">Chairman</p>
+                        <h4 class="font-bold text-[#008543] text-lg">Marghub Ahmed Shaikh</h4>
+                        <p class="text-[#ffba00] text-sm">Vice President</p>
                         <p class="text-gray-500 text-sm mt-2">Leading educational initiatives and community outreach programs.</p>
                     </div>
                     <div class="text-center fade-up group cursor-pointer" style="transition-delay: 100ms;">
                         <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-[#008543] to-[#008543] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                            <i data-lucide="user" class="w-12 h-12 text-[#ffba00]"></i>
+                            <img src="Pathan.jpeg" alt="Dr T Pathan" class="w-full h-full object-cover rounded-full">
                         </div>
-                        <h4 class="font-bold text-[#008543] text-lg">Trustee Name</h4>
-                        <p class="text-[#ffba00] text-sm">Secretary</p>
+                        <h4 class="font-bold text-[#008543] text-lg">Dr T Pathan</h4>
+                        <p class="text-[#ffba00] text-sm"> General Secretary</p>
                         <p class="text-gray-500 text-sm mt-2">Managing operations and donor relations with transparency.</p>
                     </div>
                     <div class="text-center fade-up group cursor-pointer" style="transition-delay: 200ms;">
                         <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-[#008543] to-[#008543] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                            <i data-lucide="user" class="w-12 h-12 text-[#ffba00]"></i>
+                            <img src="Jameel.jpeg" alt="Jameel Malik" class="w-full h-full object-cover rounded-full">
                         </div>
-                        <h4 class="font-bold text-[#008543] text-lg">Trustee Name</h4>
+                        <h4 class="font-bold text-[#008543] text-lg">Jameel Malik</h4>
                         <p class="text-[#ffba00] text-sm">Treasurer</p>
                         <p class="text-gray-500 text-sm mt-2">Ensuring financial accountability and Zakat distribution.</p>
+                    </div>
+                    <div class="text-center fade-up group cursor-pointer" style="transition-delay: 300ms;">
+                        <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-[#008543] to-[#008543] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                            <img src="Mukhtar.jpeg" alt="Mukhtar Shaikh" class="w-full h-full object-cover rounded-full">
+                        </div>
+                        <h4 class="font-bold text-[#008543] text-lg">Mukhtar Shaikh</h4>
+                        <p class="text-[#ffba00] text-sm">Asst Secretary</p>
+                        <p class="text-gray-500 text-sm mt-2">Coordinating scholarship programs and student support services.</p>
                     </div>
                 </div>
             </div>
@@ -535,7 +543,7 @@
     </section>
 
     <!-- Collaboration Section -->
-    <section id="collaboration" class="py-24 bg-[#FDF8F3] relative">
+    <section id="collaboration" class="py-24 bg-white relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-up">
                 <p class="text-[#008543] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Partnership</p>
@@ -848,7 +856,7 @@
     </section>
 
     <!-- Gallery Section -->
-    <section class="py-24 bg-[#FDF8F3]">
+    <section class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-up">
                 <p class="text-[#008543] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Gallery</p>
@@ -1016,17 +1024,17 @@
                     <h2 class="font-serif text-4xl md:text-5xl text-[#008543] font-bold mb-6">Contact Us</h2>
                     
                     <p class="text-gray-600 mb-8 leading-relaxed">
-                        <ol class="list-decimal pl-5 space-y-2">
+                        <ul class="list-disc pl-5 space-y-2">
                             <li>Have any questions about our Charity, our programmes, donations or simply curious?</li>
                             <li>Reach out to us through any of the channels here.</li>
                             <li>But most importantly, please remember us in your duas!</li>
-                        </ol>
+                        </ul>
                     </p>
                     <br>
 
                     <div class="space-y-6">
                         <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 bg-[#FDF8F3] rounded-full flex items-center justify-center flex-shrink-0">
+                            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center flex-shrink-0">
                                 <i data-lucide="mail" class="w-5 h-5 text-[#008543]"></i>
                             </div>
                             <div>
@@ -1036,7 +1044,7 @@
                         </div>
 
                         <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 bg-[#FDF8F3] rounded-full flex items-center justify-center flex-shrink-0">
+                            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center flex-shrink-0">
                                 <i data-lucide="phone" class="w-5 h-5 text-[#008543]"></i>
                             </div>
                             <div>
@@ -1046,7 +1054,7 @@
                         </div>
 
                         <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 bg-[#FDF8F3] rounded-full flex items-center justify-center flex-shrink-0">
+                            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center flex-shrink-0">
                                 <i data-lucide="map-pin" class="w-5 h-5 text-[#008543]"></i>
                             </div>
                             <div>
@@ -1081,7 +1089,7 @@
                     </div>
                 </div>
 
-                <div class="fade-up bg-[#FDF8F3] rounded-3xl p-8 shadow-xl">
+                <div class="fade-up bg-white rounded-3xl p-8 shadow-xl">
                     {{-- <form class="space-y-6" onsubmit="event.preventDefault(); alert('Thank you for your message. We will get back to you soon.');"> --}}
                         <form action="{{ route('contact.store') }}" method="POST" class="space-y-6">
                             @csrf
