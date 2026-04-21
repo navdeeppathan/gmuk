@@ -49,12 +49,14 @@
         
         /* Gold Gradient Text */
         .text-gold-gradient {
-            background: linear-gradient(135deg, var(--gold-d), var(--gold)) !important;
+            background: linear-gradient(358deg, var(--light-gold), var(--gold), var(--gold-d));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            
         }
         
+        /* Glass Morphism */
         .glass {
             background: #A62828;
             backdrop-filter: blur(10px);
