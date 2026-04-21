@@ -18,6 +18,7 @@
             --dark-green: #A62828;
             --cream: #FDF8F3;
             --light-gold: #F4E8C1;
+            --gold:#C9A84C;--gold-l:#E8C870;--gold-d:#8B6914;
         }
         
         body {
@@ -48,13 +49,12 @@
         
         /* Gold Gradient Text */
         .text-gold-gradient {
-            background: #ffba00;
+            background: linear-gradient(135deg, var(--gold-d), var(--gold)) !important;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
         
-        /* Glass Morphism */
         .glass {
             background: #A62828;
             backdrop-filter: blur(10px);
