@@ -178,6 +178,27 @@
             transition: opacity 0.3s ease;
         }
         .navbar-scrolled .nav-gold-line { opacity: 1; }
+
+        /* REPLACE in your <style> block */
+        .section-divider {
+            height: 4px;
+            background: linear-gradient(to right, #A62828 50%, #008543 50%);  /* maroon left, green right */
+            margin: 0;
+        }
+
+        /* Double line divider — maroon top, green bottom */
+        .double-divider {
+            width: 100%;
+        }
+        .double-divider .bar-maroon {
+            height: 2px;
+            background: #A62828;
+        }
+        .double-divider .bar-green {
+            height: 2px;
+            background: #008543;
+            margin-top: 2px;
+        }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -194,7 +215,6 @@
     </div>
 
     @include('layouts.partials.header')
-
     <main class="">
         @yield('content')
     </main>

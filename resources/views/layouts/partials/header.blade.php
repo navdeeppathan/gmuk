@@ -84,7 +84,11 @@
         </div>
     </div>
 </nav>
-
+{{-- Double-line divider under navbar --}}
+<div class="double-divider w-full fixed top-20 left-0 z-40">
+    <div class="bar-maroon"></div>
+    <div class="bar-green"></div>
+</div>
 <script>
     const profileBtn  = document.getElementById('profileBtn');
     const profileMenu = document.getElementById('profileMenu');
