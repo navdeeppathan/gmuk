@@ -144,63 +144,62 @@
 <!-- =============================================
      HERO SECTION — Green + Maroon + Gold + Black
 ============================================= -->
-<section id="hero" class="hero" style="background: linear-gradient(135deg, #FFF5F8 0%, #FDF8F3 100%);">
+<section id="hero" class="hero">
     <div class="hero-container">
 
-        <!-- LEFT CONTENT — GREEN accents with black text -->
+        <!-- LEFT CONTENT -->
         <div class="hero-left">
             <div class="fade-up">
-                <!-- "Since 1968" tag — GREEN -->
-                <p class="text-[#008543] text-sm font-semibold tracking-[0.3em] uppercase mb-5">
+                <!-- "Since 1968" tag -->
+                <p class="gold-gradient-text text-sm font-semibold tracking-[0.3em] uppercase mb-5">
                     Since 1968
                 </p>
 
-                <!-- Main heading — BLACK + GREEN -->
-                <h1 class="font-serif font-bold italic" style="color: #008543; font-size: 48px; line-height: 1.1;">
-                    Empowering Communities
-                    <br>
-                    <span style="color: #A62828;">Through Education</span>
+                <!-- Main heading -->
+                <h1 class="font-serif font-bold gold-gradient-text italic">
+                    Empowering Communities<br>
+                    <span class="gold-gradient-text italic">Through Education</span>
                 </h1>
 
-                <!-- Subtext — BLACK/dark for readability -->
-                <p class="text-[#C9A84C] italic text-lg max-w-xl mb-10 font-light leading-relaxed mt-5">
+                <!-- Subtext -->
+                <p class="gold-gradient-text italic text-lg max-w-xl mb-10 font-light leading-relaxed">
                     Transforming 500+ Zakat Acceptors into Zakat Givers every year. Building
                     global trust and credibility through transparent charity and educational excellence.
                 </p>
             </div>
 
-            <!-- Stats — mix of green & gold borders -->
+            <!-- Stats -->
             <div class="fade-up grid grid-cols-3 gap-4 max-w-xl mb-10">
-                <div class="rounded-2xl p-5 border-2 border-[#008543] text-center bg-white shadow-md">
-                    <div class="text-3xl font-bold text-[#008543]">500+</div>
-                    <p class="text-[#C9A84C] text-xs mt-1 leading-snug">Students Supported Yearly</p>
+                <div class="glass rounded-2xl p-5 border border-[#C9A84C]/20 text-center">
+                    <div class="text-3xl font-bold gold-gradient-text" data-target="500">500+</div>
+                    <p class="text-white/70 text-xs mt-1 leading-snug">Students Supported Yearly</p>
                 </div>
-                <div class="rounded-2xl p-5 border-2 border-[#C9A84C] text-center bg-white shadow-md">
+                <div class="glass rounded-2xl p-5 border border-[#C9A84C]/20 text-center">
                     <div class="text-3xl font-bold gold-gradient-text counter-value" data-target="1968">0</div>
-                    <p class="text-[#C9A84C] text-xs mt-1 leading-snug">Serving Since</p>
+                    <p class="text-white/70 text-xs mt-1 leading-snug">Serving Since</p>
                 </div>
-                <div class="rounded-2xl p-5 border-2 border-[#A62828] text-center bg-white shadow-md">
-                    <div class="text-3xl font-bold text-[#A62828]">∞</div>
-                    <p class="text-[#C9A84C] text-xs mt-1 leading-snug">Lives Transformed</p>
+                <div class="glass rounded-2xl p-5 border border-[#C9A84C]/20 text-center">
+                    <div class="text-3xl font-bold gold-gradient-text">∞</div>
+                    <p class="text-white/70 text-xs mt-1 leading-snug">Lives Transformed</p>
                 </div>
             </div>
 
-            <!-- CTA Buttons — one gold, one green -->
+            <!-- CTA Buttons -->
             <div class="fade-up flex flex-wrap gap-4">
                 <a href="#donate"
-                   class="btn-premium text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl transition-all transform hover:-translate-y-1"
+                   class="btn-premium text-[#fff] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl transition-all transform hover:-translate-y-1"
                    style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
                     Give Zakat
                 </a>
                 <a href="#impact"
-                   class="btn-premium text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl transition-all transform hover:-translate-y-1"
-                   style="background: #008543;">
+                   class="btn-premium text-[#fff] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl transition-all transform hover:-translate-y-1"
+                   style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);"> 
                     Support a Student
                 </a>
             </div>
         </div>
 
-        <!-- RIGHT — UPCOMING EVENTS (MAROON theme) -->
+        <!-- RIGHT — UPCOMING EVENTS -->
         <?php
             $events = \App\Models\UpcomingEvent::where('status', 1)
                 ->orderBy('event_date', 'asc')
@@ -208,20 +207,20 @@
                 ->get();
         ?>
         <div class="flex flex-col gap-5">
-            <h2 class="text-[#A62828] font-bold text-2xl font-serif">
-                Upcoming Events
+            <h2 class="text-white font-bold text-2xl font-serif">
+                <span class="gold-gradient-text">Upcoming Events</span>
             </h2>
 
             @forelse($events as $event)
-                <div class="rounded-2xl p-5 bg-[#A62828] border border-[#C9A84C]/40 shadow-lg hover:shadow-2xl transition-all">
+                <div class="glass rounded-2xl p-5 border border-[#C9A84C]/20 backdrop-blur-lg hover:border-[#C9A84C]/60 transition-all">
                     <div class="flex gap-4 items-start">
-                        <!-- Date badge — gold on maroon -->
+                        <!-- Date badge -->
                         <div class="flex-shrink-0 rounded-xl overflow-hidden text-center"
                              style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914); min-width: 52px;">
-                            <div class="text-[#000] font-bold text-xl leading-none pt-2">
+                            <div class="text-[#fff] font-bold text-xl leading-none pt-2">
                                 {{ \Carbon\Carbon::parse($event->event_date)->format('d') }}
                             </div>
-                            <div class="text-[#000] text-xs font-semibold uppercase pb-2">
+                            <div class="text-[#fff] text-xs font-semibold uppercase pb-2">
                                 {{ \Carbon\Carbon::parse($event->event_date)->format('M') }}
                             </div>
                         </div>
@@ -230,7 +229,7 @@
                             <h3 class="text-white font-semibold text-base leading-snug">
                                 {{ $event->title }}
                             </h3>
-                            <p class="text-white/70 text-sm mt-1">
+                            <p class="text-white/60 text-sm mt-1">
                                 @if($event->event_time)
                                     {{ date('h:i A', strtotime($event->event_time)) }} &nbsp;·&nbsp;
                                 @endif
@@ -240,9 +239,9 @@
                     </div>
                 </div>
             @empty
-                <div class="rounded-2xl p-6 bg-[#A62828] border border-[#C9A84C]/40 text-center">
-                    <i data-lucide="calendar-x" class="w-10 h-10 mx-auto mb-3 text-[#C9A84C]"></i>
-                    <p class="text-white/80 text-sm">No upcoming events at the moment.</p>
+                <div class="glass rounded-2xl p-6 border border-[#C9A84C]/20 text-center">
+                    <i data-lucide="calendar-x" class="w-10 h-10 mx-auto mb-3 text-[#008543]"></i>
+                    <p class="text-white/70 text-sm">No upcoming events at the moment.</p>
                 </div>
             @endforelse
         </div>
