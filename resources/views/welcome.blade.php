@@ -244,7 +244,10 @@
         </div>
     </div>
 </section>
-<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
+<div class="w-full">
+    <div class="h-[2px] bg-[#008543]"></div>
+    <div class="h-[2px] bg-[#A62828] mt-[2px]"></div>
+</div>
 
 <!-- =============================================
      IMPACT SECTION
@@ -325,7 +328,10 @@
     </div>
 </section>
 
-<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
+<div class="w-full">
+    <div class="h-[2px] bg-[#008543]"></div>
+    <div class="h-[2px] bg-[#A62828] mt-[2px]"></div>
+</div>
 <!-- =============================================
      ABOUT SECTION
 ============================================= -->
@@ -453,7 +459,10 @@
     </div>
 </section>
 
-<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
+<div class="w-full">
+    <div class="h-[2px] bg-[#008543]"></div>
+    <div class="h-[2px] bg-[#A62828] mt-[2px]"></div>
+</div>
 <!-- =============================================
      COLLABORATION SECTION
 ============================================= -->
@@ -529,7 +538,10 @@
     </div>
 </section>
 
-<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
+<div class="w-full">
+    <div class="h-[2px] bg-[#008543]"></div>
+    <div class="h-[2px] bg-[#A62828] mt-[2px]"></div>
+</div>
 <!-- =============================================
      PROJECTS SECTION
 ============================================= -->
@@ -616,7 +628,10 @@
     </div>
 </section>
 
-<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
+<div class="w-full">
+    <div class="h-[2px] bg-[#008543]"></div>
+    <div class="h-[2px] bg-[#A62828] mt-[2px]"></div>
+</div>
 <!-- =============================================
      DONATION SECTION
 ============================================= -->
@@ -688,7 +703,11 @@
 </section>
 
 
-<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
+<div class="w-full">
+    <div class="h-[2px] bg-[#008543]"></div>
+    <div class="h-[2px] bg-[#A62828] mt-[2px]"></div>
+</div>
+
 <!-- =============================================
      GALLERY SECTION
 ============================================= -->
@@ -723,7 +742,10 @@
 </section>
 
 
-<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
+<div class="w-full">
+    <div class="h-[2px] bg-[#008543]"></div>
+    <div class="h-[2px] bg-[#A62828] mt-[2px]"></div>
+</div>
 <!-- =============================================
      TESTIMONIALS SECTION
 ============================================= -->
@@ -775,7 +797,10 @@
     </div>
 </section>
 
-<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
+<div class="w-full">
+    <div class="h-[2px] bg-[#008543]"></div>
+    <div class="h-[2px] bg-[#A62828] mt-[2px]"></div>
+</div>
 <!-- =============================================
      CONTACT SECTION
 ============================================= -->
@@ -891,7 +916,10 @@
     </div>
 </section>
 
-<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
+<div class="w-full">
+    <div class="h-[2px] bg-[#008543]"></div>
+    <div class="h-[2px] bg-[#A62828] mt-[2px]"></div>
+</div>
 <!-- SweetAlert -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
