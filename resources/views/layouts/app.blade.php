@@ -12,6 +12,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
+        .section-divider {
+            height: 2px;
+            background: linear-gradient(to right, #008543 50%, #A62828 50%);
+            margin: 0;
+        }
         :root {
             --primary-gold: #C9A84C;
             --deep-green: #FFF5F8 !important;

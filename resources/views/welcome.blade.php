@@ -214,10 +214,10 @@
                         <!-- Date badge -->
                         <div class="flex-shrink-0 rounded-xl overflow-hidden text-center"
                              style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914); min-width: 52px;">
-                            <div class="text-[#C9A84C] font-bold text-xl leading-none pt-2">
+                            <div class="text-[#fff] font-bold text-xl leading-none pt-2">
                                 {{ \Carbon\Carbon::parse($event->event_date)->format('d') }}
                             </div>
-                            <div class="text-[#C9A84C] text-xs font-semibold uppercase pb-2">
+                            <div class="text-[#fff] text-xs font-semibold uppercase pb-2">
                                 {{ \Carbon\Carbon::parse($event->event_date)->format('M') }}
                             </div>
                         </div>
@@ -244,6 +244,7 @@
         </div>
     </div>
 </section>
+<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
 
 <!-- =============================================
      IMPACT SECTION
@@ -324,6 +325,7 @@
     </div>
 </section>
 
+<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
 <!-- =============================================
      ABOUT SECTION
 ============================================= -->
@@ -388,51 +390,54 @@
         <!-- Leadership Team -->
         <div class="mt-24">
             <h3 class="font-serif text-3xl text-center text-[#C9A84C] font-bold mb-12 fade-up">Leadership Team</h3>
-            <div class="grid grid-cols-1 md:grid-cols-6 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 @foreach([
-                        [
-                            'img' => 'president.jpg',
-                            'name' => 'Shoayb Pathan',
-                            'role' => 'President',
-                            'desc' => 'Chartered Accountant',
-                            'since' => '2019 - Present'
-                        ],
-                        [
-                            'img' => 'Marghub.jpeg',
-                            'name' => 'Marghub Shaikh',
-                            'role' => 'Vice President',
-                            'desc' => 'Logistics Manager',
-                            'since' => '2010 - Present'
-                        ],
-                        [
-                            'img' => 'Pathan.jpeg',
-                            'name' => 'Dr Tanveerkhan Pathan',
-                            'role' => 'General Secretary',
-                            'desc' => 'Research Scientist',
-                            'since' => '2019 - Present'
-                        ],
-                        [
-                            'img' => 'Mukhtar.jpeg',
-                            'name' => 'Muhamad Mukhtar Shaikh',
-                            'role' => 'Assistant Secretary',
-                            'desc' => 'Civil Servant',
-                            'since' => '2010 - Present'
-                        ],
-                        [
-                            'img' => 'Jameel.jpeg',
-                            'name' => 'Jameel Ahmed Malik',
-                            'role' => 'Treasurer',
-                            'desc' => 'Project Management',
-                            'since' => '2024 - Present'
-                        ],
-                        [
-                            'img' => 'Mukhtasr.jpeg',
-                            'name' => 'Abu Baker Malek',
-                            'role' => 'Assistant Treasurer',
-                            'desc' => 'Civil Servant',
-                            'since' => '2024 - Present'
-                        ],
-                    ] as $member)
+                    // ROW 1
+                    [
+                        'img' => 'president.jpg',
+                        'name' => 'Shoayb Pathan',
+                        'role' => 'President',
+                        'desc' => 'Chartered Accountant',
+                        'since' => '2019 - Present'
+                    ],
+                    [
+                        'img' => 'Pathan.jpeg',
+                        'name' => 'Dr Tanveerkhan Pathan',
+                        'role' => 'General Secretary',
+                        'desc' => 'Research Scientist',
+                        'since' => '2019 - Present'
+                    ],
+                    [
+                        'img' => 'Jameel.jpeg',
+                        'name' => 'Jameel Ahmed Malik',
+                        'role' => 'Treasurer',
+                        'desc' => 'Project Management',
+                        'since' => '2024 - Present'
+                    ],
+
+                    // ROW 2
+                    [
+                        'img' => 'Marghub.jpeg',
+                        'name' => 'Marghub Shaikh',
+                        'role' => 'Vice President',
+                        'desc' => 'Logistics Manager',
+                        'since' => '2010 - Present'
+                    ],
+                    [
+                        'img' => 'Mukhtar.jpeg',
+                        'name' => 'Muhamad Mukhtar Shaikh',
+                        'role' => 'Assistant Secretary',
+                        'desc' => 'Civil Servant',
+                        'since' => '2010 - Present'
+                    ],
+                    [
+                        'img' => 'Mukhtasr.jpeg',
+                        'name' => 'Abu Baker Malek',
+                        'role' => 'Assistant Treasurer',
+                        'desc' => 'Civil Servant',
+                        'since' => '2024 - Present'
+                    ],
+                ] as $member)
                 <div class="text-center fade-up group cursor-pointer">
                     <div class="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4 group-hover:scale-110 transition-transform ring-2 ring-[#C9A84C]/40">
                         <img src="{{ $member['img'] }}" alt="{{ $member['name'] }}" class="w-full h-full object-cover">
@@ -448,6 +453,7 @@
     </div>
 </section>
 
+<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
 <!-- =============================================
      COLLABORATION SECTION
 ============================================= -->
@@ -523,6 +529,7 @@
     </div>
 </section>
 
+<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
 <!-- =============================================
      PROJECTS SECTION
 ============================================= -->
@@ -609,6 +616,7 @@
     </div>
 </section>
 
+<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
 <!-- =============================================
      DONATION SECTION
 ============================================= -->
@@ -679,6 +687,8 @@
     </div>
 </section>
 
+
+<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
 <!-- =============================================
      GALLERY SECTION
 ============================================= -->
@@ -712,6 +722,8 @@
     </div>
 </section>
 
+
+<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
 <!-- =============================================
      TESTIMONIALS SECTION
 ============================================= -->
@@ -763,6 +775,7 @@
     </div>
 </section>
 
+<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
 <!-- =============================================
      CONTACT SECTION
 ============================================= -->
@@ -878,6 +891,7 @@
     </div>
 </section>
 
+<div class="h-[2px] w-full bg-[linear-gradient(to_right,#008543_50%,#A62828_50%)]"></div>
 <!-- SweetAlert -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
