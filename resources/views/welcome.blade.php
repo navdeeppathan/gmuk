@@ -389,11 +389,12 @@
             <h3 class="font-serif text-3xl text-center text-[#008543] font-bold mb-12 fade-up">Leadership Team</h3>
             <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
                 @foreach([
-                    ['img' => 'president.jpg',  'name' => 'Shoayb Pathan',         'role' => 'President',         'desc' => 'Guiding and inspiring the organization. Oversees all operations and strategic direction.'],
-                    ['img' => 'Marghub.jpeg',   'name' => 'Marghub Ahmed Shaikh',  'role' => 'Vice President',    'desc' => 'Leading educational initiatives and community outreach programs.'],
-                    ['img' => 'Pathan.jpeg',    'name' => 'Dr T Pathan',           'role' => 'General Secretary', 'desc' => 'Managing operations and donor relations with transparency.'],
-                    ['img' => 'Jameel.jpeg',    'name' => 'Jameel Malik',          'role' => 'Treasurer',         'desc' => 'Ensuring financial accountability and Zakat distribution.'],
-                    ['img' => 'Mukhtar.jpeg',   'name' => 'Mukhtar Shaikh',        'role' => 'Asst Secretary',    'desc' => 'Coordinating scholarship programs and student support services.'],
+                    ['img' => 'president.jpg',  'name' => 'Shoayb Pathan',         'role' => 'President',         'desc' => 'Chartered Accountant	2019-Present'],
+                    ['img' => 'Marghub.jpeg',   'name' => 'Marghub Shaikh',         'role' => 'Vice President',    'desc' => 'Vice President 2010-Present'],
+                    ['img' => 'Pathan.jpeg',    'name' => 'Dr Tanveerkhan Pathan',  'role' => 'General Secretary', 'desc' => 'Research Scientist 2019-Present'],
+                    ['img' => 'Jameel.jpeg',    'name' => 'Jameel Ahmed Malik',          'role' => 'Treasurer',         'desc' => 'Project Management 2015-Present'],
+                    ['img' => 'Mukhtar.jpeg',   'name' => 'Muhamad Mukhtar Shaikh',        'role' => 'Assistant Secretary',    'desc' => ' Civil Servant	2010-Present'],
+                    ['img' => 'Mukhtasr.jpeg',   'name' => 'Abu Baker Malek',        'role' => 'Assistant Treasurer',    'desc' => 'Civil Servant 2024-Present'],
                 ] as $member)
                 <div class="text-center fade-up group cursor-pointer">
                     <div class="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4 group-hover:scale-110 transition-transform ring-2 ring-[#C9A84C]/40">
