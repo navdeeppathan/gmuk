@@ -72,7 +72,7 @@
         }
 
         .glass-dark {
-            background: #008543;
+            background: #FFF5F8;
             backdrop-filter: blur(10px);
         }
 
@@ -249,7 +249,7 @@
             const currentScroll = window.pageYOffset;
 
             if (isDashboard) {
-                navbar.classList.add('bg-[#008543]', 'shadow-lg');
+                navbar.classList.add('bg-[#FFF5F8]', 'shadow-lg');
                 navbar.classList.remove('bg-transparent', 'glass-dark');
                 return;
             }
