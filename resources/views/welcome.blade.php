@@ -357,7 +357,7 @@
 
                 <div class="mt-10 flex gap-4">
                     <a href="#contact"
-                       class="btn-premium bg-[#C9A84C] text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-colors">
+                       class="btn-premium bg-[#FFF5F8] text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-colors">
                         Contact Us
                     </a>
                     <a href="#projects"
@@ -745,12 +745,12 @@
                 ['initial'=>'A','name'=>'Ahmed',   'role'=>'Engineer',           'quote'=>'Thanks to the support, I was able to continue my engineering studies without financial stress. Forever grateful.'],
                 ['initial'=>'S','name'=>'Sana',    'role'=>'Teacher',            'quote'=>'This organization didn\'t just support my education — it changed my entire future and my family\'s life.'],
             ] as $t)
-            <div class="fade-up bg-white/5 backdrop-blur-lg rounded-3xl p-8 border border-[#C9A84C]/20 hover:border-[#C9A84C] transition-all group">
+            <div class="fade-up bg-[#FFF5F8] backdrop-blur-lg rounded-3xl p-8 border border-[#C9A84C]/20 hover:border-[#C9A84C] transition-all group">
                 <div class="w-12 h-12 rounded-full flex items-center justify-center mb-6"
                      style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
                     <i data-lucide="quote" class="w-5 h-5 text-[#C9A84C]"></i>
                 </div>
-                <p class="text-[#C9A84C] text-sm leading-relaxed mb-6">{{ $t['quote'] }}</p>
+                <p class="text-[#fff] text-sm leading-relaxed mb-6">{{ $t['quote'] }}</p>
                 <div class="flex items-center gap-4">
                     <div class="w-12 h-12 rounded-full flex items-center justify-center"
                          style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
@@ -767,7 +767,7 @@
 
         <div class="text-center mt-16 fade-up">
             <a href="#donate"
-               class="btn-premium text-[#C9A84C] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl transition-all transform hover:-translate-y-1"
+               class="btn-premium text-[#fff] px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl transition-all transform hover:-translate-y-1"
                style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
                 Be Part of These Stories
             </a>
@@ -779,7 +779,7 @@
 <!-- =============================================
      CONTACT SECTION
 ============================================= -->
-<section id="contact" class="py-24 bg-[#FFF5F8">
+<section id="contact" class="py-24 bg-[#FFF5F8]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
 
