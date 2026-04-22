@@ -14,7 +14,7 @@
     <style>
         :root {
             --primary-gold: #C9A84C;
-            --deep-green: #008543;
+            --deep-green: #FFF5F8 !important;
             --dark-green: #A62828;
             --cream: #FDF8F3;
             --light-gold: #F4E8C1;
