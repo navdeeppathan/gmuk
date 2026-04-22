@@ -19,7 +19,8 @@
         }
         :root {
             --primary-gold: #C9A84C;
-            --deep-green: #FFF5F8 !important;
+            --deep-green: #008543;   /* FIXED */
+             --light-pink: #FFF5F8;
             --dark-green: #A62828;
             --cream: #FDF8F3;
             --light-gold: #F4E8C1;

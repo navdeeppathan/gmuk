@@ -7,7 +7,7 @@
        HERO SECTION
     ============================================= */
     .hero {
-        background: var(--deep-green);
+        background: var(--light-pink);
         padding: 120px 120px 80px;
         overflow: hidden;
         position: relative;
@@ -237,7 +237,7 @@
                 </div>
             @empty
                 <div class="glass rounded-2xl p-6 border border-[#C9A84C]/20 text-center">
-                    <i data-lucide="calendar-x" class="w-10 h-10 mx-auto mb-3 text-[#C9A84C]"></i>
+                    <i data-lucide="calendar-x" class="w-10 h-10 mx-auto mb-3 text-[#008543]"></i>
                     <p class="text-white/70 text-sm">No upcoming events at the moment.</p>
                 </div>
             @endforelse
@@ -257,8 +257,8 @@
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="text-center mb-16 fade-up">
-            <p class="text-[#c9a84c] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Our Impact</p>
-            <h2 class="font-serif text-4xl md:text-6xl text-[#c9a84c] font-bold mb-6">Transforming Lives</h2>
+            <p class="text-[#008543] font-semibold">Our Impact</p>
+            <h2 class="font-serif text-4xl md:text-6xl text-[#008543] font-bold mb-6">Transforming Lives</h2>
             <p class="text-gray-600 max-w-2xl mx-auto text-lg">
                 For over five decades, we have been the bridge between generous donors and deserving students,
                 creating a cycle of empowerment that spans generations.
@@ -269,40 +269,40 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div class="impact-card bg-white rounded-2xl overflow-hidden shadow-lg fade-up">
                 <div class="h-48 bg-gradient-to-br from-[#c9a84c] via-[#00994d] to-[#004d26] flex items-center justify-center">
-                    <i data-lucide="graduation-cap" class="w-16 h-16 text-[#C9A84C]"></i>
+                    <i data-lucide="graduation-cap" class="w-16 h-16 text-[#008543]"></i>
                 </div>
                 <div class="p-6">
-                    <h3 class="font-serif text-2xl font-bold text-[#c9a84c] mb-3">Education</h3>
+                    <h3 class="text-[#008543] font-bold">Education</h3>
                     <p class="text-gray-600 text-sm leading-relaxed">Annual scholarships to over 500 students, enabling them to pursue engineering, medicine, and teaching careers.</p>
                 </div>
             </div>
 
             <div class="impact-card bg-white rounded-2xl overflow-hidden shadow-lg fade-up" style="transition-delay: 100ms;">
                 <div class="h-48 bg-gradient-to-br from-[#c9a84c] to-[#006633] flex items-center justify-center">
-                    <i data-lucide="heart-handshake" class="w-16 h-16 text-[#C9A84C]"></i>
+                    <i data-lucide="heart-handshake" class="w-16 h-16 text-[#008543]"></i>
                 </div>
                 <div class="p-6">
-                    <h3 class="font-serif text-2xl font-bold text-[#c9a84c] mb-3">Welfare</h3>
+                    <h3 class="font-serif text-2xl font-bold text-[#008543] mb-3">Welfare</h3>
                     <p class="text-gray-600 text-sm leading-relaxed">Supporting underprivileged families with food distribution during crises and community welfare initiatives.</p>
                 </div>
             </div>
 
             <div class="impact-card bg-white rounded-2xl overflow-hidden shadow-lg fade-up" style="transition-delay: 200ms;">
                 <div class="h-48 bg-gradient-to-br from-[#c9a84c] to-[#006633] flex items-center justify-center">
-                    <i data-lucide="users" class="w-16 h-16 text-[#C9A84C]"></i>
+                    <i data-lucide="users" class="w-16 h-16 text-[#008543]"></i>
                 </div>
                 <div class="p-6">
-                    <h3 class="font-serif text-2xl font-bold text-[#c9a84c] mb-3">Community</h3>
+                    <h3 class="font-serif text-2xl font-bold text-[#008543] mb-3">Community</h3>
                     <p class="text-gray-600 text-sm leading-relaxed">Building stronger communities through structured Zakat and Sadaqah systems that ensure transparency.</p>
                 </div>
             </div>
 
             <div class="impact-card bg-white rounded-2xl overflow-hidden shadow-lg fade-up" style="transition-delay: 300ms;">
                 <div class="h-48 bg-gradient-to-br from-[#c9a84c] to-[#006633] flex items-center justify-center">
-                    <i data-lucide="trending-up" class="w-16 h-16 text-[#C9A84C]"></i>
+                    <i data-lucide="trending-up" class="w-16 h-16 text-[#008543]"></i>
                 </div>
                 <div class="p-6">
-                        <h3 class="font-serif text-2xl font-bold text-[#c9a84c] mb-3">Growth</h3>
+                        <h3 class="font-serif text-2xl font-bold text-[#008543] mb-3">Growth</h3>
                     <p class="text-gray-600 text-sm leading-relaxed">Transforming Zakat acceptors into givers, creating a sustainable cycle of giving and empowerment.</p>
                 </div>
             </div>
@@ -314,10 +314,10 @@
             <div class="relative z-10 flex flex-col md:flex-row items-center gap-8">
                 <div class="w-24 h-24 rounded-full flex items-center justify-center flex-shrink-0"
                      style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
-                    <span class="text-3xl font-serif text-[#C9A84C] font-bold">A</span>
+                    <span class="text-3xl font-serif text-[#008543] font-bold">A</span>
                 </div>
                 <div class="text-center md:text-left">
-                    <p class="text-[#C9A84C] text-xl md:text-2xl font-serif italic leading-relaxed mb-4">
+                    <p class="text-[#008543] text-xl md:text-2xl font-serif italic leading-relaxed mb-4">
                         "The scholarship from GMUK changed my life and allowed me to pursue my engineering degree.
                         Today, I am able to support my family and give back to the community."
                     </p>
@@ -339,8 +339,8 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div class="fade-up">
-                <p class="text-[#c9a84c] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">About Us</p>
-                <h2 class="font-serif text-4xl md:text-5xl text-[#c9a84c] font-bold mb-6 leading-tight">
+                <p class="text-[#008543] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">About Us</p>
+                <h2 class="font-serif text-4xl md:text-5xl text-[#008543] font-bold mb-6 leading-tight">
                     A Legacy of<br>
                     <span class="gold-gradient-text">Service Since 1968</span>
                 </h2>
@@ -352,11 +352,11 @@
 
                 <div class="mt-8 grid grid-cols-2 gap-6">
                     <div class="border-l-4 pl-4" style="border-color: #C9A84C;">
-                        <h4 class="font-bold text-[#c9a84c] text-lg">Mission</h4>
+                        <h4 class="font-bold text-[#008543] text-lg">Mission</h4>
                         <p class="text-sm text-gray-600 mt-1">Empower through education</p>
                     </div>
                     <div class="border-l-4 pl-4" style="border-color: #C9A84C;">
-                        <h4 class="font-bold text-[#c9a84c] text-lg">Vision</h4>
+                        <h4 class="font-bold text-[#008543] text-lg">Vision</h4>
                         <p class="text-sm text-gray-600 mt-1">No student left behind</p>
                     </div>
                 </div>
@@ -367,7 +367,7 @@
                         Contact Us
                     </a>
                     <a href="#projects"
-                       class="btn-premium border-2 border-[#C9A84C] text-[#C9A84C] px-8 py-3 rounded-full font-semibold hover:bg-[#C9A84C] hover:text-white transition-colors">
+                       class="btn-premium border-2 border-[#C9A84C] text-[#008543] px-8 py-3 rounded-full font-semibold hover:bg-[#C9A84C] hover:text-white transition-colors">
                         Our Work
                     </a>
                 </div>
@@ -395,7 +395,7 @@
 
         <!-- Leadership Team -->
         <div class="mt-24">
-            <h3 class="font-serif text-3xl text-center text-[#C9A84C] font-bold mb-12 fade-up">Leadership Team</h3>
+            <h3 class="font-serif text-3xl text-center text-[#008543] font-bold mb-12 fade-up">Leadership Team</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 @foreach([
                     // ROW 1
@@ -448,7 +448,7 @@
                     <div class="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4 group-hover:scale-110 transition-transform ring-2 ring-[#C9A84C]/40">
                         <img src="{{ $member['img'] }}" alt="{{ $member['name'] }}" class="w-full h-full object-cover">
                     </div>
-                    <h4 class="font-bold text-[#C9A84C] text-lg">{{ $member['name'] }}</h4>
+                    <h4 class="font-bold text-[#008543] text-lg">{{ $member['name'] }}</h4>
                     <p class="gold-gradient-text text-sm font-semibold">{{ $member['role'] }}</p>
                     <p class="text-gray-500 text-sm mt-2">{{ $member['desc'] }}</p>
                       <p class="text-gray-500 text-sm mt-2">{{ $member['since'] }}</p>
@@ -469,8 +469,8 @@
 <section id="collaboration" class="py-24 bg-[#FFF5F8] relative">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16 fade-up">
-            <p class="text-[#C9A84C] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Partnership</p>
-            <h2 class="font-serif text-4xl md:text-5xl text-[#C9A84C] font-bold mb-6">Anjumane Talimul Muslimeen</h2>
+            <p class="text-[#008543] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Partnership</p>
+            <h2 class="font-serif text-4xl md:text-5xl text-[#008543] font-bold mb-6">Anjumane Talimul Muslimeen</h2>
             <p class="text-gray-600 max-w-3xl mx-auto text-lg">
                 Our strategic partnership ensures transparent scholarship distribution and academic monitoring,
                 creating a robust system for identifying and supporting deserving students.
@@ -497,10 +497,10 @@
                 <div class="flex gap-4">
                     <div class="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0"
                          style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
-                        <span class="text-[#C9A84C] font-bold">{{ $step['n'] }}</span>
+                        <span class="text-[#008543] font-bold">{{ $step['n'] }}</span>
                     </div>
                     <div>
-                        <h4 class="font-bold text-[#C9A84C] text-lg mb-2">{{ $step['title'] }}</h4>
+                        <h4 class="font-bold text-[#008543] text-lg mb-2">{{ $step['title'] }}</h4>
                         <p class="text-gray-600">{{ $step['desc'] }}</p>
                     </div>
                 </div>
@@ -513,22 +513,22 @@
                         <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors"></div>
                         <div class="w-16 h-16 rounded-full flex items-center justify-center relative z-10 group-hover:scale-110 transition-transform"
                              style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
-                            <i data-lucide="play" class="w-6 h-6 text-[#C9A84C] ml-1"></i>
+                            <i data-lucide="play" class="w-6 h-6 text-[#008543] ml-1"></i>
                         </div>
                         <p class="absolute bottom-4 left-4 text-white text-sm">Watch Partnership Video</p>
                     </div>
-                    <h3 class="font-serif text-2xl font-bold text-[#C9A84C] mb-3">Collaboration Impact</h3>
+                    <h3 class="font-serif text-2xl font-bold text-[#008543] mb-3">Collaboration Impact</h3>
                     <ul class="space-y-3 text-gray-600">
                         <li class="flex items-center gap-2">
-                            <i data-lucide="check-circle" class="w-5 h-5 text-[#C9A84C] flex-shrink-0"></i>
+                            <i data-lucide="check-circle" class="w-5 h-5 text-[#008543] flex-shrink-0"></i>
                             <span>Improved educational access for 500+ students annually</span>
                         </li>
                         <li class="flex items-center gap-2">
-                            <i data-lucide="check-circle" class="w-5 h-5 text-[#C9A84C] flex-shrink-0"></i>
+                            <i data-lucide="check-circle" class="w-5 h-5 text-[#008543] flex-shrink-0"></i>
                             <span>Better career opportunities through quality education</span>
                         </li>
                         <li class="flex items-center gap-2">
-                            <i data-lucide="check-circle" class="w-5 h-5 text-[#C9A84C] flex-shrink-0"></i>
+                            <i data-lucide="check-circle" class="w-5 h-5 text-[#008543] flex-shrink-0"></i>
                             <span>Community upliftment through knowledge</span>
                         </li>
                     </ul>
@@ -548,8 +548,8 @@
 <section id="projects" class="py-24 bg-[#FFF5F8]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16 fade-up">
-            <p class="text-[#C9A84C] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Current Initiatives</p>
-            <h2 class="font-serif text-4xl md:text-5xl text-[#C9A84C] font-bold mb-6">Ongoing Projects</h2>
+            <p class="text-[#008543] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Current Initiatives</p>
+            <h2 class="font-serif text-4xl md:text-5xl text-[#008543] font-bold mb-6">Ongoing Projects</h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -568,7 +568,7 @@
                 <div class="space-y-3">
                     <div class="flex justify-between text-sm">
                         <span class="text-gray-600">Target: 1000 students</span>
-                        <span class="text-[#C9A84C] font-semibold">65% Complete</span>
+                        <span class="text-[#008543] font-semibold">65% Complete</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-2">
                         <div class="h-2 rounded-full" style="width:65%; background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);"></div>
@@ -592,7 +592,7 @@
                 <div class="space-y-3">
                     <div class="flex justify-between text-sm">
                         <span class="text-gray-600">10 new schools</span>
-                        <span class="text-[#C9A84C] font-semibold">40% Complete</span>
+                        <span class="text-[#008543] font-semibold">40% Complete</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-2">
                         <div class="h-2 rounded-full" style="width:40%; background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);"></div>
@@ -616,7 +616,7 @@
                 <div class="space-y-3">
                     <div class="flex justify-between text-sm">
                         <span class="text-gray-600">Monthly program</span>
-                        <span class="text-[#C9A84C] font-semibold">Active</span>
+                        <span class="text-[#008543] font-semibold">Active</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-2">
                         <div class="h-2 rounded-full" style="width:90%; background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);"></div>
@@ -632,6 +632,7 @@
     <div class="h-[2px] bg-[#008543]"></div>
     <div class="h-[2px] bg-[#A62828] mt-[2px]"></div>
 </div>
+
 <!-- =============================================
      DONATION SECTION
 ============================================= -->
@@ -641,8 +642,8 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="text-center mb-16 fade-up">
             <p class="gold-gradient-text text-sm font-semibold tracking-[0.3em] uppercase mb-4">Give Today</p>
-            <h2 class="font-serif text-4xl md:text-6xl text-[#c9a84c] font-bold mb-6">Support the Next Generation</h2>
-            <p class="text-[#c9a84c] max-w-2xl mx-auto text-lg">
+            <h2 class="font-serif text-4xl md:text-6xl text-[#008543] font-bold mb-6">Support the Next Generation</h2>
+            <p class="text-[#008543] max-w-2xl mx-auto text-lg">
                 Your contribution creates a ripple effect of positive change.
                 Choose how you would like to make an impact today.
             </p>
@@ -652,15 +653,15 @@
 
             <!-- Bank Transfer Card -->
             <div class="fade-up bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-[#C9A84C]/30 hover:border-[#C9A84C] transition-colors group">
-                <h3 class="text-[#C9A84C] font-serif text-xl font-bold mb-3">💳 Prefer Bank Transfer?</h3>
-                <p class="text-[#C9A84C] text-sm mb-5">
+                <h3 class="text-[#008543] font-serif text-xl font-bold mb-3">💳 Prefer Bank Transfer?</h3>
+                <p class="text-[#008543] text-sm mb-5">
                     If you prefer not to donate online, transfer directly to our bank account using the details below.
                 </p>
                 <div class="text-sm space-y-2">
-                    <p><span class="gold-gradient-text font-semibold">Bank:</span> <span class="text-[#C9A84C]">NatWest Bank</span></p>
-                    <p><span class="gold-gradient-text font-semibold">Sort Code:</span> <span class="text-[#C9A84C]">60-16-24</span></p>
-                    <p><span class="gold-gradient-text font-semibold">Account No:</span> <span class="text-[#C9A84C]">30807867</span></p>
-                    <p><span class="gold-gradient-text font-semibold">Account Name:</span> <span class="text-[#C9A84C]">The Gujarat Muslim Association UK</span></p>
+                    <p><span class="gold-gradient-text font-semibold">Bank:</span> <span class="text-[#008543]">NatWest Bank</span></p>
+                    <p><span class="gold-gradient-text font-semibold">Sort Code:</span> <span class="text-[#008543]">60-16-24</span></p>
+                    <p><span class="gold-gradient-text font-semibold">Account No:</span> <span class="text-[#008543]">30807867</span></p>
+                    <p><span class="gold-gradient-text font-semibold">Account Name:</span> <span class="text-[#008543]">The Gujarat Muslim Association UK</span></p>
                 </div>
             </div>
 
@@ -668,9 +669,9 @@
             <div class="fade-up bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-[#C9A84C]/30 hover:border-[#C9A84C] transition-colors group">
                 <div class="w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
                      style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
-                    <i data-lucide="hand-coins" class="w-8 h-8 text-[#C9A84C]"></i>
+                    <i data-lucide="hand-coins" class="w-8 h-8 text-[#008543]"></i>
                 </div>
-                <h3 class="font-serif text-2xl font-bold text-[#C9A84C] mb-3">Give Zakat</h3>
+                <h3 class="font-serif text-2xl font-bold text-[#008543] mb-3">Give Zakat</h3>
                 <p class="text-white text-sm mb-4 leading-relaxed italic">
                     "Islam is built upon five pillars...including giving Zakat." — Sahih al-Bukhari
                 </p>
@@ -678,7 +679,7 @@
                     Structured Zakat management ensuring 100% compliance with Islamic principles.
                 </p>
                 <a href="/"
-                   class="w-full inline-block text-center btn-premium text-[#C9A84C] py-3 rounded-full font-semibold transition-colors"
+                   class="w-full inline-block text-center btn-premium text-[#008543] py-3 rounded-full font-semibold transition-colors"
                    style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
                     Coming Soon
                 </a>
@@ -693,15 +694,14 @@
                 ['icon'=>'award',        'label'=>'Registered Charity'],
                 ['icon'=>'receipt',      'label'=>'Tax Exempt'],
             ] as $badge)
-            <div class="flex items-center gap-2 text-[#C9A84C]">
-                <i data-lucide="{{ $badge['icon'] }}" class="w-5 h-5 text-[#C9A84C]"></i>
+            <div class="flex items-center gap-2 text-[#008543]">
+                <i data-lucide="{{ $badge['icon'] }}" class="w-5 h-5 text-[#008543]"></i>
                 <span class="text-sm">{{ $badge['label'] }}</span>
             </div>
             @endforeach
         </div>
     </div>
 </section>
-
 
 <div class="w-full">
     <div class="h-[2px] bg-[#008543]"></div>
@@ -711,11 +711,12 @@
 <!-- =============================================
      GALLERY SECTION
 ============================================= -->
+
 <section class="py-24 bg-[#FFF5F8]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16 fade-up">
-            <p class="text-[#C9A84C] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Gallery</p>
-            <h2 class="font-serif text-4xl md:text-5xl text-[#C9A84C] font-bold mb-6">Moments of Impact</h2>
+            <p class="text-[#008543] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Gallery</p>
+            <h2 class="font-serif text-4xl md:text-5xl text-[#008543] font-bold mb-6">Moments of Impact</h2>
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -741,7 +742,6 @@
     </div>
 </section>
 
-
 <div class="w-full">
     <div class="h-[2px] bg-[#008543]"></div>
     <div class="h-[2px] bg-[#A62828] mt-[2px]"></div>
@@ -755,8 +755,8 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="text-center mb-16 fade-up">
             <p class="gold-gradient-text text-sm font-semibold tracking-[0.3em] uppercase mb-4">Testimonials</p>
-            <h2 class="font-serif text-4xl md:text-6xl text-[#C9A84C] font-bold mb-6">Voices of Impact</h2>
-            <p class="text-[#C9A84C] max-w-2xl mx-auto text-lg">
+            <h2 class="font-serif text-4xl md:text-6xl text-[#008543] font-bold mb-6">Voices of Impact</h2>
+            <p class="text-[#008543] max-w-2xl mx-auto text-lg">
                 Real stories from students and families whose lives have been transformed through your generosity.
             </p>
         </div>
@@ -772,14 +772,14 @@
                      style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
                     <i data-lucide="quote" class="w-5 h-5 text-[#fff]"></i>
                 </div>
-                <p class="text-[#C9A84C] text-sm leading-relaxed mb-6">{{ $t['quote'] }}</p>
+                <p class="text-[#008543] text-sm leading-relaxed mb-6">{{ $t['quote'] }}</p>
                 <div class="flex items-center gap-4">
                     <div class="w-12 h-12 rounded-full flex items-center justify-center"
                          style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
-                        <span class="text-[#c9a84c] font-bold">{{ $t['initial'] }}</span>
+                        <span class="text-[#008543] font-bold">{{ $t['initial'] }}</span>
                     </div>
                     <div>
-                        <h4 class="text-[#C9A84C] font-semibold">{{ $t['name'] }}</h4>
+                        <h4 class="text-[#008543] font-semibold">{{ $t['name'] }}</h4>
                         <p class="gold-gradient-text text-xs font-semibold">{{ $t['role'] }}</p>
                     </div>
                 </div>
@@ -810,8 +810,8 @@
 
             <!-- Left info -->
             <div class="fade-up">
-                <p class="text-[#C9A84C] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Get in Touch</p>
-                <h2 class="font-serif text-4xl md:text-5xl text-[#C9A84C] font-bold mb-6">Contact Us</h2>
+                <p class="text-[#008543] text-sm tracking-[0.3em] uppercase mb-4 font-semibold">Get in Touch</p>
+                <h2 class="font-serif text-4xl md:text-5xl text-[#008543] font-bold mb-6">Contact Us</h2>
 
                 <ul class="list-disc pl-5 space-y-2 text-gray-600 mb-8">
                     <li>Have any questions about our Charity, our programmes, donations or simply curious?</li>
@@ -822,47 +822,47 @@
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="w-12 h-12 bg-[#FFF5F8]/10 rounded-full flex items-center justify-center flex-shrink-0">
-                            <i data-lucide="mail" class="w-5 h-5 text-[#C9A84C]"></i>
+                            <i data-lucide="mail" class="w-5 h-5 text-[#008543]"></i>
                         </div>
                         <div>
-                            <h4 class="font-bold text-[#C9A84C]">Email</h4>
+                            <h4 class="font-bold text-[#008543]">Email</h4>
                             <p class="text-gray-600">admin@thegmauk.org<br>secretary@thegmauk.org</p>
                         </div>
                     </div>
 
                     <div class="flex items-start gap-4">
                         <div class="w-12 h-12 bg-[#FFF5F8]/10 rounded-full flex items-center justify-center flex-shrink-0">
-                            <i data-lucide="phone" class="w-5 h-5 text-[#C9A84C]"></i>
+                            <i data-lucide="phone" class="w-5 h-5 text-[#008543]"></i>
                         </div>
                         <div>
-                            <h4 class="font-bold text-[#C9A84C]">Phone</h4>
+                            <h4 class="font-bold text-[#008543]">Phone</h4>
                             <p class="text-gray-600">+44 (0) 7464 597722</p>
                         </div>
                     </div>
 
                     <div class="flex items-start gap-4">
                         <div class="w-12 h-12 bg-[#FFF5F8]/10 rounded-full flex items-center justify-center flex-shrink-0">
-                            <i data-lucide="map-pin" class="w-5 h-5 text-[#C9A84C]"></i>
+                            <i data-lucide="map-pin" class="w-5 h-5 text-[#008543]"></i>
                         </div>
                         <div>
-                            <h4 class="font-bold text-[#C9A84C]">Address</h4>
+                            <h4 class="font-bold text-[#008543]">Address</h4>
                             <p class="text-gray-600">General Secretary, The Gujarat Muslim Association UK<br>47 Marlborough Road, Nuneaton. CV11 5PG. UK</p>
                         </div>
                     </div>
 
                     <div class="flex gap-3 pt-2">
                         <a href="#"
-                           class="w-10 h-10 rounded-full flex items-center justify-center text-[#C9A84C] hover:scale-110 transition-transform"
+                           class="w-10 h-10 rounded-full flex items-center justify-center text-[#008543] hover:scale-110 transition-transform"
                            style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
                             <i class="fab fa-facebook-f text-sm"></i>
                         </a>
                         <a href="#"
-                           class="w-10 h-10 rounded-full flex items-center justify-center text-[#C9A84C] hover:scale-110 transition-transform"
+                           class="w-10 h-10 rounded-full flex items-center justify-center text-[#008543] hover:scale-110 transition-transform"
                            style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
                             <i class="fab fa-tiktok text-sm"></i>
                         </a>
                         <a href="#"
-                           class="w-10 h-10 rounded-full flex items-center justify-center text-[#C9A84C] hover:scale-110 transition-transform"
+                           class="w-10 h-10 rounded-full flex items-center justify-center text-[#008543] hover:scale-110 transition-transform"
                            style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
                             <i class="fab fa-instagram text-sm"></i>
                         </a>
@@ -879,19 +879,19 @@
                 <form action="{{ route('contact.store') }}" method="POST" class="space-y-6">
                     @csrf
                     <div>
-                        <label class="block text-[#C9A84C] font-semibold mb-2">Full Name</label>
+                        <label class="block text-[#008543] font-semibold mb-2">Full Name</label>
                         <input type="text" name="full_name"
                                class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#C9A84C] focus:outline-none transition-colors"
                                placeholder="Your name">
                     </div>
                     <div>
-                        <label class="block text-[#C9A84C] font-semibold mb-2">Email Address</label>
+                        <label class="block text-[#008543] font-semibold mb-2">Email Address</label>
                         <input type="email" name="email"
                                class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#C9A84C] focus:outline-none transition-colors"
                                placeholder="your@email.com">
                     </div>
                     <div>
-                        <label class="block text-[#C9A84C] font-semibold mb-2">Subject</label>
+                        <label class="block text-[#008543] font-semibold mb-2">Subject</label>
                         <select name="subject" required
                                 class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#C9A84C] focus:outline-none transition-colors">
                             <option value="General Inquiry">General Inquiry</option>
@@ -901,7 +901,7 @@
                         </select>
                     </div>
                     <div>
-                        <label class="block text-[#c9a84c] font-semibold mb-2">Message</label>
+                        <label class="block text-[#008543] font-semibold mb-2">Message</label>
                         <textarea name="message" rows="4"
                                   class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#C9A84C] focus:outline-none transition-colors"
                                   placeholder="Your message..."></textarea>
