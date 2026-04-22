@@ -748,9 +748,9 @@
             <div class="fade-up bg-[#FFF5F8] backdrop-blur-lg rounded-3xl p-8 border border-[#C9A84C]/20 hover:border-[#C9A84C] transition-all group">
                 <div class="w-12 h-12 rounded-full flex items-center justify-center mb-6"
                      style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
-                    <i data-lucide="quote" class="w-5 h-5 text-[#C9A84C]"></i>
+                    <i data-lucide="quote" class="w-5 h-5 text-[#fff]"></i>
                 </div>
-                <p class="text-[#fff] text-sm leading-relaxed mb-6">{{ $t['quote'] }}</p>
+                <p class="text-[#C9A84C] text-sm leading-relaxed mb-6">{{ $t['quote'] }}</p>
                 <div class="flex items-center gap-4">
                     <div class="w-12 h-12 rounded-full flex items-center justify-center"
                          style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
