@@ -387,7 +387,7 @@
         <!-- Leadership Team -->
         <div class="mt-24">
             <h3 class="font-serif text-3xl text-center text-[#008543] font-bold mb-12 fade-up">Leadership Team</h3>
-            <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-6 gap-8">
                 @foreach([
                     ['img' => 'president.jpg',  'name' => 'Shoayb Pathan',         'role' => 'President',         'desc' => 'Chartered Accountant	2019-Present'],
                     ['img' => 'Marghub.jpeg',   'name' => 'Marghub Shaikh',         'role' => 'Vice President',    'desc' => 'Vice President 2010-Present'],
