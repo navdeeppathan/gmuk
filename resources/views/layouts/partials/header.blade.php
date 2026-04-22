@@ -31,13 +31,13 @@
                  DESKTOP MENU
             ===================== -->
             <div class="hidden md:flex items-center space-x-8">
-                <a href="/"              class="nav-link text-white hover:text-[#C9A84C] transition-colors text-sm font-medium">Home</a>
-                <a href="/#impact"       class="nav-link text-white hover:text-[#C9A84C] transition-colors text-sm font-medium">Impact</a>
-                <a href="/#about"        class="nav-link text-white hover:text-[#C9A84C] transition-colors text-sm font-medium">About</a>
-                <a href="/#collaboration" class="nav-link text-white hover:text-[#C9A84C] transition-colors text-sm font-medium">Collaboration</a>
-                <a href="/#projects"     class="nav-link text-white hover:text-[#C9A84C] transition-colors text-sm font-medium">Projects</a>
-                <a href="{{ route('gallery.index') }}" class="nav-link text-white hover:text-[#C9A84C] transition-colors text-sm font-medium">Gallery</a>
-                <a href="/#contact"      class="nav-link text-white hover:text-[#C9A84C] transition-colors text-sm font-medium">Contact</a>
+                <a href="/"              class="nav-link text-[#C9A84C] hover:text-[#C9A84C] transition-colors text-sm font-medium">Home</a>
+                <a href="/#impact"       class="nav-link text-[#C9A84C] hover:text-[#C9A84C] transition-colors text-sm font-medium">Impact</a>
+                <a href="/#about"        class="nav-link text-[#C9A84C] hover:text-[#C9A84C] transition-colors text-sm font-medium">About</a>
+                <a href="/#collaboration" class="nav-link text-[#C9A84C] hover:text-[#C9A84C] transition-colors text-sm font-medium">Collaboration</a>
+                <a href="/#projects"     class="nav-link text-[#C9A84C] hover:text-[#C9A84C] transition-colors text-sm font-medium">Projects</a>
+                <a href="{{ route('gallery.index') }}" class="nav-link text-[#C9A84C] hover:text-[#C9A84C] transition-colors text-sm font-medium">Gallery</a>
+                <a href="/#contact"      class="nav-link text-[#C9A84C] hover:text-[#C9A84C] transition-colors text-sm font-medium">Contact</a>
 
                 <!-- Donate Button — gold gradient -->
                 <a href="/#donate"
@@ -48,7 +48,7 @@
             </div>
 
             <!-- Mobile Menu Button -->
-            <button id="mobile-menu-btn" class="md:hidden text-white p-2">
+            <button id="mobile-menu-btn" class="md:hidden text-[#C9A84C] p-2">
                 <i data-lucide="menu" class="w-6 h-6"></i>
             </button>
         </div>
@@ -58,7 +58,7 @@
          MOBILE MENU
     ===================== -->
     <div id="mobile-menu" class="mobile-menu fixed top-0 right-0 w-80 h-full bg-[#008543] shadow-2xl md:hidden z-50 p-8">
-        <button id="close-menu" class="absolute top-6 right-6 text-white">
+        <button id="close-menu" class="absolute top-6 right-6 text-[#C9A84C]">
             <i data-lucide="x" class="w-6 h-6"></i>
         </button>
 
@@ -68,13 +68,13 @@
         </div>
 
         <div class="space-y-6">
-            <a href="/"              class="block text-white text-lg font-medium hover:text-[#C9A84C] transition-colors">Home</a>
-            <a href="/#impact"       class="block text-white text-lg font-medium hover:text-[#C9A84C] transition-colors">Impact</a>
-            <a href="/#about"        class="block text-white text-lg font-medium hover:text-[#C9A84C] transition-colors">About</a>
-            <a href="/#collaboration" class="block text-white text-lg font-medium hover:text-[#C9A84C] transition-colors">Collaboration</a>
-            <a href="/#projects"     class="block text-white text-lg font-medium hover:text-[#C9A84C] transition-colors">Projects</a>
-            <a href="{{ route('gallery.index') }}" class="block text-white text-lg font-medium hover:text-[#C9A84C] transition-colors">Gallery</a>
-            <a href="/#contact"      class="block text-white text-lg font-medium hover:text-[#C9A84C] transition-colors">Contact</a>
+            <a href="/"              class="block text-[#C9A84C] text-lg font-medium hover:text-[#C9A84C] transition-colors">Home</a>
+            <a href="/#impact"       class="block text-[#C9A84C] text-lg font-medium hover:text-[#C9A84C] transition-colors">Impact</a>
+            <a href="/#about"        class="block text-[#C9A84C] text-lg font-medium hover:text-[#C9A84C] transition-colors">About</a>
+            <a href="/#collaboration" class="block text-[#C9A84C] text-lg font-medium hover:text-[#C9A84C] transition-colors">Collaboration</a>
+            <a href="/#projects"     class="block text-[#C9A84C] text-lg font-medium hover:text-[#C9A84C] transition-colors">Projects</a>
+            <a href="{{ route('gallery.index') }}" class="block text-[#C9A84C] text-lg font-medium hover:text-[#C9A84C] transition-colors">Gallery</a>
+            <a href="/#contact"      class="block text-[#C9A84C] text-lg font-medium hover:text-[#C9A84C] transition-colors">Contact</a>
 
             <a href="/#donate"
                class="block text-[#008543] px-6 py-3 rounded-full font-semibold text-center mt-8 shadow-lg"
