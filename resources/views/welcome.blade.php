@@ -163,7 +163,7 @@
                 </h1>
 
                 <!-- Subtext — BLACK/dark for readability -->
-                <p class="text-gray-800 italic text-lg max-w-xl mb-10 font-light leading-relaxed mt-5">
+                <p class="text-[#C9A84C] italic text-lg max-w-xl mb-10 font-light leading-relaxed mt-5">
                     Transforming 500+ Zakat Acceptors into Zakat Givers every year. Building
                     global trust and credibility through transparent charity and educational excellence.
                 </p>
@@ -173,15 +173,15 @@
             <div class="fade-up grid grid-cols-3 gap-4 max-w-xl mb-10">
                 <div class="rounded-2xl p-5 border-2 border-[#008543] text-center bg-white shadow-md">
                     <div class="text-3xl font-bold text-[#008543]">500+</div>
-                    <p class="text-gray-700 text-xs mt-1 leading-snug">Students Supported Yearly</p>
+                    <p class="text-[#C9A84C] text-xs mt-1 leading-snug">Students Supported Yearly</p>
                 </div>
                 <div class="rounded-2xl p-5 border-2 border-[#C9A84C] text-center bg-white shadow-md">
                     <div class="text-3xl font-bold gold-gradient-text counter-value" data-target="1968">0</div>
-                    <p class="text-gray-700 text-xs mt-1 leading-snug">Serving Since</p>
+                    <p class="text-[#C9A84C] text-xs mt-1 leading-snug">Serving Since</p>
                 </div>
                 <div class="rounded-2xl p-5 border-2 border-[#A62828] text-center bg-white shadow-md">
                     <div class="text-3xl font-bold text-[#A62828]">∞</div>
-                    <p class="text-gray-700 text-xs mt-1 leading-snug">Lives Transformed</p>
+                    <p class="text-[#C9A84C] text-xs mt-1 leading-snug">Lives Transformed</p>
                 </div>
             </div>
 
