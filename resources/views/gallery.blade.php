@@ -72,7 +72,8 @@
             </div>
         </div>
 
-        <div class="double-divider w-full fixed top-20 left-0 z-40">
+                
+        <div class="double-divider w-full">
             <div class="bar-maroon"></div>
             <div class="bar-green"></div>
         </div>
@@ -101,7 +102,8 @@
             </div>
         </div>
 
-        <div class="double-divider w-full fixed top-20 left-0 z-40">
+        
+        <div class="double-divider w-full">
             <div class="bar-maroon"></div>
             <div class="bar-green"></div>
         </div>
@@ -132,7 +134,8 @@
             </div>
         </div>
 
-        <div class="double-divider w-full fixed top-20 left-0 z-40">
+        
+        <div class="double-divider w-full">
             <div class="bar-maroon"></div>
             <div class="bar-green"></div>
         </div>
@@ -161,7 +164,8 @@
             </div>
         </div>
 
-        <div class="double-divider w-full fixed top-20 left-0 z-40">
+       
+        <div class="double-divider w-full">
             <div class="bar-maroon"></div>
             <div class="bar-green"></div>
         </div>
