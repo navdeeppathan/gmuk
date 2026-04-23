@@ -24,6 +24,11 @@
             margin-top: 2px;
         }
 </style>
+
+<div class="double-divider w-full fixed top-20 left-0 z-40">
+    <div class="bar-maroon"></div>
+    <div class="bar-green"></div>
+</div>
 <section class="py-24 bg-[#FDF8F3]">
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

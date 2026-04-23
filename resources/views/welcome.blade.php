@@ -460,13 +460,15 @@
                 ] as $member)
                 <div class="text-center fade-up group cursor-pointer">
                     <div class="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4 group-hover:scale-110 transition-transform ring-2 ring-[#C9A84C]/40">
-                    @if($member['img'])
-                        <img src="{{ $member['img'] }}" alt="{{ $member['name'] }}" class="w-full h-full object-cover">
-                    @else
-                        <div class="w-full h-full flex items-center justify-center bg-gray-200">
-                            <span class="text-[ linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914)] text-2xl font-bold">{{ substr($member['name'], 0, 1) }}</span>
-                        </div>
-                    @endif
+                        @if($member['img'])
+                            <img src="{{ $member['img'] }}" alt="{{ $member['name'] }}" class="w-full h-full object-cover">
+                        @else
+                            <div class="w-full h-full flex items-center justify-center bg-gray-200">
+                                <span class="bg-[linear-gradient(358deg,#F4E8C1,#C9A84C,#8B6914)] bg-clip-text text-transparent text-2xl font-bold">
+                                    {{ substr($member['name'], 0, 1) }}
+                                </span>
+                            </div>
+                        @endif
 
                     </div>
                     <h4 class="font-bold text-[#008543] text-lg">{{ $member['name'] }}</h4>
