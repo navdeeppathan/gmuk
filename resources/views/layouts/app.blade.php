@@ -232,8 +232,8 @@
     <!-- Back to Top Button -->
     <button id="back-to-top"
             class="fixed bottom-8 right-8 w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 pointer-events-none transition-all hover:scale-110 z-40 overflow-hidden"
-            style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
-        <img src="{{asset('gmuklogo.jpeg')}}" alt="Back to top" class="w-12 h-12 object-contain">
+            style="background:white;">
+        <img src="{{asset('gmuklogo.png')}}" alt="Back to top" class="w-12 h-12 object-contain">
     </button>
 
     <script>

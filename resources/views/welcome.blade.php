@@ -168,20 +168,29 @@
                 </p>
             </div>
 
-            <!-- Stats -->
-            <div class="fade-up grid grid-cols-3 gap-4 max-w-xl mb-10">
-                <div class="glass rounded-2xl p-5 border border-[#C9A84C]/20 text-center">
+           <div class="fade-up grid grid-cols-3 gap-4 max-w-xl mb-10">
+                
+                <div class="glass rounded-2xl p-5 border border-[#C9A84C]/20 flex flex-col items-center justify-center text-center">
                     <div class="text-3xl font-bold gold-gradient-text" data-target="500">500+</div>
-                    <p class="text-white/70 text-xs mt-1 leading-snug">Students Supported Yearly</p>
+                    <p class="text-white/70 text-xs mt-2 leading-snug text-center">
+                        Students Supported Yearly
+                    </p>
                 </div>
-                <div class="glass rounded-2xl p-5 border border-[#C9A84C]/20 text-center">
+
+                <div class="glass rounded-2xl p-5 border border-[#C9A84C]/20 flex flex-col items-center justify-center text-center">
                     <div class="text-3xl font-bold gold-gradient-text counter-value" data-target="1968">0</div>
-                    <p class="text-white/70 text-xs mt-1 leading-snug">Serving Since</p>
+                    <p class="text-white/70 text-xs mt-2 leading-snug text-center">
+                        Serving Since
+                    </p>
                 </div>
-                <div class="glass rounded-2xl p-5 border border-[#C9A84C]/20 text-center">
+
+                <div class="glass rounded-2xl p-5 border border-[#C9A84C]/20 flex flex-col items-center justify-center text-center">
                     <div class="text-3xl font-bold gold-gradient-text">∞</div>
-                    <p class="text-white/70 text-xs mt-1 leading-snug">Lives Transformed</p>
+                    <p class="text-white/70 text-xs mt-2 leading-snug text-center">
+                        Lives Transformed
+                    </p>
                 </div>
+
             </div>
 
             <!-- CTA Buttons -->
@@ -515,29 +524,48 @@
 
             <div class="fade-up relative">
                 <div class="bg-white rounded-3xl p-8 shadow-2xl border border-[#C9A84C]/20">
-                    <div class="aspect-video bg-gradient-to-br from-[#FFF5F8] to-[#006633] rounded-2xl flex items-center justify-center mb-6 relative overflow-hidden group cursor-pointer">
-                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors"></div>
-                        <div class="w-16 h-16 rounded-full flex items-center justify-center relative z-10 group-hover:scale-110 transition-transform"
-                             style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
-                            <i data-lucide="play" class="w-6 h-6 text-[#008543] ml-1"></i>
+                    
+                    <!-- Video Section -->
+                    <div class="aspect-video rounded-2xl mb-6 relative overflow-hidden group cursor-pointer">
+                        
+                        <!-- Gradient Overlay -->
+                        <div class="absolute inset-0 z-10 opacity-0"
+                            style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
                         </div>
-                        <p class="absolute bottom-4 left-4 text-white text-sm">Watch Partnership Video</p>
+
+                        <!-- Video -->
+                        <video 
+                            src="a.mp4" 
+                            class="w-full h-full object-cover rounded-2xl relative z-0"
+                            autoplay 
+                            muted 
+                            loop>
+                        </video>
+
                     </div>
-                    <h3 class="font-serif text-2xl font-bold text-[#008543] mb-3">Collaboration Impact</h3>
+
+                    <!-- Content -->
+                    <h3 class="font-serif text-2xl font-bold text-[#008543] mb-3">
+                        Collaboration Impact
+                    </h3>
+
                     <ul class="space-y-3 text-gray-600">
                         <li class="flex items-center gap-2">
                             <i data-lucide="check-circle" class="w-5 h-5 text-[#008543] flex-shrink-0"></i>
                             <span>Improved educational access for 500+ students annually</span>
                         </li>
+
                         <li class="flex items-center gap-2">
                             <i data-lucide="check-circle" class="w-5 h-5 text-[#008543] flex-shrink-0"></i>
                             <span>Better career opportunities through quality education</span>
                         </li>
+
                         <li class="flex items-center gap-2">
                             <i data-lucide="check-circle" class="w-5 h-5 text-[#008543] flex-shrink-0"></i>
                             <span>Community upliftment through knowledge</span>
                         </li>
                     </ul>
+
                 </div>
             </div>
         </div>

@@ -2,6 +2,28 @@
 
 @section('content')
 
+<style>
+    /* REPLACE in your <style> block */
+        .section-divider {
+            height: 4px;
+            background: linear-gradient(to right, #A62828 50%, #008543 50%);  /* maroon left, green right */
+            margin: 0;
+        }
+
+        /* Double line divider — maroon top, green bottom */
+        .double-divider {
+            width: 100%;
+        }
+        .double-divider .bar-maroon {
+            height: 2px;
+            background: #A62828;
+        }
+        .double-divider .bar-green {
+            height: 2px;
+            background: #008543;
+            margin-top: 2px;
+        }
+</style>
 <section class="py-24 bg-[#FDF8F3]">
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -45,6 +67,10 @@
             </div>
         </div>
 
+        <div class="double-divider w-full fixed top-20 left-0 z-40">
+            <div class="bar-maroon"></div>
+            <div class="bar-green"></div>
+        </div>
         {{-- ================= COMMUNITY — MAROON accent ================= --}}
         <div class="mb-20 fade-up">
             <h3 class="font-serif text-3xl font-bold mb-8 flex items-center gap-3 text-[#A62828]">
@@ -68,6 +94,11 @@
                     @endforeach
                 @endforeach
             </div>
+        </div>
+
+        <div class="double-divider w-full fixed top-20 left-0 z-40">
+            <div class="bar-maroon"></div>
+            <div class="bar-green"></div>
         </div>
 
         {{-- ================= EDUCATION — GOLD accent ================= --}}
@@ -96,6 +127,10 @@
             </div>
         </div>
 
+        <div class="double-divider w-full fixed top-20 left-0 z-40">
+            <div class="bar-maroon"></div>
+            <div class="bar-green"></div>
+        </div>
         {{-- ================= FOOD — BLACK/GRAY accent ================= --}}
         <div class="fade-up">
             <h3 class="font-serif text-3xl font-bold mb-8 flex items-center gap-3 text-gray-900">
@@ -119,6 +154,11 @@
                     @endforeach
                 @endforeach
             </div>
+        </div>
+
+        <div class="double-divider w-full fixed top-20 left-0 z-40">
+            <div class="bar-maroon"></div>
+            <div class="bar-green"></div>
         </div>
 
     </div>

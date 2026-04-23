@@ -6,7 +6,7 @@
             <!-- Brand Column -->
             <div class="col-span-1 md:col-span-2">
                 <div class="flex items-center gap-3 mb-6">
-                    <img src="{{ asset('gmuklogo.jpeg') }}"
+                    <img src="{{ asset('gmuklogo.png') }}"
                          alt="GMUK Logo"
                          class="h-14 w-auto object-contain drop-shadow-lg border-2 border-white rounded-full bg-white">
                 </div>
@@ -78,6 +78,7 @@
         <div class="border-t border-[#A62828] pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <p class="text-white/80 text-sm">© 2026 The Gujarat Muslim Association UK. All rights reserved.</p>
             <p class="text-[#C9A84C] text-sm font-semibold">Registered Charity No: 1141663</p>
+            <p class="text-white/80 text-sm"><a href="https://thenexteck.com/" class="hover:text-[#C9A84C] transition-colors">Developed by Nexteck, UK</a></p>
         </div>
     </div>
 </footer>

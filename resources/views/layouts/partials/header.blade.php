@@ -3,7 +3,7 @@
 @endphp
 
 <!-- Navigation -->
-<nav id="navbar" class="fixed w-full z-50 transition-all duration-300 {{ $isGallary ? 'bg-[#008543]' : 'bg-transparent' }}">
+<nav id="navbar" class="fixed w-full z-50 transition-all duration-300 {{ $isGallary ? 'bg-transparent' : 'bg-transparent' }}">
 
     <!-- Gold accent line at bottom (visible when scrolled) -->
     <div class="nav-gold-line"></div>
@@ -20,9 +20,9 @@
                     so the transparent background shows correctly.
                     If your file is still .jpeg, rename/replace with the PNG version.
                 --}}
-                <img src="{{asset('gmuklogo.jpeg')}}" alt="" class="w-full h-16 object-contain rounded-full border-2 border-[#FFFFFF]">
-                <img src="{{asset('logo2.jpeg')}}" alt="" class="w-full h-16 object-contain">
-                <!-- <img src="{{ asset('logo2.jpeg') }}"
+                <img src="{{asset('gmuklogo.png')}}" alt="" class="w-full h-16 object-contain rounded-full border-2 border-[#FFF5F8] bg-[#FFF5F8]">
+                <img src="{{asset('logo2.png')}}" alt="" class="w-full h-16 object-contain">
+                <!-- <img src="{{ asset('logo2.png') }}"
                      alt="Gujarat Muslim Association UK"
                      class="h-12 w-auto object-contain drop-shadow-lg transition-transform group-hover:scale-105 hidden sm:block"> -->
             </a>
