@@ -190,7 +190,6 @@
                         Lives Transformed
                     </p>
                 </div>
-
             </div>
 
             <!-- CTA Buttons -->
@@ -206,7 +205,7 @@
                     Support a Student
                 </a>
             </div>
-        </div>
+           </div>
 
         <!-- RIGHT — UPCOMING EVENTS -->
         <?php
@@ -686,7 +685,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
 
             <!-- Bank Transfer Card -->
-            <div class="fade-up bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-[#C9A84C]/30 hover:border-[#C9A84C] transition-colors group">
+            <div class="fade-up bg-[#A62828] backdrop-blur-sm rounded-3xl p-8 border border-[#C9A84C]/30 hover:border-[#C9A84C] transition-colors group">
                 <h3 class="text-[#008543] font-serif text-xl font-bold mb-3">💳 Prefer Bank Transfer?</h3>
                 <p class="text-[#008543] text-sm mb-5">
                     If you prefer not to donate online, transfer directly to our bank account using the details below.
@@ -700,7 +699,7 @@
             </div>
 
             <!-- Zakat Card -->
-            <div class="fade-up bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-[#C9A84C]/30 hover:border-[#C9A84C] transition-colors group">
+            <div class="fade-up bg-[#A62828] backdrop-blur-sm rounded-3xl p-8 border border-[#C9A84C]/30 hover:border-[#C9A84C] transition-colors group">
                 <div class="w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
                      style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
                     <i data-lucide="hand-coins" class="w-8 h-8 text-[#008543]"></i>
