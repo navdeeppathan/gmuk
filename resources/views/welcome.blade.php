@@ -451,7 +451,7 @@
                         'since' => '2010 - Present'
                     ],
                     [
-                        'img' => 'Mukhtasr.jpeg',
+                        'img' => '',
                         'name' => 'Abu Baker Malek',
                         'role' => 'Assistant Treasurer',
                         'desc' => 'Civil Servant',
@@ -460,12 +460,19 @@
                 ] as $member)
                 <div class="text-center fade-up group cursor-pointer">
                     <div class="w-32 h-32 mx-auto rounded-full overflow-hidden mb-4 group-hover:scale-110 transition-transform ring-2 ring-[#C9A84C]/40">
+                    @if($member['img'])
                         <img src="{{ $member['img'] }}" alt="{{ $member['name'] }}" class="w-full h-full object-cover">
+                    @else
+                        <div class="w-full h-full flex items-center justify-center bg-gray-200">
+                            <span class="text-gray-500 font-semibold">{{ substr($member['name'], 0, 1) }}</span>
+                        </div>
+                    @endif
+
                     </div>
                     <h4 class="font-bold text-[#008543] text-lg">{{ $member['name'] }}</h4>
                     <p class="gold-gradient-text text-sm font-semibold">{{ $member['role'] }}</p>
                     <p class="text-gray-500 text-sm mt-2">{{ $member['desc'] }}</p>
-                      <p class="text-gray-500 text-sm mt-2">{{ $member['since'] }}</p>
+                    <p class="text-gray-500 text-sm mt-2">{{ $member['since'] }}</p>
                 </div>
                 @endforeach
             </div>
