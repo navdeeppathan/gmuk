@@ -464,7 +464,7 @@
                         <img src="{{ $member['img'] }}" alt="{{ $member['name'] }}" class="w-full h-full object-cover">
                     @else
                         <div class="w-full h-full flex items-center justify-center bg-gray-200">
-                            <span class="text-gray-500 font-semibold">{{ substr($member['name'], 0, 1) }}</span>
+                            <span class="text-[ linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914)] text-2xl font-bold">{{ substr($member['name'], 0, 1) }}</span>
                         </div>
                     @endif
 
