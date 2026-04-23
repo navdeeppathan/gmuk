@@ -686,15 +686,15 @@
 
             <!-- Bank Transfer Card -->
             <div class="fade-up bg-[#A62828] backdrop-blur-sm rounded-3xl p-8 border border-[#C9A84C]/30 hover:border-[#C9A84C] transition-colors group">
-                <h3 class="text-[#008543] font-serif text-xl font-bold mb-3">💳 Prefer Bank Transfer?</h3>
-                <p class="text-[#008543] text-sm mb-5">
+                <h3 class="text-white font-serif text-xl font-bold mb-3">💳 Prefer Bank Transfer?</h3>
+                <p class="text-white text-sm mb-5">
                     If you prefer not to donate online, transfer directly to our bank account using the details below.
                 </p>
                 <div class="text-sm space-y-2">
-                    <p><span class="gold-gradient-text font-semibold">Bank:</span> <span class="text-[#008543]">NatWest Bank</span></p>
-                    <p><span class="gold-gradient-text font-semibold">Sort Code:</span> <span class="text-[#008543]">60-16-24</span></p>
-                    <p><span class="gold-gradient-text font-semibold">Account No:</span> <span class="text-[#008543]">30807867</span></p>
-                    <p><span class="gold-gradient-text font-semibold">Account Name:</span> <span class="text-[#008543]">The Gujarat Muslim Association UK</span></p>
+                    <p><span class="gold-gradient-text font-semibold">Bank:</span> <span class="text-white">NatWest Bank</span></p>
+                    <p><span class="gold-gradient-text font-semibold">Sort Code:</span> <span class="text-white">60-16-24</span></p>
+                    <p><span class="gold-gradient-text font-semibold">Account No:</span> <span class="text-white">30807867</span></p>
+                    <p><span class="gold-gradient-text font-semibold">Account Name:</span> <span class="text-white">The Gujarat Muslim Association UK</span></p>
                 </div>
             </div>
 
@@ -702,9 +702,9 @@
             <div class="fade-up bg-[#A62828] backdrop-blur-sm rounded-3xl p-8 border border-[#C9A84C]/30 hover:border-[#C9A84C] transition-colors group">
                 <div class="w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
                      style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
-                    <i data-lucide="hand-coins" class="w-8 h-8 text-[#008543]"></i>
+                    <i data-lucide="hand-coins" class="w-8 h-8 text-white"></i>
                 </div>
-                <h3 class="font-serif text-2xl font-bold text-[#008543] mb-3">Give Zakat</h3>
+                <h3 class="font-serif text-2xl font-bold text-white mb-3">Give Zakat</h3>
                 <p class="text-white text-sm mb-4 leading-relaxed italic">
                     "Islam is built upon five pillars...including giving Zakat." — Sahih al-Bukhari
                 </p>
@@ -712,7 +712,7 @@
                     Structured Zakat management ensuring 100% compliance with Islamic principles.
                 </p>
                 <a href="/"
-                   class="w-full inline-block text-center btn-premium text-[#008543] py-3 rounded-full font-semibold transition-colors"
+                   class="w-full inline-block text-center btn-premium text-white py-3 rounded-full font-semibold transition-colors"
                    style="background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);">
                     Coming Soon
                 </a>
