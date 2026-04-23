@@ -6,7 +6,10 @@
 <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 {{ $isGallary ? 'bg-transparent' : 'bg-transparent' }}">
 
     <!-- Gold accent line at bottom (visible when scrolled) -->
-    <div class="nav-gold-line"></div>
+   <div class="double-divider w-full fixed top-20 left-0 z-40">
+            <div class="bar-maroon"></div>
+            <div class="bar-green"></div>
+        </div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-20">
