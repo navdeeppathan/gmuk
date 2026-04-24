@@ -38,7 +38,7 @@
     LEFT CONTENT
     ========================= */
     .hero-left h1 {
-        color: #fff;
+        color: #008543;
         font-size: 48px;
         line-height: 1.1;
         margin-bottom: 20px;
@@ -133,6 +133,16 @@
         background-clip: text;
     }
 
+    .green-gradient-text {
+        background: linear-gradient(358deg, #0bc568, #08ab59, #008543);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .green-gradient-bg {
+        background: linear-gradient(358deg, #008543, #12e079, #008543);
+    }
+
     .gold-gradient-bg {
         background: linear-gradient(358deg, #F4E8C1, #C9A84C, #8B6914);
     }
@@ -156,7 +166,7 @@
                 </p>
 
                 <!-- Main heading -->
-                <h1 class="font-serif font-bold gold-gradient-text italic">
+                <h1 class="font-serif font-bold green-gradient-text italic">
                     Empowering Communities<br>
                     <span class="gold-gradient-text italic">Through Education</span>
                 </h1>
@@ -377,7 +387,7 @@
 
                 <div class="mt-10 flex gap-4">
                     <a href="#contact"
-                       class="btn-premium bg-[#FFF5F8] text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-colors">
+                        class="btn-premium border-2 border-[#C9A84C] text-[#008543] px-8 py-3 rounded-full font-semibold hover:bg-[#C9A84C] hover:text-white transition-colors">
                         Contact Us
                     </a>
                     <a href="#projects"
